@@ -19,8 +19,9 @@ categories: [Prof, PostDoc, PhD, MSE, Undergrad, Visiting]
     <h2>{{ category }}</h2>
   </a>
 
-  {% assign categorized_people = site.people | where: "category", category | where: "current", true %}
-  {% assign sorted_people = categorized_people | sort: "year" %}
+{% assign categorized_people = site.people | where: "category", category | where: "current", true %}
+{% assign sorted_people = categorized_people | sort: "year" %}
+
   <div class="grid">
   {% for person in sorted_people %}
     {% include person.liquid %}
@@ -29,12 +30,13 @@ categories: [Prof, PostDoc, PhD, MSE, Undergrad, Visiting]
 
   <hr>
 
-  
 {% endfor %}
+
 </div>
 
 {% assign alumni = site.people | where: "current", false %}
 {% assign sorted_alumni = alumni | sort: "year" %}
+
 <div class="projects">
   <a id="alumni" href=".#alumni">
       <h2>Alumni</h2>

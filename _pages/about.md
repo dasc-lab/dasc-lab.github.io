@@ -13,7 +13,6 @@ profile:
     <p>University of Michigan</p>
     <p>2505 Hayward St.</p>
     <p>Ann Arbor, MI 48109</p>
-    
 
 news: true # includes a list of news items
 latest_posts: true # includes a list of the newest posts
