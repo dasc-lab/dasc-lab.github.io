@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    {% if page.img %}
+      <img
+        src="{{ page.img | relative_url }}"
+        alt={{page.name}}
+        class="img-thumbnail border-0 my-3  img-profile"
+        >
+    {% endif %}
+    <h1 class="name">{{ page.name }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+    {% if page.year %}
+    <p class="post-description"> Joinined in {{ page.year }}</p>
+    {% endif %}
+  </header>
+  <div class="row mx-1 my-3">
+      {% if page.link %}
+        <div class="mx-1">
+          <div class="icon" data-toggle="tooltip" title="Link">
+            <a href="{{ page.link }}"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+      {% endif %}
+      {% if page.github %}
+        <div class="mx-1">
+          <div class="icon" data-toggle="tooltip" title="Github">
+            <a href="{{ page.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
+          </div>
+        </div>
+      {% endif %}
+    </div>
+
+  <article>
+    {{ content }}
+  </article>
+
+</div>

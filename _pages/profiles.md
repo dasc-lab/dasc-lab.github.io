@@ -1,28 +1,49 @@
 ---
-layout: profiles
+layout: page
+title: people
 permalink: /people/
 title: people
-description: members of the lab or group
+description: members of the lab
 nav: true
 nav_order: 7
 
-profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/
-  - align: right
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
-  - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
+categories: [Prof, PostDoc, PhD, MSE, Undergrad, Visiting]
+
 ---
+
+<div>
+<div class="projects">
+{% for category in page.categories %}
+
+  <a id="{{ category }}" href=".#{{ category }}">
+    <h2>{{ category }}</h2>
+  </a>
+
+  {% assign categorized_people = site.people | where: "category", category | where: "current", true %}
+  {% assign sorted_people = categorized_people | sort: "year" %}
+  <div class="grid">
+  {% for person in sorted_people %}
+    {% include person.liquid %}
+  {% endfor %}
+  </div>
+
+  <hr>
+
+  
+{% endfor %}
+</div>
+
+{% assign alumni = site.people | where: "current", false %}
+{% assign sorted_alumni = alumni | sort: "year" %}
+<div class="projects">
+  <a id="alumni" href=".#alumni">
+      <h2>Alumni</h2>
+  </a>
+  <div class="container">
+    {% for person in sorted_alumni %}
+      {% include person.liquid %}
+    {% endfor %}
+  </div>
+</div>
+
+</div>
