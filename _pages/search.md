@@ -9,7 +9,7 @@ nav_order: 7
 ---
 
 <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-<link href="{{ '/assets/css/main.css' | relative_url | bust_css_cache }}" rel="stylesheet">
+<link href="/assets/css/main.css" rel="stylesheet">
 <script src="/pagefind/pagefind-ui.js"></script>
 <div id="search"></div>
 <script>
