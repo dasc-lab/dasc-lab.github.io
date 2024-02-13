@@ -19,7 +19,7 @@ categories: [Prof, PostDoc, PhD, MSE, Undergrad, Visiting]
     <h2>{{ category }}</h2>
   </a>
 
-{% assign categorized_people = site.people | where: "category", category | where: "current", true %}
+{% assign categorized_people = site.people | where: "category", category | where: "alumni", false %}
 {% assign sorted_people = categorized_people | sort: "year" %}
 
   <div class="grid">
@@ -34,7 +34,7 @@ categories: [Prof, PostDoc, PhD, MSE, Undergrad, Visiting]
 
 </div>
 
-{% assign alumni = site.people | where: "current", false %}
+{% assign alumni = site.people | where: "alumni", true %}
 {% assign sorted_alumni = alumni | sort: "year" %}
 
 <div class="projects">

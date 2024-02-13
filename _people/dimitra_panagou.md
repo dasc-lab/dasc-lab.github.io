@@ -3,7 +3,7 @@ layout: people
 inline: true
 name: Dimitra Panagou
 link: https://websites.umich.edu/~dpanagou/
-current: true
+alumni: false
 category: Prof # choose from Prof, PostDoc, PhD, MSE, Undergrad, Visiting
 img: assets/img/people/panagou.jpg
 ---
