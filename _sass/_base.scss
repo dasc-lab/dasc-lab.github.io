@@ -628,13 +628,23 @@ footer.sticky-bottom {
     margin-bottom: 10px;
   }
 
+  // h2.category {
+  //   color: var(--global-divider-color);
+  //   border-bottom: 1px solid var(--global-divider-color);
+  //   padding-top: 0.5rem;
+  //   margin-top: 2rem;
+  //   margin-bottom: 1rem;
+  //   text-align: right;
+  // }
   h2.category {
-    color: var(--global-divider-color);
+    // color: var(--global-theme-color); //var(--global-divider-color);
+    // border-top: 1px solid var(--global-divider-color);
     border-bottom: 1px solid var(--global-divider-color);
-    padding-top: 0.5rem;
+    padding-top: 1rem;
     margin-top: 2rem;
-    margin-bottom: 1rem;
-    text-align: right;
+    font-style: italic;
+    // margin-bottom: -2rem;
+    // text-align: right;
   }
 }
 
@@ -660,12 +670,14 @@ footer.sticky-bottom {
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
+    // color: var(--global-theme-color); //var(--global-divider-color);
+    // border-top: 1px solid var(--global-divider-color);
+    border-bottom: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
-    margin-bottom: -2rem;
-    text-align: right;
+    font-style: italic;
+    // margin-bottom: -2rem;
+    // text-align: right;
   }
 
   ol.bibliography {
@@ -674,12 +686,12 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 1.2rem;
 
       .preview {
         width: 100%;
         min-width: 80px;
-        max-width: 200px;
+        // max-width: 200px;
       }
 
       .abbr {
@@ -713,9 +725,11 @@ footer.sticky-bottom {
 
       .author {
         a {
-          border-bottom: 1px dashed var(--global-theme-color);
+          color: var(--global-text-color);
+          border-bottom: 1px dashed var(--global-text-color);
 
           &:hover {
+            color: var(--global-text-color);
             border-bottom-style: solid;
             text-decoration: none;
           }
