@@ -1,10 +1,9 @@
 ---
 layout: page
 permalink: /search/
-title: >
-  search <i class="fa-solid fa-magnifying-glass fa-xs"></i>
+title: search
 description: quick search
-nav: true
+nav: false
 nav_order: 7
 ---
 
