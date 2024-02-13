@@ -78,6 +78,9 @@ jobs:
           pip3 install --upgrade jupyter
           export JEKYLL_ENV=production
           bundle exec jekyll build --lsi
+      - name: Build Search Index
+        run: |
+          npx -y pagefind --site _site
       - name: Purge unused CSS 🧹
         run: |
           npm install -g purgecss
