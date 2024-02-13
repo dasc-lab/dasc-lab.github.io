@@ -45,6 +45,18 @@
   .repo-img-dark {
     display: none;
   }
+
+  --pagefind-ui-scale: 1;
+  --pagefind-ui-primary: var(--global-theme-color);
+  --pagefind-ui-text: var(--global-text-color);
+  --pagefind-ui-background: var(--global-bg-color);
+  --pagefind-ui-border: var(--global-hover-color);
+  --pagefind-ui-tag: var(--global-hover-color);
+  --pagefind-ui-border-width: 2px;
+  --pagefind-ui-border-radius: 8px;
+  --pagefind-ui-image-border-radius: 8px;
+  --pagefind-ui-image-box-ratio: 3 / 2;
+  --pagefind-ui-font: sans-serif;
 }
 
 html[data-theme="dark"] {
