@@ -1,0 +1,35 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'DASC Lab UMich'
+
+[permalinks]
+  blog = "/:filename/"
+
+[taxonomies]
+
+
+# See https://feathericons.com/
+# The value of pre is the icon name
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "People"
+    url = "/people/"
+    weight = 2
+  [[menu.main]]
+    name = "Papers"
+    url = "/papers/"
+    weight = 3
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 4  
+
+[params]
+  dateFormat = "Jan 2, 2006"
+  homeText = "Distributed Aerospace Systems and Control Lab"
+
+

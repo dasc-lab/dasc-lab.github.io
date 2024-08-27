@@ -1,0 +1,10 @@
+<div class="card h-100" style="width: 18rem;">
+<a href="{{ .RelPermalink }}">
+  <img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Title }}">
+</a>
+  <div class="card-body">
+    <h5 class="card-title">{{ .Title }}</h5>
+    <p class="card-text"> {{ .Params.year }}</p> 
+    <a href="{{ .Params.link }}"> <p> Link </p></a>
+  </div>
+</div>

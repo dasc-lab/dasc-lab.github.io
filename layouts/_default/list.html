@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+
+<h1>{{ .Title }}</h1>
+{{ range .Pages.ByPublishDate.Reverse }}
+
+<div class="row align-items-top mt-3">
+      <div class="col-md-3 mb-2">
+        <a href="{{ .RelPermalink }}">
+          <img
+            class="img-thumbnail img-fluid"
+            src="{{ .Params.image}}"
+            alt="project image"
+          />
+        </a>
+      </div>
+
+      <div class="col-md-9">
+        <a href="{{ .RelPermalink }}"> <h5>{{ .Title }}</h5></a>
+      </div>
+    </div>
+
+{{ end }}
+
+
+{{ end }}

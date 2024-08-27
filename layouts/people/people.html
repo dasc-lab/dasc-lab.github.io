@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+
+{{ $pages := .Pages }}
+
+<h1> People</h1>
+
+{{ $categories := slice "Faculty" "PhD" "Alumni" }}
+
+{{ range $category := $categories }}
+  {{ $subpages := where $pages "Params.category" $category }}
+  {{ if $subpages.Len }} 
+    <h2> {{ $category }} </h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4 my-2">
+      {{ range $subpages }}
+      <div class="col">
+        {{ partial "person-card" . }}
+      </div>
+      {{ end }} 
+    </div>
+  {{ end }} 
+
+{{ end }} 
+
+{{ end }} 
