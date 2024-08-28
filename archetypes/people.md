@@ -1,13 +1,13 @@
 ---
-title: Full Name
+title: '{{ replace .File.ContentBaseName `` ` ` | title }}'
 # choose a category from [Faculty, PostDoc, PhD, Masters, Visiting, Alumni]. Be careful about the capitalization.
 category: PhD
 # give the path relative to static/
-image: "/images/devanshagrawal.jpg"
+image: "/images/default_profile.webp"
 # start year, used for sorting
-year: 2020
+year: 
 # link to personal website (optional)
-link: https://dev10110.github.io
+link: 
 # email id (optional)
-mail: devansh@umich.edu
+mail: 
 ---

@@ -1,7 +1,9 @@
 {{ define "main" }}
 
 
-{{ $pages := .Pages }}
+{{ $allpages := .Pages}}
+
+{{ $pages := sort $allpages "Params.year" "asc" }}
 
 <h1> People</h1>
 

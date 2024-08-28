@@ -8,7 +8,7 @@ date: 1900-01-01
 authors:
     - dimitrapanagou 
 # give the main figure location, relative to /static/
-image: /images/default.png
+image: /images/default_paper.png
 # specify the conference or journal that it was published in
 venue: 
 # link to publisher site (optional)
