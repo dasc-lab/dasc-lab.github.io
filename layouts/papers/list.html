@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+
+<h1>{{ .Title }}</h1>
+
+<p> Rendered from layouts/papers/list </p>
+
+{{ range .Pages.ByPublishDate.Reverse }}
+
+{{ partial "paper-card" . }}
+
+{{ end }}
+
+
+{{ end }}

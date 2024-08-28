@@ -1,11 +1,14 @@
 {{ define "main" }}
 
 
-{{ $pages := .Pages }}
 
 <h1> People</h1>
 
-<p> Rendered from /layouts/people/people </p>
+<p> Rendered from /layouts/taxonomy/person.terms.html </p>
+
+{{ $pages := .Data.Pages }}
+
+<p> {{ .Data }} </p>
 
 {{ $categories := slice "Faculty" "PhD" "Alumni" }}
 

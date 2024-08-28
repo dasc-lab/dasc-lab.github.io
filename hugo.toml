@@ -6,6 +6,7 @@ title = 'DASC Lab UMich'
   blog = "/:filename/"
 
 [taxonomies]
+# person = "people"
 
 
 # See https://feathericons.com/

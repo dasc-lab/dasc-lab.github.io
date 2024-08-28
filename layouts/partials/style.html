@@ -13,4 +13,25 @@
 img {
   max-width: 100%;
 }
+
+/* authors list */
+
+.author-list>*:not(:last-child)::after {
+  content: ", ";
+}
+
+.author-list-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.author-list-link:hover {
+  text-decoration: underline;
+}
+
+a { 
+  color: inherit;
+}
+
+
 </style>

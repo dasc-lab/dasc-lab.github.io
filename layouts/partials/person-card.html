@@ -3,8 +3,14 @@
   <img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Title }}">
 </a>
   <div class="card-body">
-    <h5 class="card-title">{{ .Title }}</h5>
-    <p class="card-text"> {{ .Params.year }}</p> 
-    <a href="{{ .Params.link }}"> <p> Link </p></a>
+    <a href=" {{ .RelPermalink }}">
+    <h5 class="card-title">{{ .Title }}</h5> 
+    </a>
+    {{ if .Params.link }}
+      <a href="{{ .Params.link }}">link</a> /
+    {{ end }}
+    {{ if .Params.mail }}
+      <a href="{{ .Params.mail }}">email</a> /
+    {{ end }}
   </div>
 </div>

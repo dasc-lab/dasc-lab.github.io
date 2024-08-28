@@ -1,0 +1,16 @@
+{{ define "main" }}
+
+<p> Rendered from /layouts/papers/single.html </p>
+
+{{ partial "paper-card" . }}
+
+
+<div class="my-3">
+<h3>Abstract</h3>
+<p>{{ .Params.abstract}}</p>
+</div>
+
+{{ .Content }}
+
+{{ end }}
+
