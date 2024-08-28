@@ -11,7 +11,7 @@ hugo server
 ```
 and navigate to the url, usually `http://localhost:1313/`. 
 
-After the changes have been made, commit them onto a new branch, and create a PR to merge the content into `production`. 
+After the changes have been made, commit them onto a new branch, and create a PR to merge the content into `main`. 
 The github workflows will automatically deploy the new version of the website. 
 
 ## Adding Content
