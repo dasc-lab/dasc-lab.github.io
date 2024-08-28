@@ -1,6 +1,7 @@
 baseURL = 'https://dasc-lab.github.io/'
 languageCode = 'en-us'
 title = 'DASC Lab UMich'
+buildFuture = true
 
 [permalinks]
   blog = "/:filename/"

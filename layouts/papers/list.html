@@ -6,13 +6,12 @@
 <p class="d-none"> Rendered from layouts/papers/list </p>
 
 {{ range .Pages.ByPublishDate.Reverse.GroupByDate "2006" }}
-
-<p> {{ .Key }} </p>
-
-{{ range .Pages }} 
-{{ partial "paper-card" . }} 
-{{ end }}
-
+  <div class="mt-3">
+    <h3> {{ .Key }} </h3>
+    {{ range .Pages }} 
+      {{ partial "paper-card" . }} 
+    {{ end }}
+  </div>
 {{ end }}
 
 
