@@ -5,13 +5,14 @@
 
 <h1> People</h1>
 
-<p> Rendered from /layouts/people/people </p>
+<p class="d-none"> Rendered from /layouts/people/people </p>
 
 {{ $categories := slice "Faculty" "PhD" "Alumni" }}
 
 {{ range $category := $categories }}
   {{ $subpages := where $pages "Params.category" $category }}
   {{ if $subpages.Len }} 
+  <div class="pt-3">
     <h2> {{ $category }} </h2>
     <div class="row row-cols-1 row-cols-md-3 g-4 my-2">
       {{ range $subpages }}
@@ -20,6 +21,7 @@
       </div>
       {{ end }} 
     </div>
+  </div>
   {{ end }} 
 
 {{ end }} 

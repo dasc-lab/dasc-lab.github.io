@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+<p class="d-none"> Rendered from /layouts/people/single.html </p>
+
+{{ partial "person-card" . }}
+
+{{ .Content }}
+
+
+<div class="my-3">
+
+<h2>Papers</h2>
+
+{{ $authorname := .File.TranslationBaseName }}
+
+{{ $papers := where .Site.RegularPages "Section" "eq" "papers" }}
+
+{{ range $paper := $papers }}
+  {{ if in $paper.Params.authors $authorname }}
+   {{ partial "paper-card" .}}
+  {{ end }}
+{{ end }}
+</div>
+
+{{ end }}
+

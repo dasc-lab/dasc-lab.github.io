@@ -26,10 +26,3 @@ bib: |-
   }
 ---
 
-Here are some details about Eclares
-
-authors: 
-    - Kaleb Ben Naveed
-    - Devansh Agrawal
-    - Christopher Vermillion
-    - Dimitra Panagou
