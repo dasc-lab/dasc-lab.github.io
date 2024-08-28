@@ -7,7 +7,7 @@
 
 <p class="d-none"> Rendered from /layouts/people/people </p>
 
-{{ $categories := slice "Faculty" "PhD" "Alumni" }}
+{{ $categories := slice "Faculty" "PostDoc" "PhD" "Masters" "Visiting" "Alumni" }}
 
 {{ range $category := $categories }}
   {{ $subpages := where $pages "Params.category" $category }}
