@@ -1,13 +1,13 @@
 ---
-title: '{{ replace .File.ContentBaseName `` ` ` | title }}'
+title: Haejoon Lee
 # choose a category from [Faculty, PostDoc, PhD, Masters, Visiting, Alumni]. Be careful about the capitalization.
 category: PhD
 # give the path relative to static/
-image: "/images/default_profile.webp"
+image: 
 # start year, used for sorting
-year: 
+year: 2023
 # link to personal website (optional)
 link: 
 # email id (optional)
-mail: 
+mail: haejoonl@umich.edu
 ---

@@ -1,11 +1,19 @@
 <div class="row align-items-top mt-3">
       <div class="col-md-3 mb-2">
         <a href="{{ .RelPermalink }}">
+          {{ if .Params.image }}
           <img
             class="img-thumbnail img-fluid"
             src="{{ .Params.image}}"
-            alt="project image"
+            alt="{{ .Title }}"
           />
+          {{ else }}
+          <img 
+            class="img-thumbnail img-fluid"
+            src="/images/default_paper.png"
+            alt="{{ .Title }}"
+          />
+          {{ end }}
         </a>
       </div>
 
