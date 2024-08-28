@@ -32,6 +32,6 @@ buildFuture = true
 
 [params]
   dateFormat = "Jan 2, 2006"
-  homeText = "Distributed Aerospace Systems and Control Lab"
+  homeText = "Distributed Autonomous Systems and Control Lab"
 
 
