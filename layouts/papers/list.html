@@ -5,9 +5,13 @@
 
 <p class="d-none"> Rendered from layouts/papers/list </p>
 
-{{ range .Pages.ByPublishDate.Reverse }}
+{{ range .Pages.ByPublishDate.Reverse.GroupByDate "2006" }}
 
-{{ partial "paper-card" . }}
+<p> {{ .Key }} </p>
+
+{{ range .Pages }} 
+{{ partial "paper-card" . }} 
+{{ end }}
 
 {{ end }}
 
