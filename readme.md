@@ -21,20 +21,20 @@ The github workflows will automatically deploy the new version of the website.
 
 To add a new person, starting from the root directory, run
 ```
-hugo new content person/$id.md
+hugo new content people/id.md
 ```
-where `$id` must be replaced by the id you want to create. 
+where `id` must be replaced by the id you want to create. 
 
-Navigate to `/content/people/$id.md` and edit the front matter.
-After the front matter, you can add more details. These will be rendered on `dasc-lab.github.io/people/$id` page. 
+Navigate to `/content/people/id.md` and edit the front matter.
+After the front matter, you can add more details. These will be rendered on `dasc-lab.github.io/people/id` page. 
 
 ### Adding a paper
 
 Similarly, to add a paper, run 
 ```
-hugo new content papers/$id.md
+hugo new content papers/id.md
 ```
-and then edit `/contents/papers/$id/md`. Again, you can add more info after the front matter, to have it render on the individual page. 
+and then edit `/contents/papers/id.md`. Again, you can add more info after the front matter, to have it render on the individual page. 
 
 If you link the author id correctly, each author's page will be automatically updated to include all the papers too. 
 
