@@ -51,3 +51,4 @@ To customize how the `person` and `papers` render, edit `/layouts/partials/perso
 - add projects
 - add news
 - fix homepage
+- add in maths functionality
