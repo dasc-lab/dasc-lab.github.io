@@ -1,5 +1,5 @@
 ---
-title: ' Kavin M. Govindarajan '
+title: 'Kavin M. Govindarajan'
 # choose a category from [Faculty, PostDoc, PhD, Masters, Visiting, Alumni]. Be careful about the capitalization.
 category: PhD
 # give the path relative to static/

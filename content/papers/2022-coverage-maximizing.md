@@ -2,10 +2,13 @@
 layout: papers
 title:  "Coverage-Maximizing Solar-Powered Autonomous Surface Vehicle Control for Persistent Gulf Stream Observation"
 date: 2022-06-10
-image: /images/default-paper.png
+image: /images/default_paper.png
 venue: "IEEE ACC 2022"
 authors: 
     - kavinmgovindarajan
+    - Ben Haydon
+    - Kirti Mishra
+    - Chris Vermillion
 code: https://github.com/kmgovind/acc-2022 
 abstract: "The Gulf Stream, which comes within 100 km
 of the United States coastline in both the Florida Straits and
