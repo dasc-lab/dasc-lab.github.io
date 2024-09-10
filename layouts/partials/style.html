@@ -29,8 +29,19 @@ img {
   text-decoration: underline;
 }
 
+/* a { 
+   color: inherit; 
+}
+*/
+a:hover {
+  text-decoration-color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,0.85)); 
+}
+
 a { 
   color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(var(--bs-body-color-rgb),var(--bs-link-opacity,0.5)); 
+  text-underline-offset: 0.25em;
 }
 
 

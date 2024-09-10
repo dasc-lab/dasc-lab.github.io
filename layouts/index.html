@@ -1,8 +1,43 @@
 {{ define "main" }}
 
-<div id="home-jumbotron" class="jumbotron text-center">
+<div class="text-center">
   <h1>{{ .Site.Title }}</h1>
-  <p class="font-125">{{ .Site.Params.homeText | markdownify }}</p>
+  <p>{{ .Site.Params.homeText | markdownify }}</p>
+</div>
+
+<div id="description" class="py-3">
+  <p>
+    The Distributed Autonomous Systems and Control Laboratory (3010 Ford Robotics Building) is directed by Dimitra Panagou.</p>
+
+  <p>The lab's research focuses on the exploration, development and implementation of control and estimation methods to address real-world problems in robotics via provably-correct solutions. We are particularly interested in multi-agent systems operating in uncertain environments (e.g., unstructured and/or adversarial).</p>
+
+  <p>If you are interested to join our lab, get in touch with Prof Panagou or some of the lab members. </p>
+
+</div>
+
+<div class="py-3">
+<a href="/news"><h3>News</h3></a>
+<ul>
+  {{ range first 5 (where .Site.RegularPages "Type" "news") }}
+    <li> {{ .Date | time.Format ":date_medium" }}: <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{end}}
+</ul>
+<a href="/news">
+  See more
+  <i class="bi-arrow-right"></i>
+</a>
+
+</div>
+
+<div class="py-3">
+<a href="/papers"><h3>Recent Publications</h3> </a>
+{{ range first 3 (where .Site.RegularPages "Type" "papers") }}
+  {{ partial "paper-card" . }}
+{{end}}
+<a href="/papers">
+  See more
+  <i class="bi-arrow-right"></i>
+</a>
 </div>
 
 {{ end }}

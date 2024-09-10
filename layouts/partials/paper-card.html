@@ -1,5 +1,5 @@
 <div class="row align-items-top mt-3">
-      <div class="col-md-3 mb-2">
+      <div class="col-6 col-md-3 mb-2">
         <a href="{{ .RelPermalink }}">
           {{ if .Params.image }}
           <img
@@ -7,17 +7,11 @@
             src="{{ .Params.image}}"
             alt="{{ .Title }}"
           />
-          {{ else }}
-          <img 
-            class="img-thumbnail img-fluid"
-            src="/images/default_paper.png"
-            alt="{{ .Title }}"
-          />
           {{ end }}
         </a>
       </div>
 
-      <div class="col-md-9">
+      <div class="col-10 col-md-9">
         <a href="{{ .RelPermalink }}"> <h5>{{ .Title }}</h5></a>
 
         <!-- AUTHOR LIST --> 
