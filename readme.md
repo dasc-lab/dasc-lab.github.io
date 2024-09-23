@@ -54,7 +54,7 @@ If you link the author id correctly, each author's page will be automatically up
 
 ## Styles and Layout
 
-This website uses boostrap https://getbootstrap.com/ v5.3.3 to create styles.
+This website uses bootstrap https://getbootstrap.com/ v5.3.3 to create styles.
 
 To customize additional css, edit `/layouts/partials/style.html`.
 To customize how the `person` and `papers` render, edit `/layouts/partials/person-card` or `/layouts/partials/paper-card`.
