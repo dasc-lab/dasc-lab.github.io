@@ -1,12 +1,12 @@
 ---
 layout: papers
 title:  "Eclares: Energy-Aware Clarity-Driven Ergodic Search"
-date: 2024-05-13   
+date: 2024-05-13
 authors:
     - devanshagrawal
     - kalebbennaveed
     - Christopher Vermillion
-    - dimitrapanagou 
+    - dimitrapanagou
 image: /images/2024-eclares.png
 venue: "IEEE ICRA 2024"
 link: https://doi.org/10.1109/ICRA57147.2024.10611286
@@ -25,4 +25,3 @@ bib: |-
     organization={IEEE}
   }
 ---
-

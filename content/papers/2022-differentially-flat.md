@@ -10,16 +10,16 @@ authors:
     - Ryan K Cosner
     - Ugo Rosolia
     - Aaron D Ames
-    - dimitrapanagou 
+    - dimitrapanagou
 # give the main figure location, relative to /static/
 # link to publisher site (optional)
 link: https://doi.org/10.1109/LCSYS.2021.3136465
 # link to arxiv (optional)
-arxiv: 
+arxiv:
 # link to github (optional)
-code: 
+code:
 # link to video (optional)
-video: 
+video:
 # link to pdf (optional)
 pdf: /pdfs/2021-differentially-flat.pdf
 # abstract
@@ -39,8 +39,8 @@ problem."
 bib: |-
   @ARTICLE{9655322,
     author={Agrawal, Devansh R. and Parwana, Hardik and Cosner, Ryan K. and Rosolia, Ugo and Ames, Aaron D. and Panagou, Dimitra},
-    journal={IEEE Control Systems Letters}, 
-    title={A Constructive Method for Designing Safe Multirate Controllers for Differentially-Flat Systems}, 
+    journal={IEEE Control Systems Letters},
+    title={A Constructive Method for Designing Safe Multirate Controllers for Differentially-Flat Systems},
     year={2022},
     volume={6},
     number={},
