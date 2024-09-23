@@ -11,4 +11,15 @@
 
 {{ .Content }}
 
+{{ if .Params.bib }}
+<div class="my-3">
+<pre>
+<code>
+{{ .Params.bib }}
+</code>
+</pre>
+</div>
+{{ end }}
+
+
 {{ end }}
