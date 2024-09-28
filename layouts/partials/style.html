@@ -21,11 +21,17 @@ a:hover {
 
 a {
   /* color: inherit; */
-  color: var(--bs-link-color-rgb);
+  /* color: var(--bs-link-color-rgb);  */
+  color: var(--bs-body-color-rgb);
   text-decoration: underline;
   text-decoration-color: rgba(var(--bs-body-color-rgb),var(--bs-link-opacity,0.5));
   text-underline-offset: 0.25em;
 }
+
+pre {
+            white-space: pre-wrap; /* Enables wrapping */
+            word-wrap: break-word; /* Breaks long words */
+        }
 
 /* authors list */
 
@@ -43,8 +49,10 @@ a {
   text-decoration: none;
 }
 
-
-
+/* make links in divs with class="blue-links" blue */
+.blue-links  a {
+  color: var(--bs-link-color);
+}
 
 .no-underline {
   text-decoration: none;

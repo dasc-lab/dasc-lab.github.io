@@ -2,6 +2,10 @@
 
 <p class="d-none"> Rendered from /layouts/papers/single.html </p>
 
+<div class="my-3">
+  <h2>{{ .Title }}</h2>
+</div>
+
 {{ partial "paper-card" . }}
 
 <div class="my-3">
@@ -9,15 +13,20 @@
 <p>{{ .Params.abstract}}</p>
 </div>
 
+
 {{ .Content }}
+
 
 {{ if .Params.bib }}
 <div class="my-3">
-<pre>
-<code>
+<h3> Bib</h3>
+<div class="card">
+  <div class="card-body">
+      <pre>
 {{ .Params.bib }}
-</code>
-</pre>
+      </pre>
+  </div>
+</div>
 </div>
 {{ end }}
 
