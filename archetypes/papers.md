@@ -11,6 +11,8 @@ authors:
 image: /images/default_paper.png
 # specify the conference or journal that it was published in
 venue:
+# link to project page (optional)
+projectpage:
 # link to publisher site (optional)
 link:
 # link to arxiv (optional)

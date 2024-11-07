@@ -29,6 +29,9 @@
           {{ if .Params.abstract }}
             <a data-bs-toggle="collapse" href="#collapse-abstract-{{ .Key }}" role="button">abstract</a> /
           {{ end }}
+          {{ if .Params.projectpage }}
+          <a href="{{ .Params.projectpage }}" target="_blank">project page</a>  /
+          {{ end }}
           {{ if .Params.pdf }}
             <a href="{{ .Params.pdf }}" target="_blank">pdf</a>  /
           {{ end }}
