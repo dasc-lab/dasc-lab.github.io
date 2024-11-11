@@ -11,7 +11,7 @@ authors:
 # give the main figure location, relative to /static/
 image: /images/strong_r_icra.png
 # specify the conference or journal that it was published in
-venue: 
+venue: Available on arXiv
 # link to publisher site (optional)
 link: 
 # link to arxiv (optional)
