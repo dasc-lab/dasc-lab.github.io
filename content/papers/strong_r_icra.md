@@ -3,7 +3,7 @@ layout: papers
 # specify the title of the paper
 title:  "Maintaining Strong r-Robustness in Reconfigurable Multi-Robot Networks using Control Barrier Functions"
 # specify the date it was published
-date: 1900-01-01
+date: 2024-09-01
 # list the authors. if a "/people/id" page exists for the person, it will be linked. If not, the author's name is printed exactly as you typed it. 
 authors:
     - haejoonl

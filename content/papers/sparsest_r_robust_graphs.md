@@ -3,7 +3,7 @@ layout: papers
 # specify the title of the paper
 title:  "Construction of the Sparsest Maximally r-Robust Graphs"
 # specify the date it was published
-date: 1900-01-01
+date: 2024-03-01
 # list the authors. if a "/people/id" page exists for the person, it will be linked. If not, the author's name is printed exactly as you typed it. 
 authors:
     - haejoonl
