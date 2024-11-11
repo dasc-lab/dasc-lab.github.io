@@ -29,6 +29,9 @@
           {{ if .Params.abstract }}
             <a data-bs-toggle="collapse" href="#collapse-abstract-{{ .Key }}" role="button">abstract</a> /
           {{ end }}
+          {{ if .Params.projectpage }}
+          <a href="{{ .Params.projectpage }}" target="_blank">project page</a>  /
+          {{ end }}
           {{ if .Params.pdf }}
             <a href="{{ .Params.pdf }}" target="_blank">pdf</a>  /
           {{ end }}
@@ -48,7 +51,7 @@
             <a href="{{ .Params.link }}" target="_blank">link</a> /
           {{ end }}
           {{ if .Params.arxiv }}
-            <a href="{{ .Params.arxiv}}">arxiv</a> /
+            <a href="{{ .Params.arxiv }}" target="_blank">arxiv</a> /
           {{ end }}
           {{ if .Params.bib }}
             <a data-bs-toggle="collapse" href="#collapse-bib-{{ .Key }}" role="button">bib</a> /

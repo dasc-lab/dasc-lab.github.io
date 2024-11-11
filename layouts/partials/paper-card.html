@@ -38,6 +38,9 @@
         <div> <p>{{ .Params.venue }} </p></div>
 
         <div class="blue-links">
+          {{ if .Params.projectpage }}
+          <a href="{{ .Params.projectpage }}" target="_blank">project page</a>  /
+          {{ end }}
           {{ if .Params.pdf }}
             <a href="{{ .Params.pdf }}" target="_blank">pdf</a> /
           {{ end }}
@@ -57,7 +60,7 @@
             <a href="{{ .Params.link }}" target="_blank">link</a> /
           {{ end }}
           {{ if .Params.arxiv }}
-            <a href="{{ .Params.arxiv}}">arxiv</a> /
+            <a href="{{ .Params.arxiv}}" target="_blank">arxiv</a> /
           {{ end }}
 
           {{ if .Params.bib }}
