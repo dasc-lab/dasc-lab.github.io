@@ -1,6 +1,6 @@
 ---
 title: Xinyi Wang
-category: Postdoc
+category: PostDoc
 image: "/images/xinyiwang.jpg"
 year: 2024
 link: https://lawliet9666.github.io/
