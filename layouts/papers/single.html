@@ -8,6 +8,11 @@
 
 {{ partial "paper-card" . }}
 
+{{ if .Params.code }}
+<h3>Code</h3>
+{{ partial "github-repo-card" . }}
+{{ end }}
+
 <div class="my-3">
 <h3>Abstract</h3>
 <p>{{ .Params.abstract}}</p>
@@ -19,7 +24,7 @@
 
 {{ if .Params.bib }}
 <div class="my-3">
-<h3> Bib</h3>
+<h3>Bib</h3>
 <div class="card">
   <div class="card-body">
       <pre>
