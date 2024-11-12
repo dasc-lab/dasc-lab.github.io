@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+<p class="d-none"> Rendered from /layouts/code/single.html </p>
+
+<div class="my-3">
+  <h2>{{ .Title }}</h2>
+</div>
+
+{{ partial "github-repo-card" . }}
+
+{{ .Content }}
+
+{{ if .Params.bib }}
+<div class="my-3">
+<h3>Citation</h3>
+<div class="card">
+  <div class="card-body">
+      <pre>
+{{ .Params.bib }}
+      </pre>
+  </div>
+</div>
+</div>
+{{ end }}
+
+
+{{ end }}
