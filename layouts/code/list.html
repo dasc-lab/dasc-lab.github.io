@@ -4,9 +4,10 @@
 
 <p class="d-none"> Rendered from layouts/code/list </p>
 
+<div class="row row-cols-auto">
 {{ range .Pages }}
 
-<div>
+<div class="col py-3">
 <a href={{ .RelPermalink }}>
 {{ partial "github-repo-card" . }}
 </a>
@@ -14,6 +15,6 @@
 
 
 {{ end }}
-
+</div>
 
 {{ end }}
