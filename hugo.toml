@@ -29,6 +29,10 @@ buildFuture = true
     name = "Projects"
     url = "/projects/"
     weight = 4
+  [[menu.main]]
+    name = "Code"
+    url = "/code/"
+    weight = 5
 
 [params]
   dateFormat = "Jan 2, 2006"

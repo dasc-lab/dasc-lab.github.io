@@ -4,12 +4,12 @@ title:  "Coverage-Maximizing Solar-Powered Autonomous Surface Vehicle Control fo
 date: 2022-06-10
 image: /images/15astarPathOverCoverage.png
 venue: "IEEE ACC 2022"
-authors: 
+authors:
     - kavinmgovindarajan
     - Ben Haydon
     - Kirti Mishra
     - Christopher Vermillion
-code: https://github.com/kmgovind/acc-2022 
+code: https://github.com/kmgovind/acc-2022
 abstract: "The Gulf Stream, which comes within 100 km
 of the United States coastline in both the Florida Straits and
 the vicinity of Cape Hatteras, is estimated to possess over 160

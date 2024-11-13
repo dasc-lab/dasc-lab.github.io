@@ -9,7 +9,7 @@ authors:
     - dimitrapanagou
 link: https://doi.org/10.1109/CDC45484.2021.9682938
 arxiv:
-code:
+code: https://github.com/dev10110/Input-Constrained-Control-Barrier-Functions
 abstract: "This paper introduces the notion of an Input
 Constrained Control Barrier Function (ICCBF), as a method to
 synthesize safety-critical controllers for nonlinear control-affine

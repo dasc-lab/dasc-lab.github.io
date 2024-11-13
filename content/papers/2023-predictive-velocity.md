@@ -4,7 +4,7 @@ title:  "Predictive Velocity Trajectory Control for a Persistently Operating Sol
 date: 2023-07-03
 image: /images/soc_v_time.png
 venue: "IEEE ACC 2023"
-authors: 
+authors:
     - kavinmgovindarajan
     - Ben Haydon
     - Christopher Vermillion
