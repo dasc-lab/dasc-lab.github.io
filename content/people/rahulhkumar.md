@@ -9,6 +9,5 @@ year: 2024
 # link to personal website (optional)
 link: https://github.com/RahulHKumar
 # email id (optional)
-mail: rahulhk@umich.edu
+mail: mailto:rahulhk@umich.edu
 ---
-
