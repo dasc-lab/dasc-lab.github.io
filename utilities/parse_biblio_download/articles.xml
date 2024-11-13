@@ -1,0 +1,2446 @@
+<?xml version="1.0"?>
+<dblpperson name="Dimitra Panagou" pid="71/8133" n="187">
+<person key="homepages/71/8133" mdate="2024-05-01">
+<author pid="71/8133">Dimitra Panagou</author>
+<note type="affiliation">University of Michigan Ann Arbor, MI, USA</note>
+<url>http://www-personal.umich.edu/~dpanagou/</url>
+<url>https://scholar.google.com/citations?user=ny1yTusAAAAJ</url>
+<url>https://mathgenealogy.org/id.php?id=235044</url>
+<url>https://orcid.org/0000-0002-4547-167X</url>
+<url>https://www.wikidata.org/entity/Q102950847</url>
+</person>
+<r><article key="journals/arc/GargUBBAPP24" mdate="2024-08-04">
+<author orcid="0000-0002-1895-4991" pid="206/7305">Kunal Garg</author>
+<author pid="207/7804">James Usevitch</author>
+<author pid="283/2481">Joseph Breeden</author>
+<author pid="262/3347">Mitchell Black</author>
+<author pid="289/7256">Devansh Agrawal</author>
+<author pid="205/2501">Hardik Parwana</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Advances in the Theory of Control Barrier Functions: Addressing practical challenges in safe control synthesis for autonomous and robotic systems.</title>
+<pages>100945</pages>
+<year>2024</year>
+<volume>57</volume>
+<journal>Annu. Rev. Control.</journal>
+<ee>https://doi.org/10.1016/j.arcontrol.2024.100945</ee>
+<url>db/journals/arc/arc57.html#GargUBBAPP24</url>
+<stream>streams/journals/arc</stream>
+</article>
+</r>
+<r><article key="journals/csysl/BreedenZP24" mdate="2024-07-19">
+<author orcid="0000-0002-7822-3146" pid="283/2481">Joseph Breeden</author>
+<author orcid="0000-0003-1247-0029" pid="69/3222">Luca Zaccarian</author>
+<author orcid="0000-0002-4547-167X" pid="71/8133">Dimitra Panagou</author>
+<title>Robust Safety-Critical Control for Systems With Sporadic Measurements and Dwell-Time Constraints.</title>
+<pages>1415-1420</pages>
+<year>2024</year>
+<volume>8</volume>
+<journal>IEEE Control. Syst. Lett.</journal>
+<ee>https://doi.org/10.1109/LCSYS.2024.3410631</ee>
+<url>db/journals/csysl/csysl8.html#BreedenZP24</url>
+</article>
+</r>
+<r><article key="journals/trob/AgrawalCP24" mdate="2024-10-22">
+<author orcid="0000-0002-0236-9077" pid="289/7256">Devansh R. Agrawal</author>
+<author orcid="0009-0000-1107-6922" pid="334/3760">Ruichang Chen</author>
+<author orcid="0000-0002-4547-167X" pid="71/8133">Dimitra Panagou</author>
+<title>gatekeeper: Online Safety Verification and Control for Nonlinear Systems in Dynamic Environments.</title>
+<pages>4358-4375</pages>
+<year>2024</year>
+<volume>40</volume>
+<journal>IEEE Trans. Robotics</journal>
+<ee>https://doi.org/10.1109/TRO.2024.3454415</ee>
+<url>db/journals/trob/trob40.html#AgrawalCP24</url>
+<stream>streams/journals/trob</stream>
+</article>
+</r>
+<r><inproceedings key="conf/amcc/ParwanaWP24" mdate="2024-09-21">
+<author pid="205/2501">Hardik Parwana</author>
+<author pid="291/5341">Ruiyang Wang</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Algorithms for Finding Compatible Constraints in Receding-Horizon Control of Dynamical Systems.</title>
+<pages>2074-2081</pages>
+<year>2024</year>
+<booktitle>ACC</booktitle>
+<ee>https://doi.org/10.23919/ACC60939.2024.10644243</ee>
+<crossref>conf/amcc/2024</crossref>
+<url>db/conf/amcc/acc2024.html#ParwanaWP24</url>
+<stream>streams/conf/amcc</stream>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/amcc/BlackFHP24" mdate="2024-09-21">
+<author pid="262/3347">Mitchell Black</author>
+<author pid="34/4314">Georgios Fainekos</author>
+<author pid="121/3956">Bardh Hoxha</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Risk-Aware Fixed-Time Stabilization of Stochastic Systems Under Measurement Uncertainty.</title>
+<pages>3276-3283</pages>
+<year>2024</year>
+<booktitle>ACC</booktitle>
+<ee>https://doi.org/10.23919/ACC60939.2024.10644792</ee>
+<crossref>conf/amcc/2024</crossref>
+<url>db/conf/amcc/acc2024.html#BlackFHP24</url>
+<stream>streams/conf/amcc</stream>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/icra/NaveedAVP24" mdate="2024-08-19">
+<author pid="278/2732">Kaleb Ben Naveed</author>
+<author pid="289/7256">Devansh Agrawal</author>
+<author pid="49/7138">Christopher Vermillion</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Eclares: Energy-Aware Clarity-Driven Ergodic Search.</title>
+<pages>14326-14332</pages>
+<year>2024</year>
+<booktitle>ICRA</booktitle>
+<ee>https://doi.org/10.1109/ICRA57147.2024.10611286</ee>
+<crossref>conf/icra/2024</crossref>
+<url>db/conf/icra/icra2024.html#NaveedAVP24</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/tacas/TekriwalTJKP24" mdate="2024-10-06">
+<author orcid="0000-0002-5103-2630" pid="289/1053">Mohit Tekriwal</author>
+<author pid="314/7124">Avi Tachna-Frame</author>
+<author pid="11/10454">Jean-Baptiste Jeannin</author>
+<author pid="23/6695">Manos Kapritsos</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Formally verified asymptotic consensus in robust networks.</title>
+<pages>248-267</pages>
+<year>2024</year>
+<booktitle>TACAS (1)</booktitle>
+<ee type="oa">https://doi.org/10.1007/978-3-031-57246-3_14</ee>
+<crossref>conf/tacas/2024-1</crossref>
+<url>db/conf/tacas/tacas2024-1.html#TekriwalTJKP24</url>
+</inproceedings>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2402-05254" mdate="2024-05-07">
+<author orcid="0000-0002-0236-9077" pid="289/7256">Devansh R. Agrawal</author>
+<author pid="368/3278">Rajiv Govindjee</author>
+<author pid="47/737">Jiangbo Yu</author>
+<author pid="368/3911">Anurekha Ravikumar</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Online and Certifiably Correct Visual Odometry and Mapping.</title>
+<year>2024</year>
+<volume>abs/2402.05254</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2402.05254</ee>
+<url>db/journals/corr/corr2402.html#abs-2402-05254</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2403-03663" mdate="2024-04-03">
+<author pid="283/2481">Joseph Breeden</author>
+<author pid="69/3222">Luca Zaccarian</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Robust Safety-Critical Control for Systems with Sporadic Measurements and Dwell Time Constraints.</title>
+<year>2024</year>
+<volume>abs/2403.03663</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2403.03663</ee>
+<url>db/journals/corr/corr2403.html#abs-2403-03663</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2403-17917" mdate="2024-04-10">
+<author pid="289/7256">Devansh R. Agrawal</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Multi-Agent Clarity-Aware Dynamic Coverage with Gaussian Processes.</title>
+<year>2024</year>
+<volume>abs/2403.17917</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2403.17917</ee>
+<url>db/journals/corr/corr2403.html#abs-2403-17917</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2403-18015" mdate="2024-04-10">
+<author pid="289/7256">Devansh R. Agrawal</author>
+<author pid="205/2501">Hardik Parwana</author>
+<author pid="277/6306">Ryan K. Cosner</author>
+<author pid="186/8458">Ugo Rosolia</author>
+<author pid="39/1463">Aaron D. Ames</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>A Constructive Method for Designing Safe Multirate Controllers for Differentially-Flat Systems.</title>
+<year>2024</year>
+<volume>abs/2403.18015</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2403.18015</ee>
+<url>db/journals/corr/corr2403.html#abs-2403-18015</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2403-20258" mdate="2024-04-11">
+<author pid="262/3347">Mitchell Black</author>
+<author pid="34/4314">Georgios Fainekos</author>
+<author pid="121/3956">Bardh Hoxha</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Risk-Aware Fixed-Time Stabilization of Stochastic Systems under Measurement Uncertainty.</title>
+<year>2024</year>
+<volume>abs/2403.20258</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2403.20258</ee>
+<url>db/journals/corr/corr2403.html#abs-2403-20258</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2406-04560" mdate="2024-07-13">
+<author pid="278/2732">Kaleb Ben Naveed</author>
+<author pid="207/5287">An Dang</author>
+<author pid="92/5081">Rahul Kumar</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>meSch: Multi-Agent Energy-Aware Scheduling for Task Persistence.</title>
+<year>2024</year>
+<volume>abs/2406.04560</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2406.04560</ee>
+<url>db/journals/corr/corr2406.html#abs-2406-04560</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2406-07728" mdate="2024-07-08">
+<author pid="58/1619">Taekyung Kim</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Visibility-Aware RRT* for Safety-Critical Navigation of Perception-Limited Robots in Unknown Environments.</title>
+<year>2024</year>
+<volume>abs/2406.07728</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2406.07728</ee>
+<url>db/journals/corr/corr2406.html#abs-2406-07728</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2408-00918" mdate="2024-09-09">
+<author pid="156/3223">Junhui Zhang</author>
+<author pid="135/6093">Sze Zheng Yong</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Safety-Critical Control with Offline-Online Neural Network Inference.</title>
+<year>2024</year>
+<volume>abs/2408.00918</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2408.00918</ee>
+<url>db/journals/corr/corr2408.html#abs-2408-00918</url>
+<stream>streams/journals/corr</stream>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2409-14616" mdate="2024-10-15">
+<author pid="58/1619">Taekyung Kim</author>
+<author pid="375/4476">Robin Inho Kee</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Learning to Refine Input Constrained Control Barrier Functions via Uncertainty-Aware Online Parameter Adaptation.</title>
+<year>2024</year>
+<volume>abs/2409.14616</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2409.14616</ee>
+<url>db/journals/corr/corr2409.html#abs-2409-14616</url>
+<stream>streams/journals/corr</stream>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2409-14675" mdate="2024-10-15">
+<author pid="188/3856">Haejoon Lee</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Maintaining Strong <i>r</i> Robustness in Reconfigurable Multi-Robot Networks using Control Barrier Functions.</title>
+<year>2024</year>
+<volume>abs/2409.14675</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2409.14675</ee>
+<url>db/journals/corr/corr2409.html#abs-2409-14675</url>
+<stream>streams/journals/corr</stream>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2409-19465" mdate="2024-10-17">
+<author pid="188/3856">Haejoon Lee</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Construction of the Sparsest Maximally <i>r</i>-Robust Graphs.</title>
+<year>2024</year>
+<volume>abs/2409.19465</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2409.19465</ee>
+<url>db/journals/corr/corr2409.html#abs-2409-19465</url>
+<stream>streams/journals/corr</stream>
+</article>
+</r>
+<r><article key="journals/automatica/BreedenP23" mdate="2023-08-16">
+<author pid="283/2481">Joseph Breeden</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Robust Control Barrier Functions under high relative degree and input constraints for satellite trajectories.</title>
+<pages>111109</pages>
+<year>2023</year>
+<month>September</month>
+<volume>155</volume>
+<journal>Autom.</journal>
+<ee>https://doi.org/10.1016/j.automatica.2023.111109</ee>
+<url>db/journals/automatica/automatica155.html#BreedenP23</url>
+</article>
+</r>
+<r><article key="journals/csysl/AgrawalP23" mdate="2023-08-28">
+<author orcid="0000-0002-0236-9077" pid="289/7256">Devansh R. Agrawal</author>
+<author orcid="0000-0002-4547-167X" pid="71/8133">Dimitra Panagou</author>
+<title>Safe and Robust Observer-Controller Synthesis Using Control Barrier Functions.</title>
+<pages>127-132</pages>
+<year>2023</year>
+<volume>7</volume>
+<journal>IEEE Control. Syst. Lett.</journal>
+<ee>https://doi.org/10.1109/LCSYS.2022.3185142</ee>
+<ee>https://www.wikidata.org/entity/Q114085858</ee>
+<url>db/journals/csysl/csysl7.html#AgrawalP23</url>
+</article>
+</r>
+<r><article key="journals/csysl/BreedenP23" mdate="2023-07-07">
+<author orcid="0000-0002-7822-3146" pid="283/2481">Joseph Breeden</author>
+<author orcid="0000-0002-4547-167X" pid="71/8133">Dimitra Panagou</author>
+<title>Safety-Critical Control for Systems With Impulsive Actuators and Dwell Time Constraints.</title>
+<pages>2119-2124</pages>
+<year>2023</year>
+<volume>7</volume>
+<journal>IEEE Control. Syst. Lett.</journal>
+<ee>https://doi.org/10.1109/LCSYS.2023.3285141</ee>
+<url>db/journals/csysl/csysl7.html#BreedenP23</url>
+</article>
+</r>
+<r><article key="journals/csysl/AgrawalP23a" mdate="2023-07-21">
+<author orcid="0000-0002-0236-9077" pid="289/7256">Devansh R. Agrawal</author>
+<author orcid="0000-0002-4547-167X" pid="71/8133">Dimitra Panagou</author>
+<title>Sensor-Based Planning and Control for Robotic Systems: Introducing Clarity and Perceivability.</title>
+<pages>2623-2628</pages>
+<year>2023</year>
+<volume>7</volume>
+<journal>IEEE Control. Syst. Lett.</journal>
+<ee>https://doi.org/10.1109/LCSYS.2023.3288493</ee>
+<url>db/journals/csysl/csysl7.html#AgrawalP23a</url>
+</article>
+</r>
+<r><article key="journals/tac/UsevitchP23" mdate="2023-03-11">
+<author orcid="0000-0002-1230-7304" pid="207/7804">James Usevitch</author>
+<author orcid="0000-0002-4547-167X" pid="71/8133">Dimitra Panagou</author>
+<title>Adversarial Resilience for Sampled-Data Systems Under High-Relative-Degree Safety Constraints.</title>
+<pages>1537-1552</pages>
+<year>2023</year>
+<month>March</month>
+<volume>68</volume>
+<journal>IEEE Trans. Autom. Control.</journal>
+<number>3</number>
+<ee>https://doi.org/10.1109/TAC.2022.3157791</ee>
+<url>db/journals/tac/tac68.html#UsevitchP23</url>
+</article>
+</r>
+<r><article key="journals/tcns/MustafaP23" mdate="2023-03-28">
+<author orcid="0000-0002-2889-1699" pid="213/7489">Aquib Mustafa</author>
+<author orcid="0000-0002-4547-167X" pid="71/8133">Dimitra Panagou</author>
+<title>Adversary Detection and Resilient Control for Multiagent Systems.</title>
+<pages>355-367</pages>
+<year>2023</year>
+<month>March</month>
+<volume>10</volume>
+<journal>IEEE Trans. Control. Netw. Syst.</journal>
+<number>1</number>
+<ee>https://doi.org/10.1109/TCNS.2022.3203350</ee>
+<url>db/journals/tcns/tcns10.html#MustafaP23</url>
+</article>
+</r>
+<r><article key="journals/trob/ChipadeP23" mdate="2023-10-14">
+<author orcid="0000-0002-3330-3521" pid="213/7456">Vishnu S. Chipade</author>
+<author orcid="0000-0002-4547-167X" pid="71/8133">Dimitra Panagou</author>
+<title>Aerial Swarm Defense Using Interception and Herding Strategies.</title>
+<pages>3821-3837</pages>
+<year>2023</year>
+<month>October</month>
+<volume>39</volume>
+<journal>IEEE Trans. Robotics</journal>
+<number>5</number>
+<ee>https://doi.org/10.1109/TRO.2023.3292514</ee>
+<url>db/journals/trob/trob39.html#ChipadeP23</url>
+</article>
+</r>
+<r><inproceedings key="conf/amcc/BlackJSP23" mdate="2023-07-11">
+<author pid="262/3347">Mitchell Black</author>
+<author pid="07/6166">Mrdjan Jankovic</author>
+<author pid="52/4917">Abhishek Sharma</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Future-Focused Control Barrier Functions for Autonomous Vehicle Control.</title>
+<pages>3324-3331</pages>
+<year>2023</year>
+<booktitle>ACC</booktitle>
+<ee>https://doi.org/10.23919/ACC55779.2023.10156163</ee>
+<crossref>conf/amcc/2023</crossref>
+<url>db/conf/amcc/acc2023.html#BlackJSP23</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/amcc/BreedenP23" mdate="2023-07-11">
+<author pid="283/2481">Joseph Breeden</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Compositions of Multiple Control Barrier Functions Under Input Constraints.</title>
+<pages>3688-3695</pages>
+<year>2023</year>
+<booktitle>ACC</booktitle>
+<ee>https://doi.org/10.23919/ACC55779.2023.10156625</ee>
+<crossref>conf/amcc/2023</crossref>
+<url>db/conf/amcc/acc2023.html#BreedenP23</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/ccta/ChipadeGHP23" mdate="2023-09-28">
+<author pid="213/7456">Vishnu S. Chipade</author>
+<author pid="328/7559">Alia Gilbert</author>
+<author pid="35/383">Daniel Harari</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Collaborative Control of Aerial Robots for Inferring Human Intent from Gaze Following.</title>
+<pages>255-262</pages>
+<year>2023</year>
+<booktitle>CCTA</booktitle>
+<ee>https://doi.org/10.1109/CCTA54093.2023.10252647</ee>
+<crossref>conf/ccta/2023</crossref>
+<url>db/conf/ccta/ccta2023.html#ChipadeGHP23</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/cdc/BlackP23" mdate="2024-01-29">
+<author pid="262/3347">Mitchell Black</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Adaptation for Validation of Consolidated Control Barrier Functions.</title>
+<pages>751-757</pages>
+<year>2023</year>
+<booktitle>CDC</booktitle>
+<ee>https://doi.org/10.1109/CDC49753.2023.10383597</ee>
+<crossref>conf/cdc/2023</crossref>
+<url>db/conf/cdc/cdc2023.html#BlackP23</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/icra/BlackFHPP23" mdate="2024-10-06">
+<author pid="262/3347">Mitchell Black</author>
+<author pid="34/4314">Georgios Fainekos</author>
+<author pid="121/3956">Bardh Hoxha</author>
+<author orcid="0000-0002-6208-4233" pid="74/5147">Danil V. Prokhorov</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Safety Under Uncertainty: Tight Bounds with Risk-Aware Control Barrier Functions.</title>
+<pages>12686-12692</pages>
+<year>2023</year>
+<booktitle>ICRA</booktitle>
+<ee>https://doi.org/10.1109/ICRA48891.2023.10161379</ee>
+<crossref>conf/icra/2023</crossref>
+<url>db/conf/icra/icra2023.html#BlackFHPP23</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/iros/AgrawalCP23" mdate="2024-05-07">
+<author orcid="0000-0002-0236-9077" pid="289/7256">Devansh Agrawal</author>
+<author pid="334/3760">Ruichang Chen</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>gatekeeper: Online Safety Verification and Control for Nonlinear Systems in Dynamic Environments.</title>
+<pages>259-266</pages>
+<year>2023</year>
+<booktitle>IROS</booktitle>
+<ee>https://doi.org/10.1109/IROS55552.2023.10341790</ee>
+<url>db/conf/iros/iros2023.html#AgrawalCP23</url>
+</inproceedings>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2303-10243" mdate="2023-03-22">
+<author pid="283/2481">Joseph Breeden</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Safety-Critical Control for Systems with Impulsive Actuators and Dwell Time Constraints.</title>
+<year>2023</year>
+<volume>abs/2303.10243</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2303.10243</ee>
+<url>db/journals/corr/corr2303.html#abs-2303-10243</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2303-12966" mdate="2023-04-13">
+<author pid="205/2501">Hardik Parwana</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Rate-Tunable Control Barrier Functions: Methods and Algorithms for Online Adaptation.</title>
+<year>2023</year>
+<volume>abs/2303.12966</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2303.12966</ee>
+<url>db/journals/corr/corr2303.html#abs-2303-12966</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2304-01040" mdate="2024-10-06">
+<author pid="262/3347">Mitchell Black</author>
+<author pid="34/4314">Georgios Fainekos</author>
+<author pid="121/3956">Bardh Hoxha</author>
+<author orcid="0000-0002-6208-4233" pid="74/5147">Danil V. Prokhorov</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Safety Under Uncertainty: Tight Bounds with Risk-Aware Control Barrier Functions.</title>
+<year>2023</year>
+<volume>abs/2304.01040</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2304.01040</ee>
+<url>db/journals/corr/corr2304.html#abs-2304-01040</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2304-01815" mdate="2023-04-20">
+<author pid="262/3347">Mitchell Black</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Consolidated Control Barrier Functions: Synthesis and Online Verification via Adaptation under Input Constraints.</title>
+<year>2023</year>
+<volume>abs/2304.01815</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2304.01815</ee>
+<url>db/journals/corr/corr2304.html#abs-2304-01815</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2304-02578" mdate="2024-05-07">
+<author orcid="0000-0002-0236-9077" pid="289/7256">Devansh R. Agrawal</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Sensor-based Planning and Control for Robotic Systems: Introducing Clarity and Perceivability.</title>
+<year>2023</year>
+<volume>abs/2304.02578</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2304.02578</ee>
+<url>db/journals/corr/corr2304.html#abs-2304-02578</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2305-11010" mdate="2023-05-25">
+<author pid="205/2501">Hardik Parwana</author>
+<author pid="291/5341">Ruiyang Wang</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>The Dilemma of Choice: Addressing Constraint Selection for Autonomous Robotic Agents.</title>
+<year>2023</year>
+<volume>abs/2305.11010</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2305.11010</ee>
+<url>db/journals/corr/corr2305.html#abs-2305-11010</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2306-02482" mdate="2023-06-13">
+<author pid="213/7456">Vishnu S. Chipade</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Aerial Swarm Defense using Interception and Herding Strategies.</title>
+<year>2023</year>
+<volume>abs/2306.02482</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2306.02482</ee>
+<url>db/journals/corr/corr2306.html#abs-2306-02482</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2310-06933" mdate="2024-05-07">
+<author pid="278/2732">Kaleb Ben Naveed</author>
+<author orcid="0000-0002-0236-9077" pid="289/7256">Devansh Agrawal</author>
+<author pid="49/7138">Christopher Vermillion</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Eclares: Energy-Aware Clarity-Driven Ergodic Search.</title>
+<year>2023</year>
+<volume>abs/2310.06933</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2310.06933</ee>
+<url>db/journals/corr/corr2310.html#abs-2310-06933</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2312-07803" mdate="2024-10-06">
+<author pid="205/2501">Hardik Parwana</author>
+<author pid="262/3347">Mitchell Black</author>
+<author pid="121/3956">Bardh Hoxha</author>
+<author pid="34/9235">Hideki Okamoto</author>
+<author pid="34/4314">Georgios Fainekos</author>
+<author orcid="0000-0002-6208-4233" pid="74/5147">Danil V. Prokhorov</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Feasible Space Monitoring for Multiple Control Barrier Functions with application to Large Scale Indoor Navigation.</title>
+<year>2023</year>
+<volume>abs/2312.07803</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2312.07803</ee>
+<url>db/journals/corr/corr2312.html#abs-2312-07803</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2312-16719" mdate="2024-05-07">
+<author pid="206/7305">Kunal Garg</author>
+<author pid="207/7804">James Usevitch</author>
+<author pid="283/2481">Joseph Breeden</author>
+<author pid="262/3347">Mitchell Black</author>
+<author orcid="0000-0002-0236-9077" pid="289/7256">Devansh Agrawal</author>
+<author pid="205/2501">Hardik Parwana</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Advances in the Theory of Control Barrier Functions: Addressing Practical Challenges in Safe Control Synthesis for Autonomous and Robotic Systems.</title>
+<year>2023</year>
+<volume>abs/2312.16719</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2312.16719</ee>
+<url>db/journals/corr/corr2312.html#abs-2312-16719</url>
+</article>
+</r>
+<r><article key="journals/arobots/BentzQP22" mdate="2022-11-13">
+<author orcid="0000-0001-5916-362X" pid="192/3220">William Bentz</author>
+<author pid="117/4249">Long Qian</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Expanding human visual field: online learning of assistive camera views by an aerial co-robot.</title>
+<pages>949-970</pages>
+<year>2022</year>
+<volume>46</volume>
+<journal>Auton. Robots</journal>
+<number>8</number>
+<ee>https://doi.org/10.1007/s10514-022-10059-4</ee>
+<url>db/journals/arobots/arobots46.html#BentzQP22</url>
+</article>
+</r>
+<r><article key="journals/automatica/GargAP22" mdate="2022-12-07">
+<author orcid="0000-0002-1895-4991" pid="206/7305">Kunal Garg</author>
+<author pid="202/3701">Ehsan Arabi</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Fixed-time control under spatiotemporal and input constraints: A Quadratic Programming based approach.</title>
+<pages>110314</pages>
+<year>2022</year>
+<volume>141</volume>
+<journal>Autom.</journal>
+<ee>https://doi.org/10.1016/j.automatica.2022.110314</ee>
+<url>db/journals/automatica/automatica141.html#GargAP22</url>
+</article>
+</r>
+<r><article key="journals/csysl/BreedenGP22" mdate="2021-07-13">
+<author orcid="0000-0002-7822-3146" pid="283/2481">Joseph Breeden</author>
+<author orcid="0000-0002-1895-4991" pid="206/7305">Kunal Garg</author>
+<author orcid="0000-0002-4547-167X" pid="71/8133">Dimitra Panagou</author>
+<title>Control Barrier Functions in Sampled-Data Systems.</title>
+<pages>367-372</pages>
+<year>2022</year>
+<volume>6</volume>
+<journal>IEEE Control. Syst. Lett.</journal>
+<ee>https://doi.org/10.1109/LCSYS.2021.3076127</ee>
+<url>db/journals/csysl/csysl6.html#BreedenGP22</url>
+</article>
+</r>
+<r><article key="journals/csysl/GargCRAP22" mdate="2021-09-16">
+<author orcid="0000-0002-1895-4991" pid="206/7305">Kunal Garg</author>
+<author orcid="0000-0002-4035-1425" pid="277/6306">Ryan K. Cosner</author>
+<author orcid="0000-0002-1682-0551" pid="186/8458">Ugo Rosolia</author>
+<author orcid="0000-0003-0848-3177" pid="39/1463">Aaron D. Ames</author>
+<author orcid="0000-0002-4547-167X" pid="71/8133">Dimitra Panagou</author>
+<title>Multi-Rate Control Design Under Input Constraints via Fixed-Time Barrier Functions.</title>
+<pages>608-613</pages>
+<year>2022</year>
+<volume>6</volume>
+<journal>IEEE Control. Syst. Lett.</journal>
+<ee>https://doi.org/10.1109/LCSYS.2021.3084322</ee>
+<url>db/journals/csysl/csysl6.html#GargCRAP22</url>
+</article>
+</r>
+<r><article key="journals/csysl/BreedenP22" mdate="2022-01-08">
+<author orcid="0000-0002-7822-3146" pid="283/2481">Joseph Breeden</author>
+<author orcid="0000-0002-4547-167X" pid="71/8133">Dimitra Panagou</author>
+<title>Guaranteed Safe Spacecraft Docking With Control Barrier Functions.</title>
+<pages>2000-2005</pages>
+<year>2022</year>
+<volume>6</volume>
+<journal>IEEE Control. Syst. Lett.</journal>
+<ee>https://doi.org/10.1109/LCSYS.2021.3136813</ee>
+<url>db/journals/csysl/csysl6.html#BreedenP22</url>
+</article>
+</r>
+<r><article key="journals/csysl/AgrawalPCRAP22" mdate="2022-01-21">
+<author orcid="0000-0002-0236-9077" pid="289/7256">Devansh Agrawal</author>
+<author orcid="0000-0001-5981-2108" pid="205/2501">Hardik Parwana</author>
+<author orcid="0000-0002-4035-1425" pid="277/6306">Ryan K. Cosner</author>
+<author orcid="0000-0002-1682-0551" pid="186/8458">Ugo Rosolia</author>
+<author orcid="0000-0003-0848-3177" pid="39/1463">Aaron D. Ames</author>
+<author orcid="0000-0002-4547-167X" pid="71/8133">Dimitra Panagou</author>
+<title>A Constructive Method for Designing Safe Multirate Controllers for Differentially-Flat Systems.</title>
+<pages>2138-2143</pages>
+<year>2022</year>
+<volume>6</volume>
+<journal>IEEE Control. Syst. Lett.</journal>
+<ee>https://doi.org/10.1109/LCSYS.2021.3136465</ee>
+<url>db/journals/csysl/csysl6.html#AgrawalPCRAP22</url>
+</article>
+</r>
+<r><article key="journals/tcns/ArabiP22" mdate="2023-01-15">
+<author orcid="0000-0002-6592-7734" pid="202/3701">Ehsan Arabi</author>
+<author orcid="0000-0002-4547-167X" pid="71/8133">Dimitra Panagou</author>
+<title>Adaptive Control of Second-Order Safety-Critical Multiagent Systems With Nonlinear Dynamics.</title>
+<pages>1911-1922</pages>
+<year>2022</year>
+<volume>9</volume>
+<journal>IEEE Trans. Control. Netw. Syst.</journal>
+<number>4</number>
+<ee>https://doi.org/10.1109/TCNS.2022.3181547</ee>
+<url>db/journals/tcns/tcns9.html#ArabiP22</url>
+</article>
+</r>
+<r><article key="journals/trob/UsevitchP22" mdate="2022-02-23">
+<author orcid="0000-0002-1230-7304" pid="207/7804">James Usevitch</author>
+<author orcid="0000-0002-4547-167X" pid="71/8133">Dimitra Panagou</author>
+<title>Resilient Trajectory Propagation in Multirobot Networks.</title>
+<pages>42-56</pages>
+<year>2022</year>
+<volume>38</volume>
+<journal>IEEE Trans. Robotics</journal>
+<number>1</number>
+<ee>https://doi.org/10.1109/TRO.2021.3127076</ee>
+<url>db/journals/trob/trob38.html#UsevitchP22</url>
+</article>
+</r>
+<r><inproceedings key="conf/amcc/GilbertCP22" mdate="2022-09-12">
+<author pid="328/7559">Alia Gilbert</author>
+<author pid="213/7456">Vishnu S. Chipade</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Robust Leader-Follower Formation Control for Human-Robot Scenarios.</title>
+<pages>641-646</pages>
+<year>2022</year>
+<booktitle>ACC</booktitle>
+<ee>https://doi.org/10.23919/ACC53348.2022.9867709</ee>
+<crossref>conf/amcc/2022</crossref>
+<url>db/conf/amcc/amcc2022.html#GilbertCP22</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/cdc/BreedenP22" mdate="2023-01-18">
+<author pid="283/2481">Joseph Breeden</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Predictive Control Barrier Functions for Online Safety Critical Control.</title>
+<pages>924-931</pages>
+<year>2022</year>
+<booktitle>CDC</booktitle>
+<ee>https://doi.org/10.1109/CDC51059.2022.9992926</ee>
+<crossref>conf/cdc/2022</crossref>
+<url>db/conf/cdc/cdc2022.html#BreedenP22</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/cdc/ParwanaMP22" mdate="2023-01-18">
+<author pid="205/2501">Hardik Parwana</author>
+<author pid="213/7489">Aquib Mustafa</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Trust-based Rate-Tunable Control Barrier Functions for Non-Cooperative Multi-Agent Systems.</title>
+<pages>2222-2229</pages>
+<year>2022</year>
+<booktitle>CDC</booktitle>
+<ee>https://doi.org/10.1109/CDC51059.2022.9992744</ee>
+<crossref>conf/cdc/2022</crossref>
+<url>db/conf/cdc/cdc2022.html#ParwanaMP22</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/icra/ParwanaP22" mdate="2022-07-20">
+<author pid="205/2501">Hardik Parwana</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Recursive Feasibility Guided Optimal Parameter Adaptation of Differential Convex Optimization Policies for Safety-Critical Systems.</title>
+<pages>6807-6813</pages>
+<year>2022</year>
+<booktitle>ICRA</booktitle>
+<ee>https://doi.org/10.1109/ICRA46639.2022.9812398</ee>
+<crossref>conf/icra/2022</crossref>
+<url>db/conf/icra/icra2022.html#ParwanaP22</url>
+</inproceedings>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2202-13833" mdate="2022-03-03">
+<author pid="289/1053">Mohit Tekriwal</author>
+<author pid="314/7124">Avi Tachna-Frame</author>
+<author pid="11/10454">Jean-Baptiste Jeannin</author>
+<author pid="23/6695">Manos Kapritsos</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Formally verified asymptotic consensus in robust networks.</title>
+<year>2022</year>
+<volume>abs/2202.13833</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://arxiv.org/abs/2202.13833</ee>
+<url>db/journals/corr/corr2202.html#abs-2202-13833</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2204-00127" mdate="2022-04-06">
+<author pid="262/3347">Mitchell Black</author>
+<author pid="07/6166">Mrdjan Jankovic</author>
+<author pid="52/4917">Abhishek Sharma</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Intersection Crossing with Future-Focused Control Barrier Functions.</title>
+<year>2022</year>
+<volume>abs/2204.00127</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2204.00127</ee>
+<url>db/journals/corr/corr2204.html#abs-2204-00127</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2204-00208" mdate="2022-04-06">
+<author pid="283/2481">Joseph Breeden</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Predictive Control Barrier Functions for Online Safety Critical Control.</title>
+<year>2022</year>
+<volume>abs/2204.00208</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2204.00208</ee>
+<url>db/journals/corr/corr2204.html#abs-2204-00208</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2204-04555" mdate="2022-04-13">
+<author pid="205/2501">Hardik Parwana</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Trust-based Rate-Tunable Control Barrier Functions for Non-Cooperative Multi-Agent Systems.</title>
+<year>2022</year>
+<volume>abs/2204.04555</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2204.04555</ee>
+<url>db/journals/corr/corr2204.html#abs-2204-04555</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2204-10453" mdate="2022-04-25">
+<author pid="262/3347">Mitchell Black</author>
+<author pid="202/3701">Ehsan Arabi</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Fixed-Time Parameter Adaptation for Safe Control Synthesis.</title>
+<year>2022</year>
+<volume>abs/2204.10453</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2204.10453</ee>
+<url>db/journals/corr/corr2204.html#abs-2204-10453</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2207-10275" mdate="2022-07-25">
+<author pid="213/7489">Aquib Mustafa</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Adversary Detection and Resilient Control for Multi-Agent Systems.</title>
+<year>2022</year>
+<volume>abs/2207.10275</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2207.10275</ee>
+<url>db/journals/corr/corr2207.html#abs-2207-10275</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2209-08170" mdate="2022-09-29">
+<author pid="262/3347">Mitchell Black</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Adaptation for Validation of a Consolidated Control Barrier Function based Control Synthesis.</title>
+<year>2022</year>
+<volume>abs/2209.08170</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2209.08170</ee>
+<url>db/journals/corr/corr2209.html#abs-2209-08170</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2209-12644" mdate="2022-10-06">
+<author pid="205/2501">Hardik Parwana</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>FORESEE: Model-based Reinforcement Learning using Unscented Transform with application to Tuning of Control Barrier Functions.</title>
+<year>2022</year>
+<volume>abs/2209.12644</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2209.12644</ee>
+<url>db/journals/corr/corr2209.html#abs-2209-12644</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2210-01354" mdate="2022-10-07">
+<author pid="283/2481">Joseph Breeden</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Compositions of Multiple Control Barrier Functions Under Input Constraints.</title>
+<year>2022</year>
+<volume>abs/2210.01354</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2210.01354</ee>
+<url>db/journals/corr/corr2210.html#abs-2210-01354</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2211-14361" mdate="2024-05-07">
+<author orcid="0000-0002-0236-9077" pid="289/7256">Devansh Agrawal</author>
+<author pid="334/3760">Ruichang Chen</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Gatekeeper: Safety Critical Control of Nonlinear Systems with Limited Perception in Unknown and Dynamic Environments.</title>
+<year>2022</year>
+<volume>abs/2211.14361</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2211.14361</ee>
+<url>db/journals/corr/corr2211.html#abs-2211-14361</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2211-14364" mdate="2024-05-07">
+<author orcid="0000-0002-0236-9077" pid="289/7256">Devansh R. Agrawal</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Safe and Robust Observer-Controller Synthesis using Control Barrier Functions.</title>
+<year>2022</year>
+<volume>abs/2211.14364</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2211.14364</ee>
+<url>db/journals/corr/corr2211.html#abs-2211-14364</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2212-00624" mdate="2022-12-08">
+<author pid="262/3347">Mitchell Black</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Safe Control Design for Unknown Nonlinear Systems with Koopman-based Fixed-Time Identification.</title>
+<year>2022</year>
+<volume>abs/2212.00624</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://doi.org/10.48550/arXiv.2212.00624</ee>
+<url>db/journals/corr/corr2212.html#abs-2212-00624</url>
+</article>
+</r>
+<r><article key="journals/csysl/BaranwalGPH21" mdate="2021-09-16">
+<author orcid="0000-0001-9354-2826" pid="69/10832">Mayank Baranwal</author>
+<author orcid="0000-0002-1895-4991" pid="206/7305">Kunal Garg</author>
+<author orcid="0000-0002-4547-167X" pid="71/8133">Dimitra Panagou</author>
+<author orcid="0000-0002-2531-9670" pid="h/AlfredOHeroIII">Alfred O. Hero III</author>
+<title>Robust Distributed Fixed-Time Economic Dispatch Under Time-Varying Topology.</title>
+<pages>1183-1188</pages>
+<year>2021</year>
+<volume>5</volume>
+<journal>IEEE Control. Syst. Lett.</journal>
+<number>4</number>
+<ee>https://doi.org/10.1109/LCSYS.2020.3020248</ee>
+<url>db/journals/csysl/csysl5.html#BaranwalGPH21</url>
+</article>
+</r>
+<r><article key="journals/firai/ChipadeMP21" mdate="2021-05-04">
+<author pid="213/7456">Vishnu S. Chipade</author>
+<author pid="291/4890">Venkata Sai Aditya Marella</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Aerial Swarm Defense by StringNet Herding: Theory and Experiments.</title>
+<pages>640446</pages>
+<year>2021</year>
+<volume>8</volume>
+<journal>Frontiers Robotics AI</journal>
+<ee type="oa">https://doi.org/10.3389/frobt.2021.640446</ee>
+<url>db/journals/firai/firai8.html#ChipadeMP21</url>
+</article>
+</r>
+<r><article key="journals/tac/GargP21" mdate="2021-07-25">
+<author orcid="0000-0002-1895-4991" pid="206/7305">Kunal Garg</author>
+<author orcid="0000-0002-4547-167X" pid="71/8133">Dimitra Panagou</author>
+<title>Fixed-Time Stable Gradient Flows: Applications to Continuous-Time Optimization.</title>
+<pages>2002-2015</pages>
+<year>2021</year>
+<volume>66</volume>
+<journal>IEEE Trans. Autom. Control.</journal>
+<number>5</number>
+<ee>https://doi.org/10.1109/TAC.2020.3001436</ee>
+<url>db/journals/tac/tac66.html#GargP21</url>
+</article>
+</r>
+<r><article key="journals/trob/ChipadeP21" mdate="2021-12-15">
+<author orcid="0000-0002-3330-3521" pid="213/7456">Vishnu S. Chipade</author>
+<author orcid="0000-0002-4547-167X" pid="71/8133">Dimitra Panagou</author>
+<title>Multiagent Planning and Control for Swarm Herding in 2-D Obstacle Environments Under Bounded Inputs.</title>
+<pages>1956-1972</pages>
+<year>2021</year>
+<volume>37</volume>
+<journal>IEEE Trans. Robotics</journal>
+<number>6</number>
+<ee>https://doi.org/10.1109/TRO.2021.3072026</ee>
+<url>db/journals/trob/trob37.html#ChipadeP21</url>
+</article>
+</r>
+<r><inproceedings key="conf/amcc/UsevitchP21" mdate="2021-07-30">
+<author pid="207/7804">James Usevitch</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Adversarial Resilience for Sampled-Data Systems using Control Barrier Function Methods.</title>
+<pages>758-763</pages>
+<year>2021</year>
+<booktitle>ACC</booktitle>
+<ee>https://doi.org/10.23919/ACC50511.2021.9482659</ee>
+<crossref>conf/amcc/2021</crossref>
+<url>db/conf/amcc/amcc2021.html#UsevitchP21</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/amcc/ArabiPY21" mdate="2021-07-30">
+<author pid="202/3701">Ehsan Arabi</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<author pid="98/11046">Tansel Yucelen</author>
+<title>Adaptive Active-Passive Networked Multiagent Systems.</title>
+<pages>1113-1118</pages>
+<year>2021</year>
+<booktitle>ACC</booktitle>
+<ee>https://doi.org/10.23919/ACC50511.2021.9483258</ee>
+<crossref>conf/amcc/2021</crossref>
+<url>db/conf/amcc/amcc2021.html#ArabiPY21</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/amcc/GargP21" mdate="2021-10-14">
+<author orcid="0000-0002-1895-4991" pid="206/7305">Kunal Garg</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Characterization of Domain of Fixed-time Stability under Control Input Constraints.</title>
+<pages>2272-2277</pages>
+<year>2021</year>
+<booktitle>ACC</booktitle>
+<ee>https://doi.org/10.23919/ACC50511.2021.9482780</ee>
+<crossref>conf/amcc/2021</crossref>
+<url>db/conf/amcc/amcc2021.html#GargP21</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/amcc/GargP21a" mdate="2021-10-14">
+<author orcid="0000-0002-1895-4991" pid="206/7305">Kunal Garg</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Robust Control Barrier and Control Lyapunov Functions with Fixed-Time Convergence Guarantees.</title>
+<pages>2292-2297</pages>
+<year>2021</year>
+<booktitle>ACC</booktitle>
+<ee>https://doi.org/10.23919/ACC50511.2021.9482751</ee>
+<crossref>conf/amcc/2021</crossref>
+<url>db/conf/amcc/amcc2021.html#GargP21a</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/amcc/ZhangCP21" mdate="2021-07-30">
+<author pid="166/9364">Weifan Zhang</author>
+<author pid="213/7456">Vishnu S. Chipade</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Herding an Adversarial Swarm in Three-dimensional Spaces.</title>
+<pages>4722-4728</pages>
+<year>2021</year>
+<booktitle>ACC</booktitle>
+<ee>https://doi.org/10.23919/ACC50511.2021.9482990</ee>
+<crossref>conf/amcc/2021</crossref>
+<url>db/conf/amcc/amcc2021.html#ZhangCP21</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/cdc/HaydonMKPCMV21" mdate="2022-02-08">
+<author pid="271/6532">Ben Haydon</author>
+<author pid="202/3743">Kirti D. Mishra</author>
+<author pid="310/4315">Patrick Keyantuo</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<author pid="248/5640">Fotini K. Chow</author>
+<author pid="79/10668">Scott J. Moura</author>
+<author pid="49/7138">Chris Vermillion</author>
+<title>Dynamic Coverage Meets Regret: Unifying Two Control Performance Measures for Mobile Agents in Spatiotemporally Varying Environments.</title>
+<pages>521-526</pages>
+<year>2021</year>
+<booktitle>CDC</booktitle>
+<ee>https://doi.org/10.1109/CDC45484.2021.9682826</ee>
+<crossref>conf/cdc/2021</crossref>
+<url>db/conf/cdc/cdc2021.html#HaydonMKPCMV21</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/cdc/GargP21" mdate="2022-12-07">
+<author orcid="0000-0002-1895-4991" pid="206/7305">Kunal Garg</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Finite-Time Stabilization of Switched Systems with Unstable Modes.</title>
+<pages>3924-3929</pages>
+<year>2021</year>
+<booktitle>CDC</booktitle>
+<ee>https://doi.org/10.1109/CDC45484.2021.9683332</ee>
+<crossref>conf/cdc/2021</crossref>
+<url>db/conf/cdc/cdc2021.html#GargP21</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/cdc/AgrawalP21" mdate="2024-05-07">
+<author orcid="0000-0002-0236-9077" pid="289/7256">Devansh R. Agrawal</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Safe Control Synthesis via Input Constrained Control Barrier Functions.</title>
+<pages>6113-6118</pages>
+<year>2021</year>
+<booktitle>CDC</booktitle>
+<ee>https://doi.org/10.1109/CDC45484.2021.9682938</ee>
+<crossref>conf/cdc/2021</crossref>
+<url>db/conf/cdc/cdc2021.html#AgrawalP21</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/cdc/BreedenP21" mdate="2022-02-08">
+<author pid="283/2481">Joseph Breeden</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>High Relative Degree Control Barrier Functions Under Input Constraints.</title>
+<pages>6119-6124</pages>
+<year>2021</year>
+<booktitle>CDC</booktitle>
+<ee>https://doi.org/10.1109/CDC45484.2021.9683705</ee>
+<crossref>conf/cdc/2021</crossref>
+<url>db/conf/cdc/cdc2021.html#BreedenP21</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/eucc/BlackAP21" mdate="2022-01-07">
+<author pid="262/3347">Mitchell Black</author>
+<author pid="202/3701">Ehsan Arabi</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>A Fixed-Time Stable Adaptation Law for Safety-Critical Control under Parametric Uncertainty.</title>
+<pages>1328-1333</pages>
+<year>2021</year>
+<booktitle>ECC</booktitle>
+<ee>https://doi.org/10.23919/ECC54610.2021.9655080</ee>
+<crossref>conf/eucc/2021</crossref>
+<url>db/conf/eucc/eucc2021.html#BlackAP21</url>
+</inproceedings>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2103-03677" mdate="2021-03-16">
+<author pid="283/2481">Joseph Breeden</author>
+<author pid="206/7305">Kunal Garg</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Control Barrier Functions in Sampled-Data Systems.</title>
+<year>2021</year>
+<volume>abs/2103.03677</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://arxiv.org/abs/2103.03677</ee>
+<url>db/journals/corr/corr2103.html#abs-2103-03677</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2103-03695" mdate="2021-03-15">
+<author pid="206/7305">Kunal Garg</author>
+<author pid="277/6306">Ryan K. Cosner</author>
+<author pid="186/8458">Ugo Rosolia</author>
+<author pid="39/1463">Aaron D. Ames</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Multi-rate Control Design under Input Constraints via Fixed-Time Barrier Functions.</title>
+<year>2021</year>
+<volume>abs/2103.03695</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://arxiv.org/abs/2103.03695</ee>
+<url>db/journals/corr/corr2103.html#abs-2103-03695</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2104-01704" mdate="2021-04-13">
+<author pid="289/7256">Devansh Agrawal</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Safe Control Synthesis via Input Constrained Control Barrier Functions.</title>
+<year>2021</year>
+<volume>abs/2104.01704</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://arxiv.org/abs/2104.01704</ee>
+<url>db/journals/corr/corr2104.html#abs-2104-01704</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2106-10345" mdate="2021-07-01">
+<author pid="283/2481">Joseph Breeden</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>High Relative Degree Control Barrier Functions Under Input Constraints.</title>
+<year>2021</year>
+<volume>abs/2106.10345</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://arxiv.org/abs/2106.10345</ee>
+<url>db/journals/corr/corr2106.html#abs-2106-10345</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2107-04094" mdate="2021-07-20">
+<author pid="283/2481">Joseph Breeden</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Robust Control Barrier Functions under High Relative Degree and Input Constraints for Satellite Trajectories.</title>
+<year>2021</year>
+<volume>abs/2107.04094</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://arxiv.org/abs/2107.04094</ee>
+<url>db/journals/corr/corr2107.html#abs-2107-04094</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2109-07027" mdate="2021-09-22">
+<author pid="283/2481">Joseph Breeden</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Guaranteed Safe Spacecraft Docking with Control Barrier Functions.</title>
+<year>2021</year>
+<volume>abs/2109.07027</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://arxiv.org/abs/2109.07027</ee>
+<url>db/journals/corr/corr2109.html#abs-2109-07027</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2109-10949" mdate="2021-09-27">
+<author pid="205/2501">Hardik Parwana</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Recursive Feasibility Guided Optimal Parameter Adaptation of Differential Convex Optimization Policies for Safety-Critical Systems.</title>
+<year>2021</year>
+<volume>abs/2109.10949</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://arxiv.org/abs/2109.10949</ee>
+<url>db/journals/corr/corr2109.html#abs-2109-10949</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2112-12098" mdate="2022-01-04">
+<author pid="213/7456">Vishnu S. Chipade</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>IDCAIS: Inter-Defender Collision-Aware Interception Strategy against Multiple Attackers.</title>
+<year>2021</year>
+<volume>abs/2112.12098</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://arxiv.org/abs/2112.12098</ee>
+<url>db/journals/corr/corr2112.html#abs-2112-12098</url>
+</article>
+</r>
+<r><article key="journals/automatica/UsevitchP20" mdate="2020-02-20">
+<author pid="207/7804">James Usevitch</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Determining r- and (r, s)-robustness of digraphs using mixed integer linear programming.</title>
+<year>2020</year>
+<volume>111</volume>
+<journal>Autom.</journal>
+<ee>https://doi.org/10.1016/j.automatica.2019.108586</ee>
+<url>db/journals/automatica/automatica111.html#UsevitchP20</url>
+</article>
+</r>
+<r><article key="journals/tac/UsevitchP20" mdate="2020-06-30">
+<author orcid="0000-0002-1230-7304" pid="207/7804">James Usevitch</author>
+<author orcid="0000-0002-4547-167X" pid="71/8133">Dimitra Panagou</author>
+<title>Resilient Leader-Follower Consensus to Arbitrary Reference Values in Time-Varying Graphs.</title>
+<pages>1755-1762</pages>
+<year>2020</year>
+<volume>65</volume>
+<journal>IEEE Trans. Autom. Control.</journal>
+<number>4</number>
+<ee>https://doi.org/10.1109/TAC.2019.2934954</ee>
+<url>db/journals/tac/tac65.html#UsevitchP20</url>
+</article>
+</r>
+<r><article key="journals/tac/PanagouTK20" mdate="2020-08-26">
+<author orcid="0000-0002-4547-167X" pid="71/8133">Dimitra Panagou</author>
+<author orcid="0000-0003-0324-8602" pid="72/11504">Matthew Turpin</author>
+<author orcid="0000-0002-3902-9391" pid="k/VijayKumar-1">Vijay Kumar 0001</author>
+<title>Decentralized Goal Assignment and Safe Trajectory Generation in Multirobot Networks via Multiple Lyapunov Functions.</title>
+<pages>3365-3380</pages>
+<year>2020</year>
+<volume>65</volume>
+<journal>IEEE Trans. Autom. Control.</journal>
+<number>8</number>
+<ee>https://doi.org/10.1109/TAC.2019.2946333</ee>
+<url>db/journals/tac/tac65.html#PanagouTK20</url>
+</article>
+</r>
+<r><inproceedings key="conf/amcc/RadmaneshWCTP20" mdate="2021-10-14">
+<author pid="271/6747">Reza Radmanesh</author>
+<author pid="130/5386">Ziyin Wang</author>
+<author orcid="0000-0002-3330-3521" pid="213/7456">Vishnu S. Chipade</author>
+<author pid="t/GTsechpenakis">Gavriil Tsechpenakis</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>LIV-LAM: LiDAR and Visual Localization and Mapping.</title>
+<pages>659-664</pages>
+<year>2020</year>
+<booktitle>ACC</booktitle>
+<ee>https://doi.org/10.23919/ACC45564.2020.9148037</ee>
+<crossref>conf/amcc/2020</crossref>
+<url>db/conf/amcc/amcc2020.html#RadmaneshWCTP20</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/amcc/GargAP20" mdate="2020-10-25">
+<author orcid="0000-0002-1895-4991" pid="206/7305">Kunal Garg</author>
+<author pid="202/3701">Ehsan Arabi</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Prescribed-time Convergence with Input Constraints: A Control Lyapunov Function Based Approach.</title>
+<pages>962-967</pages>
+<year>2020</year>
+<booktitle>ACC</booktitle>
+<ee>https://doi.org/10.23919/ACC45564.2020.9147641</ee>
+<crossref>conf/amcc/2020</crossref>
+<url>db/conf/amcc/amcc2020.html#GargAP20</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/amcc/ArabiGP20" mdate="2020-10-25">
+<author pid="202/3701">Ehsan Arabi</author>
+<author orcid="0000-0002-1895-4991" pid="206/7305">Kunal Garg</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Safety-Critical Adaptive Control with Nonlinear Reference Model Systems.</title>
+<pages>1749-1754</pages>
+<year>2020</year>
+<booktitle>ACC</booktitle>
+<ee>https://doi.org/10.23919/ACC45564.2020.9147999</ee>
+<crossref>conf/amcc/2020</crossref>
+<url>db/conf/amcc/amcc2020.html#ArabiGP20</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/amcc/UsevitchP20" mdate="2020-08-05">
+<author pid="207/7804">James Usevitch</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Resilient Finite-Time Consensus: A Discontinuous Systems Perspective.</title>
+<pages>3285-3290</pages>
+<year>2020</year>
+<booktitle>ACC</booktitle>
+<ee>https://doi.org/10.23919/ACC45564.2020.9147904</ee>
+<crossref>conf/amcc/2020</crossref>
+<url>db/conf/amcc/amcc2020.html#UsevitchP20</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/cdc/BreedenP20" mdate="2021-01-19">
+<author pid="283/2481">Joseph Breeden</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Quadratic Programs for High Relative Degree Spatial Constraints and Spatiotemporal Specifications with Spacecraft Applications.</title>
+<pages>1496-1502</pages>
+<year>2020</year>
+<booktitle>CDC</booktitle>
+<ee>https://doi.org/10.1109/CDC42340.2020.9304162</ee>
+<crossref>conf/cdc/2020</crossref>
+<url>db/conf/cdc/cdc2020.html#BreedenP20</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/cdc/UsevitchGP20" mdate="2021-04-09">
+<author pid="207/7804">James Usevitch</author>
+<author orcid="0000-0002-1895-4991" pid="206/7305">Kunal Garg</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Strong Invariance Using Control Barrier Functions: A Clarke Tangent Cone Approach.</title>
+<pages>2044-2049</pages>
+<year>2020</year>
+<booktitle>CDC</booktitle>
+<ee>https://doi.org/10.1109/CDC42340.2020.9303873</ee>
+<crossref>conf/cdc/2020</crossref>
+<url>db/conf/cdc/cdc2020.html#UsevitchGP20</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/cdc/BlackGP20" mdate="2021-04-09">
+<author pid="262/3347">Mitchell Black</author>
+<author orcid="0000-0002-1895-4991" pid="206/7305">Kunal Garg</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>A Quadratic Program based Control Synthesis under Spatiotemporal Constraints and Non-vanishing Disturbances.</title>
+<pages>2726-2731</pages>
+<year>2020</year>
+<booktitle>CDC</booktitle>
+<ee>https://doi.org/10.1109/CDC42340.2020.9304071</ee>
+<crossref>conf/cdc/2020</crossref>
+<url>db/conf/cdc/cdc2020.html#BlackGP20</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/cdc/GargBP20" mdate="2021-04-09">
+<author orcid="0000-0002-1895-4991" pid="206/7305">Kunal Garg</author>
+<author pid="69/10832">Mayank Baranwal</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>A Fixed-Time Convergent Distributed Algorithm for Strongly Convex Functions in a Time-Varying Network.</title>
+<pages>4405-4410</pages>
+<year>2020</year>
+<booktitle>CDC</booktitle>
+<ee>https://doi.org/10.1109/CDC42340.2020.9303778</ee>
+<crossref>conf/cdc/2020</crossref>
+<url>db/conf/cdc/cdc2020.html#GargBP20</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/cdc/ChipadeP20" mdate="2021-10-14">
+<author orcid="0000-0002-3330-3521" pid="213/7456">Vishnu S. Chipade</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Multi-Swarm Herding: Protecting against Adversarial Swarms.</title>
+<pages>5374-5379</pages>
+<year>2020</year>
+<booktitle>CDC</booktitle>
+<ee>https://doi.org/10.1109/CDC42340.2020.9303837</ee>
+<crossref>conf/cdc/2020</crossref>
+<url>db/conf/cdc/cdc2020.html#ChipadeP20</url>
+</inproceedings>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2002-00040" mdate="2020-02-12">
+<author pid="207/7804">James Usevitch</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Resilient Finite Time Consensus: A Discontinuous Systems Perspective.</title>
+<year>2020</year>
+<volume>abs/2002.00040</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://arxiv.org/abs/2002.00040</ee>
+<url>db/journals/corr/corr2002.html#abs-2002-00040</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2004-01054" mdate="2020-04-08">
+<author pid="206/7305">Kunal Garg</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Distributed Robust Control Synthesis for Safety and Fixed-Time Stability in Multi-Agent Systems.</title>
+<year>2020</year>
+<volume>abs/2004.01054</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://arxiv.org/abs/2004.01054</ee>
+<url>db/journals/corr/corr2004.html#abs-2004-01054</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2004-01169" mdate="2020-04-08">
+<author pid="262/3347">Mitchell Black</author>
+<author pid="206/7305">Kunal Garg</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>A Quadratic Program based Control Synthesis under Spatiotemporal Constraints and Non-vanishing Disturbances.</title>
+<year>2020</year>
+<volume>abs/2004.01169</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://arxiv.org/abs/2004.01169</ee>
+<url>db/journals/corr/corr2004.html#abs-2004-01169</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2004-01540" mdate="2020-04-08">
+<author pid="206/7305">Kunal Garg</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Characterization of Domain of Fixed-time Stability under Control Input Constraints.</title>
+<year>2020</year>
+<volume>abs/2004.01540</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://arxiv.org/abs/2004.01540</ee>
+<url>db/journals/corr/corr2004.html#abs-2004-01540</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2007-04406" mdate="2020-07-20">
+<author pid="166/9364">Weifan Zhang</author>
+<author pid="213/7456">Vishnu S. Chipade</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Herding an Adversarial Swarm in Three-dimensional Spaces.</title>
+<year>2020</year>
+<volume>abs/2007.04406</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://arxiv.org/abs/2007.04406</ee>
+<url>db/journals/corr/corr2007.html#abs-2007-04406</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2007-04407" mdate="2020-07-20">
+<author pid="213/7456">Vishnu S. Chipade</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Multi-Swarm Herding: Protecting against Adversarial Swarms.</title>
+<year>2020</year>
+<volume>abs/2007.04407</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://arxiv.org/abs/2007.04407</ee>
+<url>db/journals/corr/corr2007.html#abs-2007-04407</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2007-05155" mdate="2020-07-20">
+<author pid="213/7456">Vishnu S. Chipade</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Approximate Time-Optimal Trajectories for Damped Double Integrator in 2D Obstacle Environments under Bounded Inputs.</title>
+<year>2020</year>
+<volume>abs/2007.05155</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://arxiv.org/abs/2007.05155</ee>
+<url>db/journals/corr/corr2007.html#abs-2007-05155</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2010-02412" mdate="2020-10-12">
+<author pid="202/3701">Ehsan Arabi</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<author pid="98/11046">Tansel Yucelen</author>
+<title>Adaptive Active-Passive Networked Multiagent Systems.</title>
+<year>2020</year>
+<volume>abs/2010.02412</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://arxiv.org/abs/2010.02412</ee>
+<url>db/journals/corr/corr2010.html#abs-2010-02412</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-2011-12362" mdate="2020-12-01">
+<author pid="262/3347">Mitchell Black</author>
+<author pid="202/3701">Ehsan Arabi</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>A Fixed-Time Stable Adaptation Law for Safety-Critical Control under Parametric Uncertainty.</title>
+<year>2020</year>
+<volume>abs/2011.12362</volume>
+<journal>CoRR</journal>
+<ee type="oa">https://arxiv.org/abs/2011.12362</ee>
+<url>db/journals/corr/corr2011.html#abs-2011-12362</url>
+</article>
+</r>
+<r><article key="journals/automatica/BentzP19" mdate="2020-02-20">
+<author pid="192/3220">William Bentz</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>A hybrid approach to persistent coverage in stochastic environments.</title>
+<year>2019</year>
+<volume>109</volume>
+<journal>Autom.</journal>
+<ee>https://doi.org/10.1016/j.automatica.2019.108554</ee>
+<url>db/journals/automatica/automatica109.html#BentzP19</url>
+</article>
+</r>
+<r><article key="journals/tac/HanP19" mdate="2020-05-20">
+<author orcid="0000-0003-0336-9818" pid="116/3559">Dongkun Han</author>
+<author orcid="0000-0002-4547-167X" pid="71/8133">Dimitra Panagou</author>
+<title>Robust Multitask Formation Control via Parametric Lyapunov-Like Barrier Functions.</title>
+<pages>4439-4453</pages>
+<year>2019</year>
+<volume>64</volume>
+<journal>IEEE Trans. Autom. Control.</journal>
+<number>11</number>
+<ee>https://doi.org/10.1109/TAC.2019.2894587</ee>
+<url>db/journals/tac/tac64.html#HanP19</url>
+</article>
+</r>
+<r><article key="journals/tcns/RastgoftarAP19" mdate="2020-04-09">
+<author orcid="0000-0001-9212-7161" pid="158/5552">Hossein Rastgoftar</author>
+<author orcid="0000-0003-2132-6256" pid="78/6551">Ella M. Atkins</author>
+<author orcid="0000-0002-4547-167X" pid="71/8133">Dimitra Panagou</author>
+<title>Safe Multiquadcopter System Continuum Deformation Over Moving Frames.</title>
+<pages>737-749</pages>
+<year>2019</year>
+<volume>6</volume>
+<journal>IEEE Trans. Control. Netw. Syst.</journal>
+<number>2</number>
+<ee>https://doi.org/10.1109/TCNS.2018.2873204</ee>
+<url>db/journals/tcns/tcns6.html#RastgoftarAP19</url>
+</article>
+</r>
+<r><inproceedings key="conf/amcc/ChipadeP19" mdate="2021-10-14">
+<author orcid="0000-0002-3330-3521" pid="213/7456">Vishnu S. Chipade</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Herding an Adversarial Attacker to a Safe Area for Defending Safety-Critical Infrastructure.</title>
+<pages>1035-1041</pages>
+<year>2019</year>
+<booktitle>ACC</booktitle>
+<ee>https://doi.org/10.23919/ACC.2019.8814380</ee>
+<crossref>conf/amcc/2019</crossref>
+<url>db/conf/amcc/acc2019.html#ChipadeP19</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/amcc/UsevitchP19" mdate="2021-08-08">
+<author pid="207/7804">James Usevitch</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Determining r-Robustness of Digraphs Using Mixed Integer Linear Programming.</title>
+<pages>2257-2263</pages>
+<year>2019</year>
+<booktitle>ACC</booktitle>
+<ee>https://doi.org/10.23919/ACC.2019.8814405</ee>
+<crossref>conf/amcc/2019</crossref>
+<url>db/conf/amcc/acc2019.html#UsevitchP19</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/ccta/SahinLRPYO19" mdate="2022-12-07">
+<author pid="180/7181">Yunus Emre Sahin</author>
+<author pid="27/7775">Zexiang Liu</author>
+<author pid="224/0076">Kwesi J. Rutledge</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<author pid="135/6093">Sze Zheng Yong</author>
+<author orcid="0000-0002-5552-4392" pid="09/2955">Necmiye Ozay</author>
+<title>Intention-Aware Supervisory Control with Driving Safety Applications.</title>
+<pages>1-8</pages>
+<year>2019</year>
+<booktitle>CCTA</booktitle>
+<ee>https://doi.org/10.1109/CCTA.2019.8920426</ee>
+<crossref>conf/ccta/2019</crossref>
+<url>db/conf/ccta/ccta2019.html#SahinLRPYO19</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/cdc/GargP19" mdate="2020-10-25">
+<author orcid="0000-0002-1895-4991" pid="206/7305">Kunal Garg</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Control-Lyapunov and Control-Barrier Functions based Quadratic Program for Spatio-temporal Specifications.</title>
+<pages>1422-1429</pages>
+<year>2019</year>
+<booktitle>CDC</booktitle>
+<ee>https://doi.org/10.1109/CDC40024.2019.9029666</ee>
+<crossref>conf/cdc/2019</crossref>
+<url>db/conf/cdc/cdc2019.html#GargP19</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/cdc/ChipadeP19" mdate="2021-10-14">
+<author orcid="0000-0002-3330-3521" pid="213/7456">Vishnu S. Chipade</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Herding an Adversarial Swarm in an Obstacle Environment.</title>
+<pages>3685-3690</pages>
+<year>2019</year>
+<booktitle>CDC</booktitle>
+<ee>https://doi.org/10.1109/CDC40024.2019.9029573</ee>
+<crossref>conf/cdc/2019</crossref>
+<url>db/conf/cdc/cdc2019.html#ChipadeP19</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/cdc/UsevitchP19" mdate="2020-04-27">
+<author pid="207/7804">James Usevitch</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Resilient Leader-Follower Consensus with Time-Varying Leaders in Discrete-Time Systems.</title>
+<pages>5432-5437</pages>
+<year>2019</year>
+<booktitle>CDC</booktitle>
+<ee>https://doi.org/10.1109/CDC40024.2019.9030246</ee>
+<crossref>conf/cdc/2019</crossref>
+<url>db/conf/cdc/cdc2019.html#UsevitchP19</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/cdc/HuangP19" mdate="2020-04-27">
+<author pid="03/1547">Lixing Huang</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>A predictive vector-field based lane-changing controller.</title>
+<pages>5748-5753</pages>
+<year>2019</year>
+<booktitle>CDC</booktitle>
+<ee>https://doi.org/10.1109/CDC40024.2019.9029640</ee>
+<crossref>conf/cdc/2019</crossref>
+<url>db/conf/cdc/cdc2019.html#HuangP19</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/eucc/BobadePK19" mdate="2022-10-02">
+<author pid="192/3029">Parag Bobade</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<author orcid="0000-0002-9042-5146" pid="77/501">Andrew J. Kurdila</author>
+<title>Multi-agent adaptive estimation with consensus in reproducing kernel Hilbert spaces.</title>
+<pages>572-577</pages>
+<year>2019</year>
+<booktitle>ECC</booktitle>
+<ee>https://doi.org/10.23919/ECC.2019.8796214</ee>
+<crossref>conf/eucc/2019</crossref>
+<url>db/conf/eucc/eucc2019.html#BobadePK19</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/eucc/ChipadeSHOYP19" mdate="2022-12-07">
+<author orcid="0000-0002-3330-3521" pid="213/7456">Vishnu S. Chipade</author>
+<author pid="181/2747-3">Qiang Shen 0003</author>
+<author pid="03/1547">Lixing Huang</author>
+<author orcid="0000-0002-5552-4392" pid="09/2955">Necmiye Ozay</author>
+<author pid="135/6093">Sze Zheng Yong</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Safe Autonomous Overtaking with Intention Estimation.</title>
+<pages>2050-2057</pages>
+<year>2019</year>
+<booktitle>ECC</booktitle>
+<ee>https://doi.org/10.23919/ECC.2019.8795715</ee>
+<crossref>conf/eucc/2019</crossref>
+<url>db/conf/eucc/eucc2019.html#ChipadeSHOYP19</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/icra/BentzDP19" mdate="2019-08-13">
+<author pid="192/3220">William Bentz</author>
+<author pid="246/7745">Sahib Dhanjal</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Unsupervised Learning of Assistive Camera Views by an Aerial Co-robot in Augmented Reality Multitasking Environments.</title>
+<pages>3003-3009</pages>
+<year>2019</year>
+<booktitle>ICRA</booktitle>
+<ee>https://doi.org/10.1109/ICRA.2019.8793587</ee>
+<crossref>conf/icra/2019</crossref>
+<url>db/conf/icra/icra2019.html#BentzDP19</url>
+</inproceedings>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-1901-08513" mdate="2019-02-02">
+<author pid="206/7305">Kunal Garg</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Finite-Time Stability of Switched and Hybrid Systems.</title>
+<year>2019</year>
+<volume>abs/1901.08513</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1901.08513</ee>
+<url>db/journals/corr/corr1901.html#abs-1901-08513</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-1901-11000" mdate="2019-02-03">
+<author pid="207/7804">James Usevitch</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Determining r- and (r, s)-Robustness of Digraphs Using Mixed Integer Linear Programming.</title>
+<year>2019</year>
+<volume>abs/1901.11000</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1901.11000</ee>
+<url>db/journals/corr/corr1901.html#abs-1901-11000</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-1903-06365" mdate="2019-04-01">
+<author pid="213/7456">Vishnu S. Chipade</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Herding an Adversarial Attacker to a Safe Area for Defending Safety-Critical Infrastructure.</title>
+<year>2019</year>
+<volume>abs/1903.06365</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1903.06365</ee>
+<url>db/journals/corr/corr1903.html#abs-1903-06365</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-1903-06972" mdate="2019-04-02">
+<author pid="206/7305">Kunal Garg</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Control-Lyapunov and Control-Barrier Functions based Quadratic Program for Spatio-temporal Specifications.</title>
+<year>2019</year>
+<volume>abs/1903.06972</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1903.06972</ee>
+<url>db/journals/corr/corr1903.html#abs-1903-06972</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-1903-06974" mdate="2019-04-01">
+<author pid="206/7305">Kunal Garg</author>
+<author pid="202/3701">Ehsan Arabi</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Prescribed-time convergence with input constraints: A control Lyapunov function based approach.</title>
+<year>2019</year>
+<volume>abs/1903.06974</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1903.06974</ee>
+<url>db/journals/corr/corr1903.html#abs-1903-06974</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-1903-09658" mdate="2019-04-01">
+<author pid="192/3220">William Bentz</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>A Hybrid Approach to Persistent Coverage in Stochastic Environments.</title>
+<year>2019</year>
+<volume>abs/1903.09658</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1903.09658</ee>
+<url>db/journals/corr/corr1903.html#abs-1903-09658</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-1905-10472" mdate="2019-06-03">
+<author pid="69/10832">Mayank Baranwal</author>
+<author pid="206/7305">Kunal Garg</author>
+<author pid="h/AlfredOHeroIII">Alfred O. Hero III</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Distributed Optimization in Fixed-Time.</title>
+<year>2019</year>
+<volume>abs/1905.10472</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1905.10472</ee>
+<url>db/journals/corr/corr1905.html#abs-1905-10472</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-1906-08254" mdate="2019-06-24">
+<author pid="207/7804">James Usevitch</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Resilient Leader-Follower Consensus with Time-Varying Leaders in Discrete-Time Systems.</title>
+<year>2019</year>
+<volume>abs/1906.08254</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1906.08254</ee>
+<url>db/journals/corr/corr1906.html#abs-1906-08254</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-1906-08925" mdate="2019-06-24">
+<author pid="213/7456">Vishnu S. Chipade</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>StringNet: Herding Adversarial Swarm in Obstacle Environment.</title>
+<year>2019</year>
+<volume>abs/1906.08925</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1906.08925</ee>
+<url>db/journals/corr/corr1906.html#abs-1906-08925</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-1906-09096" mdate="2019-06-24">
+<author pid="207/7804">James Usevitch</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Resilient Leader-Follower Consensus to Arbitrary Reference Values in Time-Varying Graphs.</title>
+<year>2019</year>
+<volume>abs/1906.09096</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1906.09096</ee>
+<url>db/journals/corr/corr1906.html#abs-1906-09096</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-1906-09109" mdate="2019-06-24">
+<author pid="206/7305">Kunal Garg</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Finite-Time Stability of Hybrid Systems: A Multiple Generalized Lyapunov Functions Approach.</title>
+<year>2019</year>
+<volume>abs/1906.09109</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1906.09109</ee>
+<url>db/journals/corr/corr1906.html#abs-1906-09109</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-1906-10091" mdate="2019-06-28">
+<author pid="206/7305">Kunal Garg</author>
+<author pid="202/3701">Ehsan Arabi</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Prescribed-time control under spatiotemporal and input constraints: A QP based approach.</title>
+<year>2019</year>
+<volume>abs/1906.10091</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1906.10091</ee>
+<url>db/journals/corr/corr1906.html#abs-1906-10091</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-1909-07916" mdate="2021-01-23">
+<author orcid="0000-0002-6592-7734" pid="202/3701">Ehsan Arabi</author>
+<author pid="206/7305">Kunal Garg</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Safety-Critical Adaptive Control with Nonlinear Reference Model Systems.</title>
+<year>2019</year>
+<volume>abs/1909.07916</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1909.07916</ee>
+<url>db/journals/corr/corr1909.html#abs-1909-07916</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-1910-14214" mdate="2019-11-04">
+<author pid="69/10832">Mayank Baranwal</author>
+<author pid="206/7305">Kunal Garg</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<author pid="h/AlfredOHeroIII">Alfred O. Hero III</author>
+<title>Distributed Fixed-Time Economic Dispatch under Time-Varying Topology and Uncertain Information.</title>
+<year>2019</year>
+<volume>abs/1910.14214</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1910.14214</ee>
+<url>db/journals/corr/corr1910.html#abs-1910-14214</url>
+</article>
+</r>
+<r><article key="journals/arobots/BentzHBP18" mdate="2018-03-17">
+<author orcid="0000-0001-5916-362X" pid="192/3220">William Bentz</author>
+<author pid="202/5944">Tru Hoang</author>
+<author pid="202/5824">Enkhmurun Bayasgalan</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Complete 3-D dynamic coverage in energy-constrained multi-UAV sensor networks.</title>
+<pages>825-851</pages>
+<year>2018</year>
+<volume>42</volume>
+<journal>Auton. Robots</journal>
+<number>4</number>
+<ee>https://doi.org/10.1007/s10514-017-9661-x</ee>
+<url>db/journals/arobots/arobots42.html#BentzHBP18</url>
+</article>
+</r>
+<r><article key="journals/tcst/MaJWP18" mdate="2020-06-08">
+<author pid="217/7848">Xiaobai Ma</author>
+<author pid="217/7660">Ziyuan Jiao</author>
+<author pid="217/7808">Zhenkai Wang</author>
+<author orcid="0000-0002-4547-167X" pid="71/8133">Dimitra Panagou</author>
+<title>3-D Decentralized Prioritized Motion Planning and Coordination for High-Density Operations of Micro Aerial Vehicles.</title>
+<pages>939-953</pages>
+<year>2018</year>
+<volume>26</volume>
+<journal>IEEE Trans. Control. Syst. Technol.</journal>
+<number>3</number>
+<ee>https://doi.org/10.1109/TCST.2017.2699165</ee>
+<url>db/journals/tcst/tcst26.html#MaJWP18</url>
+</article>
+</r>
+<r><inproceedings key="conf/amcc/GargP18" mdate="2018-11-02">
+<author orcid="0000-0002-1895-4991" pid="206/7305">Kunal Garg</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>New Results on Finite-Time Stability: Geometric Conditions and Finite-Time Controllers.</title>
+<pages>442-447</pages>
+<year>2018</year>
+<booktitle>ACC</booktitle>
+<ee>https://doi.org/10.23919/ACC.2018.8431699</ee>
+<crossref>conf/amcc/2018</crossref>
+<url>db/conf/amcc/acc2018.html#GargP18</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/amcc/UsevitchP18" mdate="2018-08-17">
+<author pid="207/7804">James Usevitch</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Resilient Leader-Follower Consensus to Arbitrary Reference Values.</title>
+<pages>1292-1298</pages>
+<year>2018</year>
+<booktitle>ACC</booktitle>
+<ee>https://doi.org/10.23919/ACC.2018.8431573</ee>
+<crossref>conf/amcc/2018</crossref>
+<url>db/conf/amcc/acc2018.html#UsevitchP18</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/amcc/BentzP18" mdate="2018-08-17">
+<author pid="192/3220">William Bentz</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Energy-aware Persistent Coverage and Intruder Interception in 3D Dynamic Environments.</title>
+<pages>4426-4433</pages>
+<year>2018</year>
+<booktitle>ACC</booktitle>
+<ee>https://doi.org/10.23919/ACC.2018.8431191</ee>
+<crossref>conf/amcc/2018</crossref>
+<url>db/conf/amcc/acc2018.html#BentzP18</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/amcc/HanHP18" mdate="2018-08-17">
+<author pid="116/3559">Dongkun Han</author>
+<author pid="03/1547">Lixing Huang</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Approximating the Region of Multi-Task Coordination via the Optimal Lyapunov-Like Barrier Function.</title>
+<pages>5070-5075</pages>
+<year>2018</year>
+<booktitle>ACC</booktitle>
+<ee>https://doi.org/10.23919/ACC.2018.8431021</ee>
+<crossref>conf/amcc/2018</crossref>
+<url>db/conf/amcc/acc2018.html#HanHP18</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/cdc/UsevitchGP18" mdate="2019-09-25">
+<author pid="207/7804">James Usevitch</author>
+<author orcid="0000-0002-1895-4991" pid="206/7305">Kunal Garg</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Finite-Time Resilient Formation Control with Bounded Inputs.</title>
+<pages>2567-2574</pages>
+<year>2018</year>
+<booktitle>CDC</booktitle>
+<ee>https://doi.org/10.1109/CDC.2018.8619697</ee>
+<crossref>conf/cdc/2018</crossref>
+<url>db/conf/cdc/cdc2018.html#UsevitchGP18</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/dars/HuangP18" mdate="2019-03-05">
+<author pid="03/1547">Lixing Huang</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Hierarchical Design of Highway Merging Controller Using Navigation Vector Fields Under Bounded Sensing Uncertainty.</title>
+<pages>341-356</pages>
+<year>2018</year>
+<booktitle>DARS</booktitle>
+<ee>https://doi.org/10.1007/978-3-030-05816-6_24</ee>
+<crossref>conf/dars/2018</crossref>
+<url>db/conf/dars/dars2018.html#HuangP18</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/iros/BentzP18" mdate="2019-01-10">
+<author pid="192/3220">William Bentz</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Bayesian-inferred Flexible Path Generation in Human-Robot Collaborative Networks.</title>
+<pages>1816-1822</pages>
+<year>2018</year>
+<booktitle>IROS</booktitle>
+<ee>https://doi.org/10.1109/IROS.2018.8593611</ee>
+<crossref>conf/iros/2018</crossref>
+<url>db/conf/iros/iros2018.html#BentzP18</url>
+</inproceedings>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-1802-08151" mdate="2018-08-13">
+<author pid="206/7305">Kunal Garg</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>New Results on Finite-Time Stability: Geometric Conditions and Finite-Time Controllers.</title>
+<year>2018</year>
+<volume>abs/1802.08151</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1802.08151</ee>
+<url>db/journals/corr/corr1802.html#abs-1802-08151</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-1802-09654" mdate="2018-08-13">
+<author pid="207/7804">James Usevitch</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Resilient Leader-Follower Consensus to Arbitrary Reference Values.</title>
+<year>2018</year>
+<volume>abs/1802.09654</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1802.09654</ee>
+<url>db/journals/corr/corr1802.html#abs-1802-09654</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-1802-09921" mdate="2018-08-13">
+<author pid="116/3559">Dongkun Han</author>
+<author pid="03/1547">Lixing Huang</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Approximating the Region of Multi-Task Coordination via the Optimal Lyapunov-Like Barrier Function.</title>
+<year>2018</year>
+<volume>abs/1802.09921</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1802.09921</ee>
+<url>db/journals/corr/corr1802.html#abs-1802-09921</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-1805-01551" mdate="2018-08-13">
+<author pid="207/7804">James Usevitch</author>
+<author pid="206/7305">Kunal Garg</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Finite-Time Resilient Formation Control with Bounded Inputs.</title>
+<year>2018</year>
+<volume>abs/1805.01551</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1805.01551</ee>
+<url>db/journals/corr/corr1805.html#abs-1805-01551</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-1806-07328" mdate="2018-08-13">
+<author pid="206/7305">Kunal Garg</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Hybrid Coordination and Control for Multiagent Systems with Input Constraints.</title>
+<year>2018</year>
+<volume>abs/1806.07328</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1806.07328</ee>
+<url>db/journals/corr/corr1806.html#abs-1806-07328</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-1810-01784" mdate="2018-10-30">
+<author pid="207/7804">James Usevitch</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Determining r-Robustness of Arbitrary Digraphs Using Zero-One Linear Integer Programming.</title>
+<year>2018</year>
+<volume>abs/1810.01784</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1810.01784</ee>
+<url>db/journals/corr/corr1810.html#abs-1810-01784</url>
+</article>
+</r>
+<r><article key="journals/tac/Panagou17" mdate="2020-05-20">
+<author pid="71/8133">Dimitra Panagou</author>
+<title>A Distributed Feedback Motion Planning Protocol for Multiple Unicycle Agents of Different Classes.</title>
+<pages>1178-1193</pages>
+<year>2017</year>
+<volume>62</volume>
+<journal>IEEE Trans. Autom. Control.</journal>
+<number>3</number>
+<ee>https://doi.org/10.1109/TAC.2016.2576020</ee>
+<url>db/journals/tac/tac62.html#Panagou17</url>
+</article>
+</r>
+<r><article key="journals/tcns/PanagouSV17" mdate="2023-03-21">
+<author pid="71/8133">Dimitra Panagou</author>
+<author orcid="0000-0002-2826-5241" pid="73/4418">Dusan M. Stipanovic</author>
+<author pid="22/1421">Petros G. Voulgaris</author>
+<title>Distributed Dynamic Coverage and Avoidance Control Under Anisotropic Sensing.</title>
+<pages>850-862</pages>
+<year>2017</year>
+<volume>4</volume>
+<journal>IEEE Trans. Control. Netw. Syst.</journal>
+<number>4</number>
+<ee>https://doi.org/10.1109/TCNS.2016.2576403</ee>
+<url>db/journals/tcns/tcns4.html#PanagouSV17</url>
+</article>
+</r>
+<r><inproceedings key="conf/amcc/HuangP17a" mdate="2017-07-07">
+<author pid="03/1547">Lixing Huang</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Automated turning and merging for autonomous vehicles using a Nonlinear Model Predictive Control approach.</title>
+<pages>5525-5531</pages>
+<year>2017</year>
+<booktitle>ACC</booktitle>
+<ee>https://doi.org/10.23919/ACC.2017.7963814</ee>
+<crossref>conf/amcc/2017</crossref>
+<url>db/conf/amcc/acc2017.html#HuangP17a</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/amcc/HoangBWTP17" mdate="2019-07-29">
+<author pid="202/5944">Tru Hoang</author>
+<author pid="202/5824">Enkhmurun Bayasgalan</author>
+<author pid="130/5386">Ziyin Wang</author>
+<author pid="t/GTsechpenakis">Gavriil Tsechpenakis</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Vision-based target tracking and autonomous landing of a quadrotor on a ground vehicle.</title>
+<pages>5580-5585</pages>
+<year>2017</year>
+<booktitle>ACC</booktitle>
+<ee>https://doi.org/10.23919/ACC.2017.7963823</ee>
+<ee>https://www.wikidata.org/entity/Q64430567</ee>
+<crossref>conf/amcc/2017</crossref>
+<url>db/conf/amcc/acc2017.html#HoangBWTP17</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/cdc/BentzP17" mdate="2018-01-24">
+<author pid="192/3220">William Bentz</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Persistent coverage of a two-dimensional manifold subject to time-varying disturbances.</title>
+<pages>387-392</pages>
+<year>2017</year>
+<booktitle>CDC</booktitle>
+<ee>https://doi.org/10.1109/CDC.2017.8263695</ee>
+<crossref>conf/cdc/2017</crossref>
+<url>db/conf/cdc/cdc2017.html#BentzP17</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/cdc/HanP17" mdate="2018-01-24">
+<author pid="116/3559">Dongkun Han</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Distributed multi-task formation control under parametric communication uncertainties.</title>
+<pages>405-410</pages>
+<year>2017</year>
+<booktitle>CDC</booktitle>
+<ee>https://doi.org/10.1109/CDC.2017.8263698</ee>
+<crossref>conf/cdc/2017</crossref>
+<url>db/conf/cdc/cdc2017.html#HanP17</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/cdc/HanP17a" mdate="2018-01-24">
+<author pid="116/3559">Dongkun Han</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Chebyshev approximation and higher order derivatives of Lyapunov functions for estimating the domain of attraction.</title>
+<pages>1181-1186</pages>
+<year>2017</year>
+<booktitle>CDC</booktitle>
+<ee>https://doi.org/10.1109/CDC.2017.8263816</ee>
+<crossref>conf/cdc/2017</crossref>
+<url>db/conf/cdc/cdc2017.html#HanP17a</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/cdc/CoonP17" mdate="2018-01-24">
+<author pid="213/2802">Mitchell Coon</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Control strategies for multiplayer target-attacker-defender differential games with double integrator dynamics.</title>
+<pages>1496-1502</pages>
+<year>2017</year>
+<booktitle>CDC</booktitle>
+<ee>https://doi.org/10.1109/CDC.2017.8263864</ee>
+<crossref>conf/cdc/2017</crossref>
+<url>db/conf/cdc/cdc2017.html#CoonP17</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/cdc/GargHP17" mdate="2018-11-30">
+<author orcid="0000-0002-1895-4991" pid="206/7305">Kunal Garg</author>
+<author pid="116/3559">Dongkun Han</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Robust semi-cooperative multi-agent coordination in the presence of stochastic disturbances.</title>
+<pages>3443-3448</pages>
+<year>2017</year>
+<booktitle>CDC</booktitle>
+<ee>https://doi.org/10.1109/CDC.2017.8264163</ee>
+<crossref>conf/cdc/2017</crossref>
+<url>db/conf/cdc/cdc2017.html#GargHP17</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/cdc/UsevitchP17" mdate="2018-01-24">
+<author pid="207/7804">James Usevitch</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>r-Robustness and (r, s)-robustness of circulant graphs.</title>
+<pages>4416-4421</pages>
+<year>2017</year>
+<booktitle>CDC</booktitle>
+<ee>https://doi.org/10.1109/CDC.2017.8264310</ee>
+<crossref>conf/cdc/2017</crossref>
+<url>db/conf/cdc/cdc2017.html#UsevitchP17</url>
+</inproceedings>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-1709-00615" mdate="2018-08-13">
+<author pid="116/3559">Dongkun Han</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Distributed Multi-task Formation Control under Parametric Communication Uncertainties.</title>
+<year>2017</year>
+<volume>abs/1709.00615</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1709.00615</ee>
+<url>db/journals/corr/corr1709.html#abs-1709-00615</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-1709-01586" mdate="2018-08-13">
+<author pid="206/7305">Kunal Garg</author>
+<author pid="116/3559">Dongkun Han</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Robust Semi-Cooperative Multi-Agent Coordination in the Presence of Stochastic Disturbances.</title>
+<year>2017</year>
+<volume>abs/1709.01586</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1709.01586</ee>
+<url>db/journals/corr/corr1709.html#abs-1709-01586</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-1709-05236" mdate="2018-08-13">
+<author pid="116/3559">Dongkun Han</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Chebyshev Approximation and Higher Order Derivatives of Lyapunov Functions for Estimating the Domain of Attraction.</title>
+<year>2017</year>
+<volume>abs/1709.05236</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1709.05236</ee>
+<url>db/journals/corr/corr1709.html#abs-1709-05236</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/abs-1710-01990" mdate="2018-08-13">
+<author pid="207/7804">James Usevitch</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>r-Robustness and (r, s)-Robustness of Circulant Graphs.</title>
+<year>2017</year>
+<volume>abs/1710.01990</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1710.01990</ee>
+<url>db/journals/corr/corr1710.html#abs-1710-01990</url>
+</article>
+</r>
+<r><article key="journals/tac/PanagouSV16" mdate="2023-03-21">
+<author pid="71/8133">Dimitra Panagou</author>
+<author orcid="0000-0002-2826-5241" pid="73/4418">Dusan M. Stipanovic</author>
+<author pid="22/1421">Petros G. Voulgaris</author>
+<title>Distributed Coordination Control for Multi-Robot Networks Using Lyapunov-Like Barrier Functions.</title>
+<pages>617-632</pages>
+<year>2016</year>
+<volume>61</volume>
+<journal>IEEE Trans. Autom. Control.</journal>
+<number>3</number>
+<ee>https://doi.org/10.1109/TAC.2015.2444131</ee>
+<ee>https://www.wikidata.org/entity/Q56416794</ee>
+<url>db/journals/tac/tac61.html#PanagouSV16</url>
+</article>
+</r>
+<r><inproceedings key="conf/amcc/DingGSCP16" mdate="2023-09-30">
+<author pid="59/622">Wei Ding</author>
+<author pid="138/9824">Madan Ravi Ganesh</author>
+<author pid="202/3566">Robert N. Severinghaus</author>
+<author orcid="0000-0001-6454-9594" pid="68/2447">Jason J. Corso</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Real-time model predictive control for keeping a quadrotor visible on the camera field-of-view of a ground robot.</title>
+<pages>2259-2264</pages>
+<year>2016</year>
+<booktitle>ACC</booktitle>
+<ee>https://doi.org/10.1109/ACC.2016.7525254</ee>
+<crossref>conf/amcc/2016</crossref>
+<url>db/conf/amcc/acc2016.html#DingGSCP16</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/cdc/BentzP16" mdate="2017-05-19">
+<author pid="192/3220">William Bentz</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>An energy-aware redistribution method for multi-agent dynamic coverage networks.</title>
+<pages>2644-2651</pages>
+<year>2016</year>
+<booktitle>CDC</booktitle>
+<ee>https://doi.org/10.1109/CDC.2016.7798661</ee>
+<crossref>conf/cdc/2016</crossref>
+<url>db/conf/cdc/cdc2016.html#BentzP16</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/eucc/HegdeP16" mdate="2017-05-23">
+<author pid="12/10043">Rashmi Hegde</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Multi-agent motion planning and coordination in polygonal environments using vector fields and model predictive control.</title>
+<pages>1856-1861</pages>
+<year>2016</year>
+<booktitle>ECC</booktitle>
+<ee>https://doi.org/10.1109/ECC.2016.7810561</ee>
+<crossref>conf/eucc/2016</crossref>
+<url>db/conf/eucc/eucc2016.html#HegdeP16</url>
+</inproceedings>
+</r>
+<r><article key="journals/firai/PanagouSV15" mdate="2023-03-21">
+<author pid="71/8133">Dimitra Panagou</author>
+<author orcid="0000-0002-2826-5241" pid="73/4418">Dusan M. Stipanovic</author>
+<author pid="22/1421">Petros G. Voulgaris</author>
+<title>Dynamic Coverage Control in Unicycle Multi-Robot Networks under Anisotropic Sensing.</title>
+<year>2015</year>
+<volume>2</volume>
+<journal>Frontiers Robotics AI</journal>
+<ee type="oa">https://doi.org/10.3389/frobt.2015.00003</ee>
+<ee>https://www.wikidata.org/entity/Q58643434</ee>
+<url>db/journals/firai/firai2.html#PanagouSV15</url>
+<pages>3</pages>
+</article>
+</r>
+<r><inproceedings key="conf/cdc/Panagou15" mdate="2017-05-19">
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Distributed coordination protocols for aggregation and navigation in multi-agent systems under local directed interactions.</title>
+<pages>2780-2785</pages>
+<year>2015</year>
+<booktitle>CDC</booktitle>
+<ee>https://doi.org/10.1109/CDC.2015.7402637</ee>
+<crossref>conf/cdc/2015</crossref>
+<url>db/conf/cdc/cdc2015.html#Panagou15</url>
+</inproceedings>
+</r>
+<r><article key="journals/ijcon/PanagouK14" mdate="2017-11-06">
+<author pid="71/8133">Dimitra Panagou</author>
+<author orcid="0000-0002-1229-3029" pid="k/KKyriakopoulos">Kostas J. Kyriakopoulos</author>
+<title>Dynamic positioning for an underactuated marine vehicle using hybrid control.</title>
+<pages>264-280</pages>
+<year>2014</year>
+<volume>87</volume>
+<journal>Int. J. Control</journal>
+<number>2</number>
+<ee>https://doi.org/10.1080/00207179.2013.828853</ee>
+<url>db/journals/ijcon/ijcon87.html#PanagouK14</url>
+</article>
+</r>
+<r><article key="journals/trob/PanagouK14" mdate="2017-05-20">
+<author pid="71/8133">Dimitra Panagou</author>
+<author pid="k/VijayKumar-1">Vijay Kumar 0001</author>
+<title>Cooperative Visibility Maintenance for Leader-Follower Formations in Obstacle Environments.</title>
+<pages>831-844</pages>
+<year>2014</year>
+<volume>30</volume>
+<journal>IEEE Trans. Robotics</journal>
+<number>4</number>
+<ee>https://doi.org/10.1109/TRO.2014.2304774</ee>
+<url>db/journals/trob/trob30.html#PanagouK14</url>
+</article>
+</r>
+<r><inproceedings key="conf/cdc/PanagouSV14" mdate="2023-03-21">
+<author pid="71/8133">Dimitra Panagou</author>
+<author orcid="0000-0002-2826-5241" pid="73/4418">Dusan M. Stipanovic</author>
+<author pid="22/1421">Petros G. Voulgaris</author>
+<title>Vision-based dynamic coverage control for nonholonomic agents.</title>
+<pages>2198-2203</pages>
+<year>2014</year>
+<booktitle>CDC</booktitle>
+<ee>https://doi.org/10.1109/CDC.2014.7039724</ee>
+<crossref>conf/cdc/2014</crossref>
+<url>db/conf/cdc/cdc2014.html#PanagouSV14</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/icra/Panagou14" mdate="2017-05-22">
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Motion planning and collision avoidance using navigation vector fields.</title>
+<pages>2513-2518</pages>
+<year>2014</year>
+<booktitle>ICRA</booktitle>
+<ee>https://doi.org/10.1109/ICRA.2014.6907210</ee>
+<crossref>conf/icra/2014</crossref>
+<url>db/conf/icra/icra2014.html#Panagou14</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/icra/PanagouTK14" mdate="2017-05-22">
+<author pid="71/8133">Dimitra Panagou</author>
+<author pid="72/11504">Matthew Turpin</author>
+<author pid="k/VijayKumar-1">Vijay Kumar 0001</author>
+<title>Decentralized goal assignment and trajectory generation in multi-robot networks: A multiple Lyapunov functions approach.</title>
+<pages>6757-6762</pages>
+<year>2014</year>
+<booktitle>ICRA</booktitle>
+<ee>https://doi.org/10.1109/ICRA.2014.6907857</ee>
+<crossref>conf/icra/2014</crossref>
+<url>db/conf/icra/icra2014.html#PanagouTK14</url>
+</inproceedings>
+</r>
+<r><article publtype="informal" key="journals/corr/PanagouTK14" mdate="2018-08-13">
+<author pid="71/8133">Dimitra Panagou</author>
+<author pid="72/11504">Matthew Turpin</author>
+<author pid="k/VijayKumar-1">Vijay Kumar 0001</author>
+<title>Decentralized Goal Assignment and Trajectory Generation in Multi-Robot Networks.</title>
+<year>2014</year>
+<volume>abs/1402.3735</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1402.3735</ee>
+<url>db/journals/corr/corr1402.html#PanagouTK14</url>
+</article>
+</r>
+<r><article publtype="informal" key="journals/corr/Panagou14" mdate="2018-08-13">
+<author pid="71/8133">Dimitra Panagou</author>
+<title>Motion planning and Collision Avoidance using Non-Gradient Vector Fields - Technical Report.</title>
+<year>2014</year>
+<volume>abs/1404.5828</volume>
+<journal>CoRR</journal>
+<ee type="oa">http://arxiv.org/abs/1404.5828</ee>
+<url>db/journals/corr/corr1404.html#Panagou14</url>
+</article>
+</r>
+<r><article key="journals/automatica/PanagouK13" mdate="2020-02-20">
+<author pid="71/8133">Dimitra Panagou</author>
+<author orcid="0000-0002-1229-3029" pid="k/KKyriakopoulos">Kostas J. Kyriakopoulos</author>
+<title>Viability control for a class of underactuated systems.</title>
+<pages>17-29</pages>
+<year>2013</year>
+<volume>49</volume>
+<journal>Autom.</journal>
+<number>1</number>
+<ee>https://doi.org/10.1016/j.automatica.2012.09.002</ee>
+<url>db/journals/automatica/automatica49.html#PanagouK13</url>
+</article>
+</r>
+<r><inproceedings key="conf/amcc/ManiatopoulosPK13" mdate="2021-08-08">
+<author pid="151/9679">Spyros Maniatopoulos</author>
+<author pid="71/8133">Dimitra Panagou</author>
+<author pid="k/KKyriakopoulos">Kostas J. Kyriakopoulos</author>
+<title>Model Predictive Control for the navigation of a nonholonomic vehicle with field-of-view constraints.</title>
+<pages>3967-3972</pages>
+<year>2013</year>
+<booktitle>ACC</booktitle>
+<ee>https://doi.org/10.1109/ACC.2013.6580446</ee>
+<crossref>conf/amcc/2013</crossref>
+<url>db/conf/amcc/acc2013.html#ManiatopoulosPK13</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/cdc/PanagouSV13" mdate="2023-03-21">
+<author pid="71/8133">Dimitra Panagou</author>
+<author orcid="0000-0002-2826-5241" pid="73/4418">Dusan M. Stipanovic</author>
+<author pid="22/1421">Petros G. Voulgaris</author>
+<title>Multi-objective control for multi-agent systems using Lyapunov-like barrier functions.</title>
+<pages>1478-1483</pages>
+<year>2013</year>
+<booktitle>CDC</booktitle>
+<ee>https://doi.org/10.1109/CDC.2013.6760091</ee>
+<crossref>conf/cdc/2013</crossref>
+<url>db/conf/cdc/cdc2013.html#PanagouSV13</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/icra/PanagouK13" mdate="2017-11-06">
+<author pid="71/8133">Dimitra Panagou</author>
+<author orcid="0000-0002-1229-3029" pid="k/KKyriakopoulos">Kostas J. Kyriakopoulos</author>
+<title>Cooperative formation control of underactuated marine vehicles for target surveillance under sensing and communication constraints.</title>
+<pages>1871-1876</pages>
+<year>2013</year>
+<booktitle>ICRA</booktitle>
+<ee>https://doi.org/10.1109/ICRA.2013.6630824</ee>
+<crossref>conf/icra/2013</crossref>
+<url>db/conf/icra/icra2013.html#PanagouK13</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/icra/PanagouK12" mdate="2017-05-22">
+<author pid="71/8133">Dimitra Panagou</author>
+<author pid="k/VijayKumar-1">Vijay Kumar 0001</author>
+<title>Maintaining visibility for leader-follower formations in obstacle environments.</title>
+<pages>1811-1816</pages>
+<year>2012</year>
+<booktitle>ICRA</booktitle>
+<ee>https://doi.org/10.1109/ICRA.2012.6224893</ee>
+<crossref>conf/icra/2012</crossref>
+<url>db/conf/icra/icra2012.html#PanagouK12</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/cdc/PanagouTK11" mdate="2021-02-11">
+<author pid="71/8133">Dimitra Panagou</author>
+<author pid="70/969">Herbert G. Tanner</author>
+<author orcid="0000-0002-1229-3029" pid="k/KKyriakopoulos">Kostas J. Kyriakopoulos</author>
+<title>Control of nonholonomic systems using reference vector fields.</title>
+<pages>2831-2836</pages>
+<year>2011</year>
+<booktitle>CDC/ECC</booktitle>
+<ee>https://doi.org/10.1109/CDC.2011.6160922</ee>
+<crossref>conf/cdc/2011</crossref>
+<url>db/conf/cdc/cdc2011.html#PanagouTK11</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/cdc/PanagouK11" mdate="2021-02-11">
+<author pid="71/8133">Dimitra Panagou</author>
+<author orcid="0000-0002-1229-3029" pid="k/KKyriakopoulos">Kostas J. Kyriakopoulos</author>
+<title>Control of underactuated systems with viability constraints.</title>
+<pages>5497-5502</pages>
+<year>2011</year>
+<booktitle>CDC/ECC</booktitle>
+<ee>https://doi.org/10.1109/CDC.2011.6160925</ee>
+<crossref>conf/cdc/2011</crossref>
+<url>db/conf/cdc/cdc2011.html#PanagouK11</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/icra/PanagouK11" mdate="2017-11-06">
+<author pid="71/8133">Dimitra Panagou</author>
+<author orcid="0000-0002-1229-3029" pid="k/KKyriakopoulos">Kostas J. Kyriakopoulos</author>
+<title>Switching control approach for the robust practical stabilization of a unicycle-like marine vehicle under non-vanishing perturbations.</title>
+<pages>1525-1530</pages>
+<year>2011</year>
+<booktitle>ICRA</booktitle>
+<ee>https://doi.org/10.1109/ICRA.2011.5979747</ee>
+<crossref>conf/icra/2011</crossref>
+<url>db/conf/icra/icra2011.html#PanagouK11</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/icra/PanagouTK10" mdate="2017-11-06">
+<author pid="71/8133">Dimitra Panagou</author>
+<author pid="70/969">Herbert G. Tanner</author>
+<author orcid="0000-0002-1229-3029" pid="k/KKyriakopoulos">Kostas J. Kyriakopoulos</author>
+<title>Dipole-like fields for stabilization of systems with Pfaffian constraints.</title>
+<pages>4499-4504</pages>
+<year>2010</year>
+<booktitle>ICRA</booktitle>
+<ee>https://doi.org/10.1109/ROBOT.2010.5509296</ee>
+<crossref>conf/icra/2010</crossref>
+<url>db/conf/icra/icra2010.html#PanagouTK10</url>
+</inproceedings>
+</r>
+<r><inproceedings key="conf/cdc/PanagouMSLK09" mdate="2017-11-06">
+<author pid="71/8133">Dimitra Panagou</author>
+<author pid="89/8131">Kostas Margellos</author>
+<author pid="64/5008">Sean Summers</author>
+<author pid="51/2754">John Lygeros</author>
+<author orcid="0000-0002-1229-3029" pid="k/KKyriakopoulos">Kostas J. Kyriakopoulos</author>
+<title>A viability approach for the stabilization of an underactuated underwater vehicle in the presence of current disturbances.</title>
+<pages>8612-8617</pages>
+<year>2009</year>
+<booktitle>CDC</booktitle>
+<ee>https://doi.org/10.1109/CDC.2009.5400954</ee>
+<crossref>conf/cdc/2009</crossref>
+<url>db/conf/cdc/cdc2009.html#PanagouMSLK09</url>
+</inproceedings>
+</r>
+<coauthors n="87" nc="5">
+<co c="0" n="2"><na f="a/Agrawal:Devansh" pid="289/7256">Devansh Agrawal</na><na>Devansh R. Agrawal</na></co>
+<co c="0"><na f="a/Ames:Aaron_D=" pid="39/1463">Aaron D. Ames</na></co>
+<co c="0"><na f="a/Arabi:Ehsan" pid="202/3701">Ehsan Arabi</na></co>
+<co c="0"><na f="a/Atkins:Ella_M=" pid="78/6551">Ella M. Atkins</na></co>
+<co c="0"><na f="b/Baranwal:Mayank" pid="69/10832">Mayank Baranwal</na></co>
+<co c="0"><na f="b/Bayasgalan:Enkhmurun" pid="202/5824">Enkhmurun Bayasgalan</na></co>
+<co c="0"><na f="b/Bentz:William" pid="192/3220">William Bentz</na></co>
+<co c="0"><na f="b/Black:Mitchell" pid="262/3347">Mitchell Black</na></co>
+<co c="2"><na f="b/Bobade:Parag" pid="192/3029">Parag Bobade</na></co>
+<co c="0"><na f="b/Breeden:Joseph" pid="283/2481">Joseph Breeden</na></co>
+<co c="0"><na f="c/Chen:Ruichang" pid="334/3760">Ruichang Chen</na></co>
+<co c="0"><na f="c/Chipade:Vishnu_S=" pid="213/7456">Vishnu S. Chipade</na></co>
+<co c="0"><na f="c/Chow:Fotini_K=" pid="248/5640">Fotini K. Chow</na></co>
+<co c="-1"><na f="c/Coon:Mitchell" pid="213/2802">Mitchell Coon</na></co>
+<co c="0"><na f="c/Corso:Jason_J=" pid="68/2447">Jason J. Corso</na></co>
+<co c="0"><na f="c/Cosner:Ryan_K=" pid="277/6306">Ryan K. Cosner</na></co>
+<co c="0"><na f="d/Dang:An" pid="207/5287">An Dang</na></co>
+<co c="0"><na f="d/Dhanjal:Sahib" pid="246/7745">Sahib Dhanjal</na></co>
+<co c="0"><na f="d/Ding:Wei" pid="59/622">Wei Ding</na></co>
+<co c="0"><na f="f/Fainekos:Georgios" pid="34/4314">Georgios Fainekos</na></co>
+<co c="0"><na f="g/Ganesh:Madan_Ravi" pid="138/9824">Madan Ravi Ganesh</na></co>
+<co c="0"><na f="g/Garg:Kunal" pid="206/7305">Kunal Garg</na></co>
+<co c="0"><na f="g/Gilbert:Alia" pid="328/7559">Alia Gilbert</na></co>
+<co c="0"><na f="g/Govindjee:Rajiv" pid="368/3278">Rajiv Govindjee</na></co>
+<co c="0"><na f="h/Han:Dongkun" pid="116/3559">Dongkun Han</na></co>
+<co c="0"><na f="h/Harari:Daniel" pid="35/383">Daniel Harari</na></co>
+<co c="0"><na f="h/Haydon:Ben" pid="271/6532">Ben Haydon</na></co>
+<co c="-1"><na f="h/Hegde:Rashmi" pid="12/10043">Rashmi Hegde</na></co>
+<co c="0"><na f="h/Hero_III:Alfred_O=" pid="h/AlfredOHeroIII">Alfred O. Hero III</na></co>
+<co c="0"><na f="h/Hoang:Tru" pid="202/5944">Tru Hoang</na></co>
+<co c="0"><na f="h/Hoxha:Bardh" pid="121/3956">Bardh Hoxha</na></co>
+<co c="0"><na f="h/Huang:Lixing" pid="03/1547">Lixing Huang</na></co>
+<co c="0"><na f="j/Jankovic:Mrdjan" pid="07/6166">Mrdjan Jankovic</na></co>
+<co c="0"><na f="j/Jeannin:Jean=Baptiste" pid="11/10454">Jean-Baptiste Jeannin</na></co>
+<co c="1"><na f="j/Jiao:Ziyuan" pid="217/7660">Ziyuan Jiao</na></co>
+<co c="0"><na f="k/Kapritsos:Manos" pid="23/6695">Manos Kapritsos</na></co>
+<co c="4"><na f="k/Kee:Robin_Inho" pid="375/4476">Robin Inho Kee</na></co>
+<co c="0"><na f="k/Keyantuo:Patrick" pid="310/4315">Patrick Keyantuo</na></co>
+<co c="4"><na f="k/Kim:Taekyung" pid="58/1619">Taekyung Kim</na></co>
+<co c="0"><na f="k/Kumar:Rahul" pid="92/5081">Rahul Kumar</na></co>
+<co c="0"><na f="k/Kumar_0001:Vijay" pid="k/VijayKumar-1">Vijay Kumar 0001</na></co>
+<co c="2" n="2"><na f="k/Kurdila:Andrew" pid="77/501">Andrew Kurdila</na><na>Andrew J. Kurdila</na></co>
+<co c="0"><na f="k/Kyriakopoulos:Kostas_J=" pid="k/KKyriakopoulos">Kostas J. Kyriakopoulos</na></co>
+<co c="-1"><na f="l/Lee:Haejoon" pid="188/3856">Haejoon Lee</na></co>
+<co c="0"><na f="l/Liu:Zexiang" pid="27/7775">Zexiang Liu</na></co>
+<co c="0"><na f="l/Lygeros:John" pid="51/2754">John Lygeros</na></co>
+<co c="1"><na f="m/Ma:Xiaobai" pid="217/7848">Xiaobai Ma</na></co>
+<co c="0"><na f="m/Maniatopoulos:Spyros" pid="151/9679">Spyros Maniatopoulos</na></co>
+<co c="0"><na f="m/Marella:Venkata_Sai_Aditya" pid="291/4890">Venkata Sai Aditya Marella</na></co>
+<co c="0"><na f="m/Margellos:Kostas" pid="89/8131">Kostas Margellos</na></co>
+<co c="0" n="2"><na f="m/Mishra:Kirti_Deo" pid="202/3743">Kirti Deo Mishra</na><na>Kirti D. Mishra</na></co>
+<co c="0"><na f="m/Moura:Scott_J=" pid="79/10668">Scott J. Moura</na></co>
+<co c="0"><na f="m/Mustafa:Aquib" pid="213/7489">Aquib Mustafa</na></co>
+<co c="0"><na f="n/Naveed:Kaleb_Ben" pid="278/2732">Kaleb Ben Naveed</na></co>
+<co c="0"><na f="o/Okamoto:Hideki" pid="34/9235">Hideki Okamoto</na></co>
+<co c="0"><na f="o/Ozay:Necmiye" pid="09/2955">Necmiye Ozay</na></co>
+<co c="0"><na f="p/Parwana:Hardik" pid="205/2501">Hardik Parwana</na></co>
+<co c="0"><na f="p/Prokhorov:Danil_V=" pid="74/5147">Danil V. Prokhorov</na></co>
+<co c="0"><na f="q/Qian:Long" pid="117/4249">Long Qian</na></co>
+<co c="0"><na f="r/Radmanesh:Reza" pid="271/6747">Reza Radmanesh</na></co>
+<co c="0"><na f="r/Rastgoftar:Hossein" pid="158/5552">Hossein Rastgoftar</na></co>
+<co c="0"><na f="r/Ravikumar:Anurekha" pid="368/3911">Anurekha Ravikumar</na></co>
+<co c="0"><na f="r/Rosolia:Ugo" pid="186/8458">Ugo Rosolia</na></co>
+<co c="0"><na f="r/Rutledge:Kwesi_J=" pid="224/0076">Kwesi J. Rutledge</na></co>
+<co c="0"><na f="s/Sahin:Yunus_Emre" pid="180/7181">Yunus Emre Sahin</na></co>
+<co c="0"><na f="s/Severinghaus:Robert_N=" pid="202/3566">Robert N. Severinghaus</na></co>
+<co c="0"><na f="s/Sharma:Abhishek" pid="52/4917">Abhishek Sharma</na></co>
+<co c="0"><na f="s/Shen_0003:Qiang" pid="181/2747-3">Qiang Shen 0003</na></co>
+<co c="3"><na f="s/Stipanovic:Dusan_M=" pid="73/4418">Dusan M. Stipanovic</na></co>
+<co c="0"><na f="s/Summers:Sean" pid="64/5008">Sean Summers</na></co>
+<co c="0"><na f="t/Tachna=Frame:Avi" pid="314/7124">Avi Tachna-Frame</na></co>
+<co c="0"><na f="t/Tanner:Herbert_G=" pid="70/969">Herbert G. Tanner</na></co>
+<co c="0"><na f="t/Tekriwal:Mohit" pid="289/1053">Mohit Tekriwal</na></co>
+<co c="0"><na f="t/Tsechpenakis:Gavriil" pid="t/GTsechpenakis">Gavriil Tsechpenakis</na></co>
+<co c="0"><na f="t/Turpin:Matthew" pid="72/11504">Matthew Turpin</na></co>
+<co c="0"><na f="u/Usevitch:James" pid="207/7804">James Usevitch</na></co>
+<co c="0" n="2"><na f="v/Vermillion:Christopher" pid="49/7138">Christopher Vermillion</na><na>Chris Vermillion</na></co>
+<co c="3"><na f="v/Voulgaris:Petros_G=" pid="22/1421">Petros G. Voulgaris</na></co>
+<co c="0"><na f="w/Wang:Ruiyang" pid="291/5341">Ruiyang Wang</na></co>
+<co c="1"><na f="w/Wang:Zhenkai" pid="217/7808">Zhenkai Wang</na></co>
+<co c="0"><na f="w/Wang:Ziyin" pid="130/5386">Ziyin Wang</na></co>
+<co c="0"><na f="y/Yong:Sze_Zheng" pid="135/6093">Sze Zheng Yong</na></co>
+<co c="0"><na f="y/Yu:Jiangbo" pid="47/737">Jiangbo Yu</na></co>
+<co c="0"><na f="y/Yucelen:Tansel" pid="98/11046">Tansel Yucelen</na></co>
+<co c="0"><na f="z/Zaccarian:Luca" pid="69/3222">Luca Zaccarian</na></co>
+<co c="0"><na f="z/Zhang:Junhui" pid="156/3223">Junhui Zhang</na></co>
+<co c="0"><na f="z/Zhang:Weifan" pid="166/9364">Weifan Zhang</na></co>
+</coauthors>
+</dblpperson>
