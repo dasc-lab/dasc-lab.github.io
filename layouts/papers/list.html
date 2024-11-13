@@ -3,7 +3,7 @@
 
 <h1>{{ .Title }}</h1>
 
-<p class="d-none"> Rendered from layouts/papers/list </p>
+{{/* <p class="d-none"> Rendered from layouts/papers/list </p> */}}
 
 {{ range .Pages.ByPublishDate.Reverse.GroupByDate "2006" }}
   <div class="py-3">
