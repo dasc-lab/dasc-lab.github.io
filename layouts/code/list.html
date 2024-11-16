@@ -1,0 +1,20 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+<p class="d-none"> Rendered from layouts/code/list </p>
+
+<div class="row row-cols-auto">
+{{ range .Pages }}
+
+<div class="col py-3">
+<a href={{ .RelPermalink }}>
+{{ partial "github-repo-card" . }}
+</a>
+</div>
+
+
+{{ end }}
+</div>
+
+{{ end }}

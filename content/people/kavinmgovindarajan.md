@@ -5,7 +5,7 @@ category: PhD
 # give the path relative to static/
 image: "/images/kavinmgovindarajan.jpg"
 # start year, used for sorting
-year: 2024 
+year: 2024
 # link to personal website (optional)
 link: "https://kmgovind.github.io/DigitalPortfolio/"
 # email id (optional)
