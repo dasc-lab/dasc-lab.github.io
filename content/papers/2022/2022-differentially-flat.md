@@ -1,7 +1,7 @@
 ---
 layout: papers
 title:  "A Constructive Method for Designing Safe Multirate Controllers for Differentially-Flat Systems"
-date:  2021-12-17
+date:  2022-12-17
 image: /images/2021-differentially-flat.png
 venue: "IEEE L-CSS and ACC 2022"
 authors:
