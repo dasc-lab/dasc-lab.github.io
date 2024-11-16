@@ -33,6 +33,7 @@ buildFuture = true
     name = "Code"
     url = "/code/"
     weight = 5
+  [[menu.main]]
     name = "Search"
     url = "/search/"
     weight = 100
