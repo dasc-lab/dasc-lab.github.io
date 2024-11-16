@@ -17,7 +17,7 @@ link: https://doi.org/10.1109/LCSYS.2021.3136465
 # link to arxiv (optional)
 arxiv:
 # link to github (optional)
-code:
+code: https://github.com/dev10110/Multirate-Controllers-for-Differentially-Flat-Systems
 # link to video (optional)
 video:
 # link to pdf (optional)
