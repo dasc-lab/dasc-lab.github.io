@@ -8,13 +8,13 @@
 {{ range .Pages.ByPublishDate.Reverse.GroupByDate "2006" }}
   <div class="py-3">
     <h3> {{ .Key }} </h3>
-    <ul>
+    <ol>
     {{ range .Pages }}
     <li>
       {{ partial "small-paper-list-item" . }}
     </li>
     {{ end }}
-    </ul>
+    </ol>
   </div>
 {{ end }}
 
