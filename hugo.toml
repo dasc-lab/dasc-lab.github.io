@@ -33,6 +33,9 @@ buildFuture = true
     name = "Code"
     url = "/code/"
     weight = 5
+    name = "Search"
+    url = "/search/"
+    weight = 100
 
 [params]
   dateFormat = "Jan 2, 2006"
