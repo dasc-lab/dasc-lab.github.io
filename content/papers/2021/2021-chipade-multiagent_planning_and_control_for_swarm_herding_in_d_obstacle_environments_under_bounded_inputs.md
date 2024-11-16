@@ -6,7 +6,7 @@ date: 2021-01-01
 venue: "IEEE Trans. Robotics"
 authors:
   - Vishnu S. Chipade
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/TRO.2021.3072026
 bib: |-
   @article{DBLP:journals/trob/ChipadeP21,

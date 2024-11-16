@@ -6,7 +6,7 @@ date: 2023-01-01
 venue: "Autom."
 authors:
   - Joseph Breeden
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1016/j.automatica.2023.111109
 bib: |-
   @article{DBLP:journals/automatica/BreedenP23,

@@ -7,7 +7,7 @@ venue: "IEEE Control. Syst. Lett."
 authors:
   - Mayank Baranwal
   - Kunal Garg
-  - Dimitra Panagou
+  - dimitrapanagou
   - Alfred O. Hero III
 link: https://doi.org/10.1109/LCSYS.2020.3020248
 bib: |-

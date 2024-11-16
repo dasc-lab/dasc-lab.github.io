@@ -5,7 +5,7 @@ title: "Control of underactuated systems with viability constraints."
 date: 2011-01-01
 venue: "CDC/ECC"
 authors:
-  - Dimitra Panagou
+  - dimitrapanagou
   - Kostas J. Kyriakopoulos
 link: https://doi.org/10.1109/CDC.2011.6160925
 bib: |-

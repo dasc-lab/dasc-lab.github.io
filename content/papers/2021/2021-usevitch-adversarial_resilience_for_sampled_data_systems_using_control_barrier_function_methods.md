@@ -6,7 +6,7 @@ date: 2021-01-01
 venue: "ACC"
 authors:
   - James Usevitch
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.23919/ACC50511.2021.9482659
 bib: |-
   @inproceedings{DBLP:conf/amcc/UsevitchP21,

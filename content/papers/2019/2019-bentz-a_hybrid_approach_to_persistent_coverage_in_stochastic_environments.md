@@ -6,7 +6,7 @@ date: 2019-01-01
 venue: "Autom."
 authors:
   - William Bentz
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1016/j.automatica.2019.108554
 bib: |-
   @article{DBLP:journals/automatica/BentzP19,

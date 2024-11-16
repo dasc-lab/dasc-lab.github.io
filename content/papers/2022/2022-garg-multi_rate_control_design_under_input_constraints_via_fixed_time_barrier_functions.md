@@ -9,7 +9,7 @@ authors:
   - Ryan K. Cosner
   - Ugo Rosolia
   - Aaron D. Ames
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/LCSYS.2021.3084322
 bib: |-
   @article{DBLP:journals/csysl/GargCRAP22,

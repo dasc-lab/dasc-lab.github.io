@@ -6,7 +6,7 @@ date: 2021-01-01
 venue: "CDC"
 authors:
   - Kunal Garg
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/CDC45484.2021.9683332
 bib: |-
   @inproceedings{DBLP:conf/cdc/GargP21,

@@ -8,7 +8,7 @@ authors:
   - Xiaobai Ma
   - Ziyuan Jiao
   - Zhenkai Wang
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/TCST.2017.2699165
 bib: |-
   @article{DBLP:journals/tcst/MaJWP18,

@@ -6,7 +6,7 @@ date: 2023-01-01
 venue: "ACC"
 authors:
   - Joseph Breeden
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.23919/ACC55779.2023.10156625
 bib: |-
   @inproceedings{DBLP:conf/amcc/BreedenP23,

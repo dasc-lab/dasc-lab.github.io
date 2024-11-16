@@ -6,7 +6,7 @@ date: 2020-01-01
 venue: "CDC"
 authors:
   - Vishnu S. Chipade
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/CDC42340.2020.9303837
 bib: |-
   @inproceedings{DBLP:conf/cdc/ChipadeP20,

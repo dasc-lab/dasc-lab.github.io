@@ -6,7 +6,7 @@ date: 2020-01-01
 venue: "ACC"
 authors:
   - James Usevitch
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.23919/ACC45564.2020.9147904
 bib: |-
   @inproceedings{DBLP:conf/amcc/UsevitchP20,

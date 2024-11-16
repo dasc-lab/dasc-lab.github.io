@@ -7,7 +7,7 @@ venue: "CDC"
 authors:
   - Kunal Garg
   - Dongkun Han
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/CDC.2017.8264163
 bib: |-
   @inproceedings{DBLP:conf/cdc/GargHP17,

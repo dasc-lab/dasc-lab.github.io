@@ -7,7 +7,7 @@ venue: "ECC"
 authors:
   - Mitchell Black
   - Ehsan Arabi
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.23919/ECC54610.2021.9655080
 bib: |-
   @inproceedings{DBLP:conf/eucc/BlackAP21,

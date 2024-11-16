@@ -7,7 +7,7 @@ venue: "IEEE Control. Syst. Lett."
 authors:
   - Joseph Breeden
   - Luca Zaccarian
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/LCSYS.2024.3410631
 bib: |-
   @article{DBLP:journals/csysl/BreedenZP24,

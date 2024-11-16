@@ -5,7 +5,7 @@ title: "Maintaining visibility for leader-follower formations in obstacle enviro
 date: 2012-01-01
 venue: "ICRA"
 authors:
-  - Dimitra Panagou
+  - dimitrapanagou
   - Vijay Kumar
 link: https://doi.org/10.1109/ICRA.2012.6224893
 bib: |-

@@ -6,7 +6,7 @@ date: 2017-01-01
 venue: "CDC"
 authors:
   - James Usevitch
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/CDC.2017.8264310
 bib: |-
   @inproceedings{DBLP:conf/cdc/UsevitchP17,

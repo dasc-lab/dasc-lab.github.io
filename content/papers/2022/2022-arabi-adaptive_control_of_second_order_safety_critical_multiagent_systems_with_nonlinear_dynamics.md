@@ -6,7 +6,7 @@ date: 2022-01-01
 venue: "IEEE Trans. Control. Netw. Syst."
 authors:
   - Ehsan Arabi
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/TCNS.2022.3181547
 bib: |-
   @article{DBLP:journals/tcns/ArabiP22,

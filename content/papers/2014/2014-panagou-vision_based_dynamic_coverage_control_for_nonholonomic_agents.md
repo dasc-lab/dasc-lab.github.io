@@ -5,7 +5,7 @@ title: "Vision-based dynamic coverage control for nonholonomic agents."
 date: 2014-01-01
 venue: "CDC"
 authors:
-  - Dimitra Panagou
+  - dimitrapanagou
   - Dusan M. Stipanovic
   - Petros G. Voulgaris
 link: https://doi.org/10.1109/CDC.2014.7039724

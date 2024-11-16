@@ -5,7 +5,7 @@ title: "Viability control for a class of underactuated systems."
 date: 2013-01-01
 venue: "Autom."
 authors:
-  - Dimitra Panagou
+  - dimitrapanagou
   - Kostas J. Kyriakopoulos
 link: https://doi.org/10.1016/j.automatica.2012.09.002
 bib: |-

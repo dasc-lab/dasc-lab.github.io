@@ -6,7 +6,7 @@ date: 2019-01-01
 venue: "ECC"
 authors:
   - Parag Bobade
-  - Dimitra Panagou
+  - dimitrapanagou
   - Andrew J. Kurdila
 link: https://doi.org/10.23919/ECC.2019.8796214
 bib: |-

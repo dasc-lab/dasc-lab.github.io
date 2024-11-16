@@ -5,7 +5,7 @@ title: "Dipole-like fields for stabilization of systems with Pfaffian constraint
 date: 2010-01-01
 venue: "ICRA"
 authors:
-  - Dimitra Panagou
+  - dimitrapanagou
   - Herbert G. Tanner
   - Kostas J. Kyriakopoulos
 link: https://doi.org/10.1109/ROBOT.2010.5509296

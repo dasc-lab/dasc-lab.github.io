@@ -5,7 +5,7 @@ title: "Distributed Dynamic Coverage and Avoidance Control Under Anisotropic Sen
 date: 2017-01-01
 venue: "IEEE Trans. Control. Netw. Syst."
 authors:
-  - Dimitra Panagou
+  - dimitrapanagou
   - Dusan M. Stipanovic
   - Petros G. Voulgaris
 link: https://doi.org/10.1109/TCNS.2016.2576403

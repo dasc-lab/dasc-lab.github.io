@@ -7,7 +7,7 @@ venue: "ICRA"
 authors:
   - William Bentz
   - Sahib Dhanjal
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/ICRA.2019.8793587
 bib: |-
   @inproceedings{DBLP:conf/icra/BentzDP19,

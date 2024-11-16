@@ -6,7 +6,7 @@ date: 2022-01-01
 venue: "ICRA"
 authors:
   - Hardik Parwana
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/ICRA46639.2022.9812398
 bib: |-
   @inproceedings{DBLP:conf/icra/ParwanaP22,

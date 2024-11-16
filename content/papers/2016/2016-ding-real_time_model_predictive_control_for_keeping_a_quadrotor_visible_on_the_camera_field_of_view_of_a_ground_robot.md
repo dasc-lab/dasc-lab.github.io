@@ -9,7 +9,7 @@ authors:
   - Madan Ravi Ganesh
   - Robert N. Severinghaus
   - Jason J. Corso
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/ACC.2016.7525254
 bib: |-
   @inproceedings{DBLP:conf/amcc/DingGSCP16,

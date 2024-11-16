@@ -9,7 +9,7 @@ authors:
   - Georgios Fainekos
   - Bardh Hoxha
   - Danil V. Prokhorov
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/ICRA48891.2023.10161379
 bib: |-
   @inproceedings{DBLP:conf/icra/BlackFHPP23,

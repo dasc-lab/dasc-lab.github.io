@@ -8,7 +8,7 @@ authors:
   - Mitchell Black
   - Georgios Fainekos
   - Bardh Hoxha
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.23919/ACC60939.2024.10644792
 bib: |-
   @inproceedings{DBLP:conf/amcc/BlackFHP24,

@@ -7,7 +7,7 @@ venue: "Autom."
 authors:
   - Kunal Garg
   - Ehsan Arabi
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1016/j.automatica.2022.110314
 bib: |-
   @article{DBLP:journals/automatica/GargAP22,

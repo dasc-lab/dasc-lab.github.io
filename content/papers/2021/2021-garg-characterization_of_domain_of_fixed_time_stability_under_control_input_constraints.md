@@ -6,7 +6,7 @@ date: 2021-01-01
 venue: "ACC"
 authors:
   - Kunal Garg
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.23919/ACC50511.2021.9482780
 bib: |-
   @inproceedings{DBLP:conf/amcc/GargP21,

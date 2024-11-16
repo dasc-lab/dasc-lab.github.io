@@ -7,7 +7,7 @@ venue: "CDC"
 authors:
   - Kunal Garg
   - Mayank Baranwal
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/CDC42340.2020.9303778
 bib: |-
   @inproceedings{DBLP:conf/cdc/GargBP20,

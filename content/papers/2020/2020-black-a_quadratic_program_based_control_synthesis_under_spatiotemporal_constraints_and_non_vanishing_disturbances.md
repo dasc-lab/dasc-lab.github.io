@@ -7,7 +7,7 @@ venue: "CDC"
 authors:
   - Mitchell Black
   - Kunal Garg
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/CDC42340.2020.9304071
 bib: |-
   @inproceedings{DBLP:conf/cdc/BlackGP20,

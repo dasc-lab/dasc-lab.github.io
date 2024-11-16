@@ -5,7 +5,7 @@ title: "Distributed coordination protocols for aggregation and navigation in mul
 date: 2015-01-01
 venue: "CDC"
 authors:
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/CDC.2015.7402637
 bib: |-
   @inproceedings{DBLP:conf/cdc/Panagou15,

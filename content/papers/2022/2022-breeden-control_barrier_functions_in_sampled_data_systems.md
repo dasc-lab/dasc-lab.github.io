@@ -7,7 +7,7 @@ venue: "IEEE Control. Syst. Lett."
 authors:
   - Joseph Breeden
   - Kunal Garg
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/LCSYS.2021.3076127
 bib: |-
   @article{DBLP:journals/csysl/BreedenGP22,

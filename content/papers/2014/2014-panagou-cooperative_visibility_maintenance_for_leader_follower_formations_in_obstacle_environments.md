@@ -5,7 +5,7 @@ title: "Cooperative Visibility Maintenance for Leader-Follower Formations in Obs
 date: 2014-01-01
 venue: "IEEE Trans. Robotics"
 authors:
-  - Dimitra Panagou
+  - dimitrapanagou
   - Vijay Kumar
 link: https://doi.org/10.1109/TRO.2014.2304774
 bib: |-

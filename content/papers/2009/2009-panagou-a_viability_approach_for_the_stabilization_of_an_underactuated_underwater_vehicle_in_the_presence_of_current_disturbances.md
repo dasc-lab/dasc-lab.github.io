@@ -5,7 +5,7 @@ title: "A viability approach for the stabilization of an underactuated underwate
 date: 2009-01-01
 venue: "CDC"
 authors:
-  - Dimitra Panagou
+  - dimitrapanagou
   - Kostas Margellos
   - Sean Summers
   - John Lygeros

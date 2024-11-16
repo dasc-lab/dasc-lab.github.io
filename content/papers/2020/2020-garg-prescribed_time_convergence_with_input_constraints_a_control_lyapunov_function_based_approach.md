@@ -7,7 +7,7 @@ venue: "ACC"
 authors:
   - Kunal Garg
   - Ehsan Arabi
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.23919/ACC45564.2020.9147641
 bib: |-
   @inproceedings{DBLP:conf/amcc/GargAP20,

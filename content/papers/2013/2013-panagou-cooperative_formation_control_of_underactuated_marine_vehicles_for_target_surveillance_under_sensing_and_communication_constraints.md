@@ -5,7 +5,7 @@ title: "Cooperative formation control of underactuated marine vehicles for targe
 date: 2013-01-01
 venue: "ICRA"
 authors:
-  - Dimitra Panagou
+  - dimitrapanagou
   - Kostas J. Kyriakopoulos
 link: https://doi.org/10.1109/ICRA.2013.6630824
 bib: |-

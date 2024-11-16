@@ -7,7 +7,7 @@ venue: "CDC"
 authors:
   - James Usevitch
   - Kunal Garg
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/CDC.2018.8619697
 bib: |-
   @inproceedings{DBLP:conf/cdc/UsevitchGP18,

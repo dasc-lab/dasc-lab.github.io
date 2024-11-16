@@ -6,7 +6,7 @@ date: 2017-01-01
 venue: "CDC"
 authors:
   - Dongkun Han
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/CDC.2017.8263698
 bib: |-
   @inproceedings{DBLP:conf/cdc/HanP17,

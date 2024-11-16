@@ -6,7 +6,7 @@ date: 2020-01-01
 venue: "IEEE Trans. Autom. Control."
 authors:
   - James Usevitch
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/TAC.2019.2934954
 bib: |-
   @article{DBLP:journals/tac/UsevitchP20,

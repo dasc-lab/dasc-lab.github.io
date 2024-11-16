@@ -7,7 +7,7 @@ venue: "ACC"
 authors:
   - Hardik Parwana
   - Ruiyang Wang
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.23919/ACC60939.2024.10644243
 bib: |-
   @inproceedings{DBLP:conf/amcc/ParwanaWP24,

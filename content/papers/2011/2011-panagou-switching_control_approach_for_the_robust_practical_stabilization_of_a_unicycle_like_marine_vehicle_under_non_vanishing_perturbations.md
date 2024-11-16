@@ -5,7 +5,7 @@ title: "Switching control approach for the robust practical stabilization of a u
 date: 2011-01-01
 venue: "ICRA"
 authors:
-  - Dimitra Panagou
+  - dimitrapanagou
   - Kostas J. Kyriakopoulos
 link: https://doi.org/10.1109/ICRA.2011.5979747
 bib: |-

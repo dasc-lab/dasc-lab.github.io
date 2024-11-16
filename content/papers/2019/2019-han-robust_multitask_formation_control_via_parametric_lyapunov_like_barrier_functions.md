@@ -6,7 +6,7 @@ date: 2019-01-01
 venue: "IEEE Trans. Autom. Control."
 authors:
   - Dongkun Han
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/TAC.2019.2894587
 bib: |-
   @article{DBLP:journals/tac/HanP19,

@@ -7,7 +7,7 @@ venue: "ACC"
 authors:
   - Weifan Zhang
   - Vishnu S. Chipade
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.23919/ACC50511.2021.9482990
 bib: |-
   @inproceedings{DBLP:conf/amcc/ZhangCP21,

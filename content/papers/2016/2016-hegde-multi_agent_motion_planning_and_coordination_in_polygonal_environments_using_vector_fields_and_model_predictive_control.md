@@ -6,7 +6,7 @@ date: 2016-01-01
 venue: "ECC"
 authors:
   - Rashmi Hegde
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/ECC.2016.7810561
 bib: |-
   @inproceedings{DBLP:conf/eucc/HegdeP16,

@@ -5,8 +5,8 @@ date:   2021-12-14
 image: /images/2021-iccbfs.png
 venue: "IEEE CDC 2021"
 authors:
-    - devanshagrawal
-    - dimitrapanagou
+  - devanshagrawal
+  - dimitrapanagou
 link: https://doi.org/10.1109/CDC45484.2021.9682938
 arxiv:
 code: https://github.com/dev10110/Input-Constrained-Control-Barrier-Functions

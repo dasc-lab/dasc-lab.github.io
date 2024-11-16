@@ -7,7 +7,7 @@ venue: "Frontiers Robotics AI"
 authors:
   - Vishnu S. Chipade
   - Venkata Sai Aditya Marella
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.3389/frobt.2021.640446
 bib: |-
   @article{DBLP:journals/firai/ChipadeMP21,

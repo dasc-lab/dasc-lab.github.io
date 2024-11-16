@@ -8,7 +8,7 @@ authors:
   - Yunus Emre Sahin
   - Zexiang Liu
   - Kwesi J. Rutledge
-  - Dimitra Panagou
+  - dimitrapanagou
   - Sze Zheng Yong
   - Necmiye Ozay
 link: https://doi.org/10.1109/CCTA.2019.8920426

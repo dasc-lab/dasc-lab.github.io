@@ -6,7 +6,7 @@ date: 2021-01-01
 venue: "IEEE Trans. Autom. Control."
 authors:
   - Kunal Garg
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/TAC.2020.3001436
 bib: |-
   @article{DBLP:journals/tac/GargP21,

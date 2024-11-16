@@ -5,7 +5,7 @@ title: "Dynamic Coverage Control in Unicycle Multi-Robot Networks under Anisotro
 date: 2015-01-01
 venue: "Frontiers Robotics AI"
 authors:
-  - Dimitra Panagou
+  - dimitrapanagou
   - Dusan M. Stipanovic
   - Petros G. Voulgaris
 link: https://doi.org/10.3389/frobt.2015.00003

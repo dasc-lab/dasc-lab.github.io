@@ -6,7 +6,7 @@ date: 2022-01-01
 venue: "IEEE Control. Syst. Lett."
 authors:
   - Joseph Breeden
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/LCSYS.2021.3136813
 bib: |-
   @article{DBLP:journals/csysl/BreedenP22,

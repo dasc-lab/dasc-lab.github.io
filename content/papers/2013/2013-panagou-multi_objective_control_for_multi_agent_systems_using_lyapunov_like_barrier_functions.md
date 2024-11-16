@@ -5,7 +5,7 @@ title: "Multi-objective control for multi-agent systems using Lyapunov-like barr
 date: 2013-01-01
 venue: "CDC"
 authors:
-  - Dimitra Panagou
+  - dimitrapanagou
   - Dusan M. Stipanovic
   - Petros G. Voulgaris
 link: https://doi.org/10.1109/CDC.2013.6760091

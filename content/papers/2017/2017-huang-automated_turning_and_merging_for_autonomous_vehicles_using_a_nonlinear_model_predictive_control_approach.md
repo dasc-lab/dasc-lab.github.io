@@ -6,7 +6,7 @@ date: 2017-01-01
 venue: "ACC"
 authors:
   - Lixing Huang
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.23919/ACC.2017.7963814
 bib: |-
   @inproceedings{DBLP:conf/amcc/HuangP17a,

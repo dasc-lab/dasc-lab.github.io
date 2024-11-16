@@ -7,7 +7,7 @@ venue: "Auton. Robots"
 authors:
   - William Bentz
   - Long Qian
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1007/s10514-022-10059-4
 bib: |-
   @article{DBLP:journals/arobots/BentzQP22,

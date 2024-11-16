@@ -1,0 +1,64 @@
+import os
+import argparse
+
+def replace_authors_line(file_path, search_string, replace_string):
+    """Replaces the `authors` line in YAML frontmatter with a bulleted list."""
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+    except UnicodeDecodeError:
+        print(f"Skipping {file_path}: Unable to decode file")
+        return
+
+    if not (lines and lines[0].strip() == "---"):
+        return  # Skip files without YAML frontmatter
+
+    # Find the end of YAML frontmatter
+    yaml_end_idx = 1
+    while yaml_end_idx < len(lines) and lines[yaml_end_idx].strip() != "---":
+        yaml_end_idx += 1
+
+    if yaml_end_idx >= len(lines):
+        return  # No closing `---`, skip
+
+    # Replace only in the authors line (bulleted list)
+    modified = False
+    authors_start_idx = None
+    for i in range(1, yaml_end_idx):
+        if lines[i].strip().startswith("authors:"):
+            authors_start_idx = i
+            break
+
+    if authors_start_idx is not None:
+        # Process the authors list
+        for i in range(authors_start_idx + 1, yaml_end_idx):
+            line = lines[i].strip()
+            if line.startswith("-"):  # Check for bulleted list item
+                if search_string in line:
+                    lines[i] = "  " + line.replace(search_string, replace_string) + "\n"
+                    modified = True
+            else:
+                # Stop processing if the list ends (we assume the list ends when no longer a bullet point)
+                break
+
+    if modified:
+        with open(file_path, "w", encoding="utf-8") as f:
+            f.writelines(lines)
+        print(f"Updated authors in {file_path}")
+
+def process_directory(directory, search_string, replace_string):
+    """Recursively processes all `.md` files in a directory."""
+    for root, _, files in os.walk(directory):
+        for file in files:
+            if file.endswith(".md"):  # Only process .md files
+                file_path = os.path.join(root, file)
+                replace_authors_line(file_path, search_string, replace_string)
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Replace a string in the authors bulleted list of YAML frontmatter.")
+    parser.add_argument("directory", help="Directory containing the files to process")
+    parser.add_argument("search_string", help="String to search for in the authors field")
+    parser.add_argument("replace_string", help="String to replace the search string with")
+    args = parser.parse_args()
+
+    process_directory(args.directory, args.search_string, args.replace_string)

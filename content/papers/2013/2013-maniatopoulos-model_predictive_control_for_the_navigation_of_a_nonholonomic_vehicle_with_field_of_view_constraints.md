@@ -6,7 +6,7 @@ date: 2013-01-01
 venue: "ACC"
 authors:
   - Spyros Maniatopoulos
-  - Dimitra Panagou
+  - dimitrapanagou
   - Kostas J. Kyriakopoulos
 link: https://doi.org/10.1109/ACC.2013.6580446
 bib: |-

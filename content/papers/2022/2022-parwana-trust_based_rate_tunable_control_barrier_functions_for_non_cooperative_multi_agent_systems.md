@@ -7,7 +7,7 @@ venue: "CDC"
 authors:
   - Hardik Parwana
   - Aquib Mustafa
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/CDC51059.2022.9992744
 bib: |-
   @inproceedings{DBLP:conf/cdc/ParwanaMP22,

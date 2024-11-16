@@ -8,7 +8,7 @@ authors:
   - William Bentz
   - Tru Hoang
   - Enkhmurun Bayasgalan
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1007/s10514-017-9661-x
 bib: |-
   @article{DBLP:journals/arobots/BentzHBP18,

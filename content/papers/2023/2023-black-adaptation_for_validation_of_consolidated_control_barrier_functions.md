@@ -6,7 +6,7 @@ date: 2023-01-01
 venue: "CDC"
 authors:
   - Mitchell Black
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/CDC49753.2023.10383597
 bib: |-
   @inproceedings{DBLP:conf/cdc/BlackP23,

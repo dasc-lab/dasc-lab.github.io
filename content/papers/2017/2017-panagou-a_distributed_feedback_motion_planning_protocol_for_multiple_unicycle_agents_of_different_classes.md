@@ -5,7 +5,7 @@ title: "A Distributed Feedback Motion Planning Protocol for Multiple Unicycle Ag
 date: 2017-01-01
 venue: "IEEE Trans. Autom. Control."
 authors:
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/TAC.2016.2576020
 bib: |-
   @article{DBLP:journals/tac/Panagou17,

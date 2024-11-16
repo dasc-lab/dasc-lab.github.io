@@ -6,7 +6,7 @@ date: 2020-01-01
 venue: "Autom."
 authors:
   - James Usevitch
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1016/j.automatica.2019.108586
 bib: |-
   @article{DBLP:journals/automatica/UsevitchP20,

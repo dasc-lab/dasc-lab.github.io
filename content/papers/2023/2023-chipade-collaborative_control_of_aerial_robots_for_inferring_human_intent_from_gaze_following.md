@@ -8,7 +8,7 @@ authors:
   - Vishnu S. Chipade
   - Alia Gilbert
   - Daniel Harari
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/CCTA54093.2023.10252647
 bib: |-
   @inproceedings{DBLP:conf/ccta/ChipadeGHP23,

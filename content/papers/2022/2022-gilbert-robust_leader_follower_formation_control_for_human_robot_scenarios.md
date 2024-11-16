@@ -7,7 +7,7 @@ venue: "ACC"
 authors:
   - Alia Gilbert
   - Vishnu S. Chipade
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.23919/ACC53348.2022.9867709
 bib: |-
   @inproceedings{DBLP:conf/amcc/GilbertCP22,

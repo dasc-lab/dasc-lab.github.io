@@ -6,7 +6,7 @@ date: 2018-01-01
 venue: "IROS"
 authors:
   - William Bentz
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/IROS.2018.8593611
 bib: |-
   @inproceedings{DBLP:conf/iros/BentzP18,

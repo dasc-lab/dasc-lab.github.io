@@ -9,7 +9,7 @@ authors:
   - Avi Tachna-Frame
   - Jean-Baptiste Jeannin
   - Manos Kapritsos
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1007/978-3-031-57246-3_14
 bib: |-
   @inproceedings{DBLP:conf/tacas/TekriwalTJKP24,

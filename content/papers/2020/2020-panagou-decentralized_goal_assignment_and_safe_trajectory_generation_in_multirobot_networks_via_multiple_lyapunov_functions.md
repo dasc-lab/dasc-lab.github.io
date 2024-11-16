@@ -5,7 +5,7 @@ title: "Decentralized Goal Assignment and Safe Trajectory Generation in Multirob
 date: 2020-01-01
 venue: "IEEE Trans. Autom. Control."
 authors:
-  - Dimitra Panagou
+  - dimitrapanagou
   - Matthew Turpin
   - Vijay Kumar
 link: https://doi.org/10.1109/TAC.2019.2946333

@@ -6,7 +6,7 @@ date: 2019-01-01
 venue: "CDC"
 authors:
   - Lixing Huang
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/CDC40024.2019.9029640
 bib: |-
   @inproceedings{DBLP:conf/cdc/HuangP19,

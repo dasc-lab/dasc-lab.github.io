@@ -6,7 +6,7 @@ date: 2016-01-01
 venue: "CDC"
 authors:
   - William Bentz
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/CDC.2016.7798661
 bib: |-
   @inproceedings{DBLP:conf/cdc/BentzP16,

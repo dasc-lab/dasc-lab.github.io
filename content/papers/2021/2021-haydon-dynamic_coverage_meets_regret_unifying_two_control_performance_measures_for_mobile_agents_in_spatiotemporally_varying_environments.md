@@ -8,7 +8,7 @@ authors:
   - Ben Haydon
   - Kirti D. Mishra
   - Patrick Keyantuo
-  - Dimitra Panagou
+  - dimitrapanagou
   - Fotini K. Chow
   - Scott J. Moura
   - Chris Vermillion

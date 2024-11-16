@@ -6,7 +6,7 @@ date: 2018-01-01
 venue: "DARS"
 authors:
   - Lixing Huang
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1007/978-3-030-05816-6_24
 bib: |-
   @inproceedings{DBLP:conf/dars/HuangP18,

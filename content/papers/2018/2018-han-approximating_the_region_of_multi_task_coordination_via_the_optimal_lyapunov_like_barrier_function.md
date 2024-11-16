@@ -7,7 +7,7 @@ venue: "ACC"
 authors:
   - Dongkun Han
   - Lixing Huang
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.23919/ACC.2018.8431021
 bib: |-
   @inproceedings{DBLP:conf/amcc/HanHP18,

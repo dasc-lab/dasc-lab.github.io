@@ -6,7 +6,7 @@ date: 2023-01-01
 venue: "IEEE Trans. Control. Netw. Syst."
 authors:
   - Aquib Mustafa
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/TCNS.2022.3203350
 bib: |-
   @article{DBLP:journals/tcns/MustafaP23,

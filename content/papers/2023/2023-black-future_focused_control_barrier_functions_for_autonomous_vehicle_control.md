@@ -8,7 +8,7 @@ authors:
   - Mitchell Black
   - Mrdjan Jankovic
   - Abhishek Sharma
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.23919/ACC55779.2023.10156163
 bib: |-
   @inproceedings{DBLP:conf/amcc/BlackJSP23,

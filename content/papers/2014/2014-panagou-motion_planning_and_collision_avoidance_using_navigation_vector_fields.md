@@ -5,7 +5,7 @@ title: "Motion planning and collision avoidance using navigation vector fields."
 date: 2014-01-01
 venue: "ICRA"
 authors:
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/ICRA.2014.6907210
 bib: |-
   @inproceedings{DBLP:conf/icra/Panagou14,

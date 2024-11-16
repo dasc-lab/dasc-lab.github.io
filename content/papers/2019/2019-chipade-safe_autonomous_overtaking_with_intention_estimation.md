@@ -10,7 +10,7 @@ authors:
   - Lixing Huang
   - Necmiye Ozay
   - Sze Zheng Yong
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.23919/ECC.2019.8795715
 bib: |-
   @inproceedings{DBLP:conf/eucc/ChipadeSHOYP19,

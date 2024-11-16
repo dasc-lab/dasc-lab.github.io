@@ -6,7 +6,7 @@ date: 2022-01-01
 venue: "IEEE Trans. Robotics"
 authors:
   - James Usevitch
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/TRO.2021.3127076
 bib: |-
   @article{DBLP:journals/trob/UsevitchP22,

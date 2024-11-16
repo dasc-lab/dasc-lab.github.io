@@ -6,7 +6,7 @@ date: 2022-01-01
 venue: "CDC"
 authors:
   - Joseph Breeden
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/CDC51059.2022.9992926
 bib: |-
   @inproceedings{DBLP:conf/cdc/BreedenP22,

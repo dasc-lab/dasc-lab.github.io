@@ -5,7 +5,7 @@ title: "Decentralized goal assignment and trajectory generation in multi-robot n
 date: 2014-01-01
 venue: "ICRA"
 authors:
-  - Dimitra Panagou
+  - dimitrapanagou
   - Matthew Turpin
   - Vijay Kumar
 link: https://doi.org/10.1109/ICRA.2014.6907857

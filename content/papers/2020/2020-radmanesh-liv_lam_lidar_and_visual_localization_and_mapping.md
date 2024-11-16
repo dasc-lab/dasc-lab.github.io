@@ -9,7 +9,7 @@ authors:
   - Ziyin Wang
   - Vishnu S. Chipade
   - Gavriil Tsechpenakis
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.23919/ACC45564.2020.9148037
 bib: |-
   @inproceedings{DBLP:conf/amcc/RadmaneshWCTP20,

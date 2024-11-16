@@ -9,7 +9,7 @@ authors:
   - Enkhmurun Bayasgalan
   - Ziyin Wang
   - Gavriil Tsechpenakis
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.23919/ACC.2017.7963823
 bib: |-
   @inproceedings{DBLP:conf/amcc/HoangBWTP17,

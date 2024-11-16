@@ -7,7 +7,7 @@ venue: "IEEE Trans. Control. Netw. Syst."
 authors:
   - Hossein Rastgoftar
   - Ella M. Atkins
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.1109/TCNS.2018.2873204
 bib: |-
   @article{DBLP:journals/tcns/RastgoftarAP19,

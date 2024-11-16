@@ -6,7 +6,7 @@ date: 2018-01-01
 venue: "ACC"
 authors:
   - Kunal Garg
-  - Dimitra Panagou
+  - dimitrapanagou
 link: https://doi.org/10.23919/ACC.2018.8431699
 bib: |-
   @inproceedings{DBLP:conf/amcc/GargP18,

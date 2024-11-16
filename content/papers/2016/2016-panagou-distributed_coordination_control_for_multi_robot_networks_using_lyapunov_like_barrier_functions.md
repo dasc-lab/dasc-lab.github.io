@@ -5,7 +5,7 @@ title: "Distributed Coordination Control for Multi-Robot Networks Using Lyapunov
 date: 2016-01-01
 venue: "IEEE Trans. Autom. Control."
 authors:
-  - Dimitra Panagou
+  - dimitrapanagou
   - Dusan M. Stipanovic
   - Petros G. Voulgaris
 link: https://doi.org/10.1109/TAC.2015.2444131

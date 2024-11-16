@@ -5,7 +5,7 @@ title: "Dynamic positioning for an underactuated marine vehicle using hybrid con
 date: 2014-01-01
 venue: "Int. J. Control"
 authors:
-  - Dimitra Panagou
+  - dimitrapanagou
   - Kostas J. Kyriakopoulos
 link: https://doi.org/10.1080/00207179.2013.828853
 bib: |-

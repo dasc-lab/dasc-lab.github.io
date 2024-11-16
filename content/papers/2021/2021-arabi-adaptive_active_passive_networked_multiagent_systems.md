@@ -6,7 +6,7 @@ date: 2021-01-01
 venue: "ACC"
 authors:
   - Ehsan Arabi
-  - Dimitra Panagou
+  - dimitrapanagou
   - Tansel Yucelen
 link: https://doi.org/10.23919/ACC50511.2021.9483258
 bib: |-
