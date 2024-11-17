@@ -3,8 +3,8 @@ layout: papers
 title:  "Eclares: Energy-Aware Clarity-Driven Ergodic Search"
 date: 2024-05-13
 authors:
-    - devanshagrawal
     - kalebbennaveed
+    - devanshagrawal
     - Christopher Vermillion
     - dimitrapanagou
 image: /images/2024-eclares.png
