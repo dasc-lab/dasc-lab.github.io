@@ -1,6 +1,7 @@
 baseURL = 'https://dasc-lab.github.io/'
 languageCode = 'en-us'
 title = 'DASC Lab UMich'
+buildFuture = true
 
 [permalinks]
   blog = "/:filename/"
@@ -27,10 +28,16 @@ title = 'DASC Lab UMich'
   [[menu.main]]
     name = "Projects"
     url = "/projects/"
-    weight = 4  
+    weight = 4
+  [[menu.main]]
+    name = "Code"
+    url = "/code/"
+    weight = 5
+  [[menu.main]]
+    name = "Search"
+    url = "/search/"
+    weight = 100
 
 [params]
   dateFormat = "Jan 2, 2006"
-  homeText = "Distributed Aerospace Systems and Control Lab"
-
-
+  homeText = "Distributed Autonomous Systems and Control Lab"

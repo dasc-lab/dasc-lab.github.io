@@ -5,11 +5,11 @@ date:   2021-12-14
 image: /images/2021-iccbfs.png
 venue: "IEEE CDC 2021"
 authors:
-    - devanshagrawal
-    - dimitrapanagou
+  - devanshagrawal
+  - dimitrapanagou
 link: https://doi.org/10.1109/CDC45484.2021.9682938
-arxiv: 
-code: 
+arxiv:
+code: https://github.com/dev10110/Input-Constrained-Control-Barrier-Functions
 abstract: "This paper introduces the notion of an Input
 Constrained Control Barrier Function (ICCBF), as a method to
 synthesize safety-critical controllers for nonlinear control-affine
@@ -23,13 +23,13 @@ Barrier Functions, and thus are applicable to systems of non-
 uniform relative degree. Simulation results are presented for the
 adaptive cruise control problem, and a spacecraft rendezvous
 problem."
-excerpt: 
+excerpt:
 pdf: /pdfs/2021-iccbfs.pdf
 bib: |-
   @INPROCEEDINGS{9682938,
     author={Agrawal, Devansh R. and Panagou, Dimitra},
-    booktitle={2021 60th IEEE Conference on Decision and Control (CDC)}, 
-    title={Safe Control Synthesis via Input Constrained Control Barrier Functions}, 
+    booktitle={2021 60th IEEE Conference on Decision and Control (CDC)},
+    title={Safe Control Synthesis via Input Constrained Control Barrier Functions},
     year={2021},
     volume={},
     number={},

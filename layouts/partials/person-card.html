@@ -1,14 +1,16 @@
-<div class="card h-100" style="width: 18rem;">
+<div class="card">
 <a href="{{ .RelPermalink }}">
+  <div class="ratio ratio-1x1">
   {{ if .Params.image }}
-    <img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Title }}">
+    <img src="{{ .Params.image }}" class="card-img-top img-fluid rounded object-fit-cover" alt="{{ .Title }}">
   {{ else }}
-    <img src="/images/default_profile.webp" class="card-img-top" alt="{{ .Title }}">
+    <img src="/images/default_profile.webp" class="card-img-top img-fluid rounded object-fit-cover" alt="{{ .Title }}">
   {{ end }}
+  </div>
 </a>
   <div class="card-body">
     <a href=" {{ .RelPermalink }}">
-    <h5 class="card-title">{{ .Title }}</h5> 
+    <h5 class="card-title">{{ .Title }}</h5>
     </a>
     {{ if .Params.link }}
       <a href="{{ .Params.link }}">link</a> /

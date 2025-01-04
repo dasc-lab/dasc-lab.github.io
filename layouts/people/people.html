@@ -7,25 +7,25 @@
 
 <h1> People</h1>
 
-<p class="d-none"> Rendered from /layouts/people/people </p>
+{{/* <p class="d-none"> Rendered from /layouts/people/people </p> */}}
 
 {{ $categories := slice "Faculty" "PostDoc" "PhD" "Masters" "Visiting" "Alumni" }}
 
 {{ range $category := $categories }}
   {{ $subpages := where $pages "Params.category" $category }}
-  {{ if $subpages.Len }} 
+  {{ if $subpages.Len }}
   <div class="pt-3">
-    <h2> {{ $category }} </h2>
-    <div class="row row-cols-1 row-cols-md-3 g-4 my-2">
+    <h2>{{ $category }}</h2>
+    <div class="row row-cols-2 row-cols-md-4 g-4">
       {{ range $subpages }}
       <div class="col">
         {{ partial "person-card" . }}
       </div>
-      {{ end }} 
+      {{ end }}
     </div>
   </div>
-  {{ end }} 
+  {{ end }}
 
-{{ end }} 
+{{ end }}
 
-{{ end }} 
+{{ end }}

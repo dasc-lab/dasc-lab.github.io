@@ -3,18 +3,21 @@
 
 <h1>{{ .Title }}</h1>
 
-<p class="d-none"> Rendered from layouts/_defaults/list </p>
+{{/* <p class="d-none"> Rendered from layouts/_defaults/list </p> */}}
 
 {{ range .Pages.ByPublishDate.Reverse }}
 
 <div class="row align-items-top mt-3">
       <div class="col-md-3 mb-2">
+        <p>{{ .Date | time.Format ":date_medium" }}</p>
         <a href="{{ .RelPermalink }}">
+          {{ if .Params.image }}
           <img
             class="img-thumbnail img-fluid"
             src="{{ .Params.image}}"
             alt="project image"
           />
+          {{ end }}
         </a>
       </div>
 

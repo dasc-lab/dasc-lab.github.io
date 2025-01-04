@@ -5,9 +5,11 @@ category: PhD
 # give the path relative to static/
 image: "/images/default_profile.webp"
 # start year, used for sorting
-year: 
+year:
 # link to personal website (optional)
-link: 
+link:
 # email id (optional)
-mail: 
+# put mailto: before your email
+# Example: mailto:abc@umich.edu
+mail:
 ---

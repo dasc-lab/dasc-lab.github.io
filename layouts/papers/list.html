@@ -3,16 +3,19 @@
 
 <h1>{{ .Title }}</h1>
 
-<p class="d-none"> Rendered from layouts/papers/list </p>
+{{/* <p class="d-none"> Rendered from layouts/papers/list </p> */}}
 
 {{ range .Pages.ByPublishDate.Reverse.GroupByDate "2006" }}
-
-<p> {{ .Key }} </p>
-
-{{ range .Pages }} 
-{{ partial "paper-card" . }} 
-{{ end }}
-
+  <div class="py-3">
+    <h3> {{ .Key }} </h3>
+    <ol>
+    {{ range .Pages }}
+    <li>
+      {{ partial "small-paper-list-item" . }}
+    </li>
+    {{ end }}
+    </ol>
+  </div>
 {{ end }}
 
 
