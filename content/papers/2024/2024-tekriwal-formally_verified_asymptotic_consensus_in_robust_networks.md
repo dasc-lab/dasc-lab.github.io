@@ -26,5 +26,5 @@ key: conf/tacas/TekriwalTJKP24
 layout: papers
 link: https://doi.org/10.1007/978-3-031-57246-3_14
 title: Formally verified asymptotic consensus in robust networks.
-venue: TACAS (1)
+venue: Tools and Algorithms for the Construction and Analysis of Systems 2024
 ---
