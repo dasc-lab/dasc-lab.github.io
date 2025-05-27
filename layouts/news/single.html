@@ -1,0 +1,75 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+{{/* <p class="d-none"> Rendered from /layouts/news/single.html </p> */}}
+
+{{ .Content }}
+
+<div class="my-3">
+<h2>Related Papers</h2>
+
+{{ $papers := where .Site.RegularPages "Section" "eq" "papers" }}
+{{ $relatedPapers := slice }}
+
+{{/* Extract paper references from raw content */}}
+{{ $rawContent := .RawContent }}
+{{ $paperLinks := findRE `\[.*?\]\(/papers/[^)]+\.md\)` $rawContent }}
+
+{{/* Debug: Show found links */}}
+{{/* <p>Debug - Found {{ len $paperLinks }} links in content:</p>
+<ul>
+  {{ range $link := $paperLinks }}
+    <li>Raw link: {{ $link }}</li>
+    {{ $linkPath := findRE `/papers/[^)]+\.md` $link }}
+    {{ if $linkPath }}
+      {{ $linkPath = index $linkPath 0 }}
+      <li>Extracted path: {{ $linkPath }}</li>
+      {{ $linkPath = strings.TrimPrefix "/papers/" $linkPath }}
+      {{ $linkPath = strings.TrimSuffix ".md" $linkPath }}
+      <li>Normalized link path: {{ $linkPath }}</li>
+    {{ end }}
+  {{ end }}
+</ul>
+
+<p>Debug - Papers and matching:</p>
+<ul> */}}
+{{ range $paper := $papers }}
+  {{ $paperPath := $paper.File.Path }}
+  {{ $paperPathNormalized := strings.TrimPrefix "papers/" $paperPath }}
+  {{ $paperPathNormalized = strings.TrimSuffix ".md" $paperPathNormalized }}
+  
+  {{/* Remove year directory prefix (e.g., "2025/") */}}
+  {{ $paperPathNormalized = replaceRE "^[0-9]{4}/" "" $paperPathNormalized }}
+  
+  {{/* <li>Paper: {{ $paper.Title }} - Original path: {{ $paperPath }} - Normalized: {{ $paperPathNormalized }}</li> */}}
+  
+  {{ range $link := $paperLinks }}
+    {{ $linkPath := findRE `/papers/[^)]+\.md` $link }}
+    {{ if $linkPath }}
+      {{ $linkPath = index $linkPath 0 }}
+      {{ $linkPath = strings.TrimPrefix "/papers/" $linkPath }}
+      {{ $linkPath = strings.TrimSuffix ".md" $linkPath }}
+      
+      {{/* <li>  Comparing: "{{ $linkPath }}" == "{{ $paperPathNormalized }}" = {{ eq $linkPath $paperPathNormalized }}</li> */}}
+      
+      {{ if eq $linkPath $paperPathNormalized }}
+        {{ $relatedPapers = $relatedPapers | append $paper }}
+        {{/* <li>  ✓ MATCH FOUND!</li> */}}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{/* </ul> */}}
+
+{{ if $relatedPapers }}
+  {{ range $relatedPapers }}
+    {{ partial "paper-card" . }}
+  {{ end }}
+{{ else }}
+  <p>No related papers found.</p>
+{{ end }}
+
+</div>
+
+{{ end }} 

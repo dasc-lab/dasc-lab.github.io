@@ -1,9 +1,9 @@
 ---
 layout: papers
 title:  "Learning to Refine Input Constrained Control Barrier Functions via Uncertainty-Aware Online Parameter Adaptation"
-date:   2024-09-22
+date:   2025-05-19
 image: /images/2025-online-adaptive-iccbf.png
-venue: "Available on arXiv"
+venue: "IEEE ICRA 2025"
 authors:
     - taekyungkim
     - Robin Inho Kee
