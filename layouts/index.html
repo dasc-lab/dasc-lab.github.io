@@ -9,7 +9,7 @@
   <p>
     The Distributed Autonomous Systems and Control Laboratory (3010 Ford Robotics Building) is directed by Dimitra Panagou.</p>
 
-  <p>The lab’s research focuses on advancing planning, learning, and control methods for autonomous robotic systems, with a strong emphasis on safety, resilience, and provable guarantees. We address real-world challenges in robotics, including multi-agent, networked, and sensor-based systems, operating in uncertain, dynamic, or adversarial environments. Our interests include nonlinear systems, estimation, risk-aware decision making, uncertainty quantification, and control under constraints, with applications across aerial, ground, marine, and space domains.</p>
+  <p>The lab's research focuses on advancing planning, learning, and control methods for autonomous robotic systems, with a strong emphasis on safety, resilience, and provable guarantees. We address real-world challenges in robotics, including multi-agent, networked, and sensor-based systems, operating in uncertain, dynamic, or adversarial environments. Our interests include nonlinear systems, estimation, risk-aware decision making, learning-based control, uncertainty quantification, and control under constraints, with applications across aerial, ground, marine, and space domains.</p>
 
   <p>If you are interested to join our lab, get in touch with Prof. Panagou or some of the PhD lab members. </p>
 
@@ -17,9 +17,12 @@
 
 <div class="py-3">
 <a href="/news"><h3>News</h3></a>
-<ul>
+<ul style="padding-left: 40px;">
   {{ range first 10 (where .Site.RegularPages "Type" "news") }}
-    <li> {{ .Date | time.Format ":date_medium" }}: <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    <li>
+      <span style="display: inline-block; width: 120px;">{{ .Date | time.Format ":date_medium" }}:</span>
+      <a href="{{ .RelPermalink }}">{{ .Title | safeHTML }}</a>
+    </li>
   {{end}}
 </ul>
 <a href="/news">

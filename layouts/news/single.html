@@ -1,10 +1,23 @@
 {{ define "main" }}
 
-<h1>{{ .Title }}</h1>
+<h1>{{ .Title | safeHTML }}</h1>
 
 {{/* <p class="d-none"> Rendered from /layouts/news/single.html </p> */}}
 
+<style>
+.news-content table {
+    width: 80% !important;
+    margin: 20px auto !important;
+}
+.news-content table img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+</style>
+
+<div class="news-content">
 {{ .Content }}
+</div>
 
 <div class="my-3">
 <h2>Related Papers</h2>
