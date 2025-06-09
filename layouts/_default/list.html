@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 
-<h1>{{ .Title }}</h1>
+<h1>{{ .Title | safeHTML }}</h1>
 
 {{/* <p class="d-none"> Rendered from layouts/_defaults/list </p> */}}
 
@@ -22,7 +22,7 @@
       </div>
 
       <div class="col-md-9">
-        <a href="{{ .RelPermalink }}"> <h5>{{ .Title }}</h5></a>
+        <a href="{{ .RelPermalink }}"> <h5>{{ .Title | safeHTML }}</h5></a>
       </div>
     </div>
 

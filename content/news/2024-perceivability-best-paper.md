@@ -1,6 +1,6 @@
 ---
 layout: news
-title:  "IEEE TCAC Best Student Paper Award"
+title:  Our paper won IEEE TCAC <span style="color:red"><strong>Best Student Paper Award</strong>!</span>
 date:  2024-07-14
 ---
 

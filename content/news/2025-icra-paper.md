@@ -1,6 +1,6 @@
 ---
 layout: news
-title:  "Two papers accepted at ICRA 2025!"
+title:  "Two papers accepted at <strong>ICRA</strong> 2025"
 date:  2025-01-27
 ---
 
