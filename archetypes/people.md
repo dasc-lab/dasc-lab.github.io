@@ -8,6 +8,8 @@ image: "/images/default_profile.webp"
 year: 
 # link to personal website (optional)
 link: 
-# email id (optional)
+# email id (optional) 
+# put mailto: before your email
+# Example: mailto:abc@umich.edu
 mail: 
 ---

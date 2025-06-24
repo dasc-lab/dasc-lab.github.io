@@ -4,7 +4,11 @@
 
 <p class="d-none"> Rendered from /layouts/people/single.html </p>
 
-{{ partial "person-card" . }}
+<div class="row">
+  <div class="col-6 col-md-3">
+    {{ partial "person-card" . }}
+  </div>
+</div>
 
 {{ .Content }}
 
