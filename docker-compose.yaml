@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  hugo:
+    build: .
+    tty: true
+    network_mode: "host"
+    volumes:
+      - .:/root/src

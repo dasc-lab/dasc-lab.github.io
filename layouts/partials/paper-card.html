@@ -14,7 +14,7 @@
       <div class="col-12 col-md-9">
         <a class="no-underline" href="{{ .RelPermalink }}"> <h5>{{ .Title }}</h5></a>
 
-        <!-- AUTHOR LIST --> 
+        <!-- AUTHOR LIST -->
         <div class="author-list">
         {{ range .Params.authors }}
           <!-- construct url to search for -->
@@ -27,17 +27,20 @@
           <span class="author-list-item">
             {{ if $authorPage }}
               <a class="author-list-link" href="{{ $url }}">{{ $authorPage.Title }}</a>
-            {{ else }} 
+            {{ else }}
               {{ . }}
             {{ end }}
             </span>
-        {{ end }} 
+        {{ end }}
         </div>
 
         <!-- Badge for venue -->
         <div> <p>{{ .Params.venue }} </p></div>
 
-        <div>
+        <div class="blue-links">
+          {{ if .Params.projectpage }}
+          <a href="{{ .Params.projectpage }}" target="_blank">project page</a>  /
+          {{ end }}
           {{ if .Params.pdf }}
             <a href="{{ .Params.pdf }}" target="_blank">pdf</a> /
           {{ end }}
@@ -55,9 +58,12 @@
           {{ end }}
           {{ if .Params.link }}
             <a href="{{ .Params.link }}" target="_blank">link</a> /
-          {{ end }} 
-          {{ if .Params.arxiv }} 
-            <a href="{{ .Params.arxiv}}">arxiv</a> /
+          {{ end }}
+          {{ if .Params.paper }}
+          <a href="{{ .Params.paper}}" target="_blank">paper</a> /
+          {{ end }}
+          {{ if .Params.arxiv }}
+            <a href="{{ .Params.arxiv}}" target="_blank">arxiv</a> /
           {{ end }}
 
           {{ if .Params.bib }}
@@ -72,7 +78,7 @@
               <pre style="white-space: pre-wrap;"><code>{{ .Params.bib }}</code></pre>
             </div>
           </div>
-          {{ end }} 
+          {{ end }}
         </div>
 
       </div>

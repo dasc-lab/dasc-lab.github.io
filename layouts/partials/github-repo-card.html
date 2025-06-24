@@ -1,0 +1,19 @@
+<div>
+
+{{/* Expects ".Params.code" to be of the format "https://github.com/username/repo" */}}
+{{/* Uses https://github.com/anuraghazra/github-readme-stats to render the card */}}
+
+{{/* split the string to get the username and repo string */}}
+{{ $github_split := split .Params.code "/" }}
+{{ $username := index $github_split 3 }}
+{{ $repo := index $github_split 4 }}
+
+<div class="repo">
+  <a href={{ .Params.code }} target="_blank">
+    <img
+      src="https://github-readme-stats.vercel.app/api/pin/?username={{ $username }}&repo={{ $repo }}&show_owner=true&description_lines_count=3"
+    >
+  </a>
+</div>
+
+</div>

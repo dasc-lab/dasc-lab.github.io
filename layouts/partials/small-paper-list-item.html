@@ -1,0 +1,77 @@
+  <div class="row align-items-top mt-3">
+    <a class="no-underline" href="{{ .RelPermalink }}"><b>{{ .Title }}</b></a>
+
+        <!-- AUTHOR LIST -->
+        <div class="author-list">
+        {{ range .Params.authors }}
+          <!-- construct url to search for -->
+          {{ $url := printf "/people/%s" . }}
+
+          <!-- check if the url exists -->
+          {{ $authorPage := $.Site.GetPage $url }}
+
+          <!-- if it does, create a link, else just print the name -->
+          <span class="author-list-item">
+            {{ if $authorPage }}
+              <a class="author-list-link" href="{{ $url }}">{{ $authorPage.Title }}</a>
+            {{ else }}
+              {{ . }}
+            {{ end }}
+            </span>
+        {{ end }}
+        </div>
+
+        <!-- Badge for venue -->
+        <div class="blue-links">
+          {{.Params.venue }}
+          <br>
+          <span>
+          {{ if .Params.abstract }}
+            <a data-bs-toggle="collapse" href="#collapse-abstract-{{ .Key }}" role="button">abstract</a> /
+          {{ end }}
+          {{ if .Params.projectpage }}
+          <a href="{{ .Params.projectpage }}" target="_blank">project page</a>  /
+          {{ end }}
+          {{ if .Params.pdf }}
+            <a href="{{ .Params.pdf }}" target="_blank">pdf</a>  /
+          {{ end }}
+          {{ if .Params.video }}
+            <a href="{{ .Params.video }}" target="_blank">video</a> /
+          {{ end }}
+          {{ if .Params.code }}
+            <a href="{{ .Params.code }}" target="_blank">code</a> /
+          {{ end }}
+          {{ if .Params.poster }}
+            <a href="{{ .Params.poster }}" target="_blank">poster</a> /
+          {{ end }}
+          {{ if .Params.slides }}
+            <a href="{{ .Params.slides }}" target="_blank">slides</a> /
+          {{ end }}
+          {{ if .Params.link }}
+            <a href="{{ .Params.link }}" target="_blank">link</a> /
+          {{ end }}
+          {{ if .Params.arxiv }}
+            <a href="{{ .Params.arxiv }}" target="_blank">arxiv</a> /
+          {{ end }}
+          {{ if .Params.bib }}
+            <a data-bs-toggle="collapse" href="#collapse-bib-{{ .Key }}" role="button">bib</a> /
+          {{ end }}
+          </span>
+        </div>
+        {{ if .Params.abstract }}
+        <div class="collapse my-3" id="collapse-abstract-{{ .Key }}">
+          <div class="card card-body">
+            {{ .Params.abstract }}
+          </div>
+        </div>
+        {{ end }}
+        {{ if .Params.bib }}
+        <div class="collapse my-3" id="collapse-bib-{{ .Key }}">
+          <div class="card card-body">
+            <pre>{{ .Params.bib }}</pre>
+          </div>
+        </div>
+        {{ end }}
+
+
+      </div>

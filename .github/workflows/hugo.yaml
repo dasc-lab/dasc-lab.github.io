@@ -37,7 +37,7 @@ jobs:
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb          
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
       # dont install dart sass, we arent using it
       # - name: Install Dart Sass
       # run: sudo snap install dart-sass
@@ -60,7 +60,9 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"          
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Index pagefind
+        run: npx -y pagefind@v1.2.0 --site "public"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
