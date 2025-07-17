@@ -11,7 +11,7 @@ authors:
 # give the main figure location, relative to /static/
 image: /images/2025-resilience-aware-controller.gif
 # specify the conference or journal that it was published in
-venue: IEEE CDC 2025
+venue: "IEEE CDC 2025"
 # link to publisher site (optional)
 link: 
 # link to arxiv (optional)
