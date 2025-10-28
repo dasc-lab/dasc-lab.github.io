@@ -7,7 +7,7 @@ image: /images/joonlee.jpg
 # start year, used for sorting
 year: 2023
 # link to personal website (optional)
-link:
+link: https://joonlee16.github.io/
 # email id (optional)
 mail: mailto:haejoonl@umich.edu
 ---
