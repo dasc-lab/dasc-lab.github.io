@@ -27,6 +27,6 @@ key: journals/csysl/BreedenZP24
 layout: papers
 link: https://doi.org/10.1109/LCSYS.2024.3410631
 title: Robust Safety-Critical Control for Systems With Sporadic Measurements and Dwell-Time
-  Constraints.
-venue: IEEE Control. Syst. Lett.
+  Constraints
+venue: IEEE Control Systems Letteter 2024
 ---
