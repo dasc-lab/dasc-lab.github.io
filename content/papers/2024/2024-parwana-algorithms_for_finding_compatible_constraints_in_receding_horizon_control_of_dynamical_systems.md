@@ -41,5 +41,5 @@ layout: papers
 link: https://doi.org/10.23919/ACC60939.2024.10644243
 title: Algorithms for Finding Compatible Constraints in Receding-Horizon Control of
   Dynamical Systems.
-venue: ACC
+venue: ACC 2024
 ---

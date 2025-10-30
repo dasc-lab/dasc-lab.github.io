@@ -59,6 +59,9 @@
           {{ if .Params.link }}
             <a href="{{ .Params.link }}" target="_blank">link</a> /
           {{ end }}
+          {{ if .Params.paper }}
+          <a href="{{ .Params.paper}}" target="_blank">paper</a> /
+          {{ end }}
           {{ if .Params.arxiv }}
             <a href="{{ .Params.arxiv}}" target="_blank">arxiv</a> /
           {{ end }}
