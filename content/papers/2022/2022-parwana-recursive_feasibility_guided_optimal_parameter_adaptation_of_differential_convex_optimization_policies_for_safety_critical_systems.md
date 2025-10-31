@@ -17,7 +17,7 @@ abstract: Quadratic Program(QP) based state-feedback controllers, whose inequali
   sensitivity analysis, and (2) backpropagating these as well as system dynamics gradients
   to update parameters while maintaining feasibility of QPs.
 authors:
-- Hardik Parwana
+- hardikparwana
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/icra/ParwanaP22,\n  author       = {Hardik Parwana\
   \ and\n                  Dimitra Panagou},\n  title        = {Recursive Feasibility\
