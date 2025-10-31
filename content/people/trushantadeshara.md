@@ -11,4 +11,5 @@ link: https://trushant-adeshara.com/
 # email id (optional)
 mail: trushant@umich.edu
 role: "MS Robotics (2023 - 2025)"
+current: "Robotics Engineer at AgRobotics"
 ---

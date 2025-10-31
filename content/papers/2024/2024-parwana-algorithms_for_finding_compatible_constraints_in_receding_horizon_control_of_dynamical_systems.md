@@ -22,7 +22,7 @@ abstract: This paper addresses synthesizing receding-horizon controllers for non
   multiple time and state constraints, and compared to a greedy method based on the
   Lagrange multiplier.
 authors:
-- Hardik Parwana
+- hardikparwana
 - Ruiyang Wang
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/amcc/ParwanaWP24,\n  author       = {Hardik Parwana\
