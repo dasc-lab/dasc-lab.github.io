@@ -5,8 +5,8 @@ date:   2026-01-01
 image: /images/2026-dpcbf.gif
 venue: "under review"
 authors:
-    - hunkukpark
-    - taekyungkim
+    - hunkukpark*
+    - taekyungkim*
     - dimitrapanagou
 projectpage: https://www.taekyung.me/dpcbf
 arxiv: https://arxiv.org/abs/2510.01402

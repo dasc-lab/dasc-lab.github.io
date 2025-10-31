@@ -17,18 +17,21 @@
         <!-- AUTHOR LIST -->
         <div class="author-list">
         {{ range .Params.authors }}
-          <!-- construct url to search for -->
-          {{ $url := printf "/people/%s" . }}
+          {{ $raw := . }}
+          {{ $hasStar := hasSuffix $raw "*" }}
+          {{ $slug := $raw }}
+          {{ if $hasStar }}
+            {{ $slug = substr $raw 0 (sub (len $raw) 1) }}
+          {{ end }}
+          {{ $url := printf "/people/%s" $slug }}
 
-          <!-- check if the url exists -->
           {{ $authorPage := $.Site.GetPage $url }}
 
-          <!-- if it does, create a link, else just print the name -->
           <span class="author-list-item">
             {{ if $authorPage }}
-              <a class="author-list-link" href="{{ $url }}">{{ $authorPage.Title }}</a>
+              <a class="author-list-link" href="{{ $url }}">{{ if $hasStar }}{{ $authorPage.Title }}*{{ else }}{{ $authorPage.Title }}{{ end }}</a>
             {{ else }}
-              {{ . }}
+              {{ if $hasStar }}{{ $slug }}*{{ else }}{{ $slug }}{{ end }}
             {{ end }}
             </span>
         {{ end }}

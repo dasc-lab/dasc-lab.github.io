@@ -25,12 +25,14 @@
 <h2>Authors</h2>
 <div class="row row-cols-2 row-cols-md-4 my-3 g4">
         {{ range .Params.authors }}
-          <!-- construct url to search for -->
-          {{ $url := printf "/people/%s" . }}
+          {{ $raw := . }}
+          {{ $slug := $raw }}
+          {{ if hasSuffix $raw "*" }}
+            {{ $slug = substr $raw 0 (sub (len $raw) 1) }}
+          {{ end }}
+          {{ $url := printf "/people/%s" $slug }}
 
-          <!-- check if the url exists -->
           {{ $authorPage := $.Site.GetPage $url }}
-          <!-- if it does, create a link, else just print the name -->
             {{ if $authorPage }}
           <div class="row">
               {{ partial "person-card" $authorPage }}
