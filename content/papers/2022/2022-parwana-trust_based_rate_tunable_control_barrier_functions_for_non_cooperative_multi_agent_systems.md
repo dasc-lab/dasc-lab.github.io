@@ -12,7 +12,7 @@ abstract: For efficient and robust task accomplishment in multi-agent systems, a
   and control method is evaluated via simulations on heterogeneous multi-agent systems
   including non-cooperative agents.
 authors:
-- Hardik Parwana
+- hardikparwana
 - Aquib Mustafa
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/cdc/ParwanaMP22,\n  author       = {Hardik Parwana\

@@ -9,7 +9,7 @@ authors:
     - haejoonl
     - dimitrapanagou
 # give the main figure location, relative to /static/
-image: /images/2025-icra_r.jpg
+image: /images/2025-strong_r-icra.gif
 # specify the conference or journal that it was published in
 venue: "IEEE ICRA 2025"
 # link to publisher site (optional)

@@ -10,7 +10,7 @@ authors:
     - Joseph Breeden
     - Mitchell Black
     - devanshagrawal
-    - Hardik Parwana
+    - hardikparwana
     - dimitrapanagou
 link: https://doi.org/10.1016/j.arcontrol.2024.100945
 arxiv:

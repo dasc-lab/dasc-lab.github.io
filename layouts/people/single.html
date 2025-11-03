@@ -22,7 +22,7 @@
 {{ $papers := where .Site.RegularPages "Section" "eq" "papers" }}
 
 {{ range $paper := $papers }}
-  {{ if in $paper.Params.authors $authorname }}
+  {{ if or (in $paper.Params.authors $authorname) (in $paper.Params.authors (printf "%s*" $authorname)) }}
    {{ partial "paper-card" .}}
   {{ end }}
 {{ end }}

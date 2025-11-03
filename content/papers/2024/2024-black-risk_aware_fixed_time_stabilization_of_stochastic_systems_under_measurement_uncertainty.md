@@ -35,6 +35,6 @@ key: conf/amcc/BlackFHP24
 layout: papers
 link: https://doi.org/10.23919/ACC60939.2024.10644792
 title: Risk-Aware Fixed-Time Stabilization of Stochastic Systems Under Measurement
-  Uncertainty.
-venue: ACC
+  Uncertainty
+venue: ACC 2024
 ---

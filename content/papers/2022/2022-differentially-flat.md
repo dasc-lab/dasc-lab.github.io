@@ -6,7 +6,7 @@ image: /images/2021-differentially-flat.png
 venue: "IEEE L-CSS and ACC 2022"
 authors:
     - devanshagrawal
-    - Hardik Parwana
+    - hardikparwana
     - Ryan K Cosner
     - Ugo Rosolia
     - Aaron D Ames

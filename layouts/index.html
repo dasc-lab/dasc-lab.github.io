@@ -9,7 +9,17 @@
   <p>
     The Distributed Autonomous Systems and Control Laboratory (3010 Ford Robotics Building) is directed by Dimitra Panagou.</p>
 
-  <p>The lab's research focuses on the exploration, development and implementation of control and estimation methods to address real-world problems in robotics via provably-correct solutions. We are particularly interested in multi-agent systems operating in uncertain environments (e.g., unstructured and/or adversarial).</p>
+  <p>The lab's research focuses on advancing planning, learning, and control methods for autonomous robotic systems, with a strong emphasis on safety, resilience, and provable guarantees. We address real-world challenges in robotics, including multi-agent, networked, and sensor-based systems, operating in uncertain, dynamic, or adversarial environments. Our interests include nonlinear systems, estimation, risk-aware decision making, learning-based control, uncertainty quantification, and control under constraints, with applications across aerial, ground, marine, and space domains.</p>
+
+
+<p>
+  For more information about our research activities and projects, check out our
+  <a href="https://docs.google.com/presentation/d/1HdTA6xz8s68x9K-sFN1obdzmewxGpBej1awxYifALE0/edit?slide=id.p#slide=id.p"
+     target="_blank"
+     rel="noopener noreferrer">
+    presentation here
+  </a>.
+</p>
 
   <p>If you are interested to join our lab, get in touch with Prof Panagou or some of the lab members. </p>
 
@@ -17,9 +27,12 @@
 
 <div class="py-3">
 <a href="/news"><h3>News</h3></a>
-<ul>
-  {{ range first 5 (where .Site.RegularPages "Type" "news") }}
-    <li> {{ .Date | time.Format ":date_medium" }}: <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+<ul style="padding-left: 40px;">
+  {{ range first 10 (where .Site.RegularPages "Type" "news") }}
+    <li>
+      <span style="display: inline-block; width: 120px;">{{ .Date | time.Format ":date_medium" }}:</span>
+      <a href="{{ .RelPermalink }}">{{ .Title | safeHTML }}</a>
+    </li>
   {{end}}
 </ul>
 <a href="/news">
@@ -31,7 +44,7 @@
 
 <div class="py-3">
 <a href="/papers"><h3>Recent Publications</h3> </a>
-{{ range first 3 (where .Site.RegularPages "Type" "papers") }}
+{{ range first 7 (where .Site.RegularPages "Type" "papers") }}
   {{ partial "paper-card" . }}
 {{end}}
 <a href="/papers">
