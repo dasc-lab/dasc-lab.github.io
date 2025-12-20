@@ -11,7 +11,7 @@ abstract: Formation control is a key problem in the coordination of multiple age
   controller is designed via Lyapunov-like barrier functions. Two numerical examples
   illustrate the effectiveness of the proposed method.
 authors:
-- Dongkun Han
+- dongkunhan
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/cdc/HanP17,\n  author       = {Dongkun Han and\n  \
   \                Dimitra Panagou},\n  title        = {Distributed multi-task formation\

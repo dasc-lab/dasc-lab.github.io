@@ -11,7 +11,7 @@ abstract: This paper presents a new methodology for ensuring forward invariance 
   a case study utilizing this controller for a spacecraft position and attitude control
   problem requiring observation of targets on the surface of a small body.
 authors:
-- Joseph Breeden
+- josephbreeden
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/cdc/BreedenP20,\n  author       = {Joseph Breeden and\n\
   \                  Dimitra Panagou},\n  title        = {Quadratic Programs for High\

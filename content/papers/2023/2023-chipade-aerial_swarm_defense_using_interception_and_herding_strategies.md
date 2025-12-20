@@ -14,7 +14,7 @@ abstract: 'This article presents a multimode solution to the problem of defendin
   the computational costs of these MIPs and the heuristics, and demonstrate the overall
   approach in simulations.'
 authors:
-- Vishnu S. Chipade
+- vishnuchipade
 - dimitrapanagou
 bib: "@article{DBLP:journals/trob/ChipadeP23,\n  author       = {Vishnu S. Chipade\
   \ and\n                  Dimitra Panagou},\n  title        = {Aerial Swarm Defense\

@@ -1,12 +1,14 @@
 <div class="card">
   <a href="{{ .RelPermalink }}">
+    {{ if .Params.image }}
     <div class="ratio ratio-1x1">
-      {{ if .Params.image }}
-        <img src="{{ .Params.image }}" class="card-img-top img-fluid rounded object-fit-cover" alt="{{ .Title }}">
-      {{ else }}
-        <img src="/images/default_profile.webp" class="card-img-top img-fluid rounded object-fit-cover" alt="{{ .Title }}">
-      {{ end }}
+      <img src="{{ .Params.image }}" class="card-img-top img-fluid rounded object-fit-cover" alt="{{ .Title }}">
     </div>
+    {{ else if ne .Params.category "Alumni" }}
+    <div class="ratio ratio-1x1">
+      <img src="/images/default_profile.webp" class="card-img-top img-fluid rounded object-fit-cover" alt="{{ .Title }}">
+    </div>
+    {{ end }}
   </a>
   <div class="card-body">
     <a href="{{ .RelPermalink }}">
@@ -14,19 +16,31 @@
     </a>
 
     {{ if eq .Params.category "Alumni" }}
-      {{ if .Params.role }}
+      {{ if eq .Params.subcategory "Postdoc" }}
         <p class="card-text"><strong>Role:</strong> {{ .Params.role }}</p>
-      {{ end }}
-      {{ if .Params.current }}
-        <p class="card-text"><strong>Now:</strong> {{ .Params.current }}</p>
+        <p class="card-text"><strong>Now:</strong> {{ with .Params.current_position }}{{ . }}{{ end }}</p>
+      {{ else if or (eq .Params.subcategory "Visiting Scholar") (eq .Params.subcategory "PhD Student") }}
+        {{ if .Params.role }}
+        <p class="card-text"><strong>Role:</strong> {{ .Params.role }}</p>
+        {{ end }}
+        <p class="card-text"><strong>Now:</strong> {{ with .Params.current_position }}{{ . }}{{ end }}</p>
+      {{ else if and (eq .Params.subcategory "Masters Student") .Params.image }}
+        {{ if .Params.role }}
+        <p class="card-text"><strong>Role:</strong> {{ .Params.role }}</p>
+        {{ end }}
+        <p class="card-text"><strong>Now:</strong> {{ with .Params.current_position }}{{ . }}{{ end }}</p>
+      {{ else }}
+        {{ if .Params.current }}
+        <p class="card-text">{{ .Params.current }}</p>
+        {{ end }}
       {{ end }}
     {{ end }}
 
     {{ if .Params.link }}
-      <a href="{{ .Params.link }}" target="_blank">link</a> /
+    <a href="{{ .Params.link }}" target="_blank">link</a> /
     {{ end }}
     {{ if .Params.mail }}
-      <a href="{{ .Params.mail }}">email</a> /
+    <a href="{{ .Params.mail }}">email</a> /
     {{ end }}
   </div>
 </div>

@@ -20,7 +20,7 @@ abstract: "This paper presents a method for control synthesis under spatio-tempo
   \ of future work to overcome these limitations. We present numerical examples to\
   \ corroborate our proposed methods."
 authors:
-- Kunal Garg
+- kunalgarg
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/cdc/GargP19,\n  author       = {Kunal Garg and\n  \
   \                Dimitra Panagou},\n  title        = {Control-Lyapunov and Control-Barrier\

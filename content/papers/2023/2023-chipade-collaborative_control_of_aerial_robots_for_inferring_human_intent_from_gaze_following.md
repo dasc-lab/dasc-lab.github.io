@@ -11,7 +11,7 @@ abstract: In an ideal human-robot collaboration, autonomous robots work side-by-
   the intended object to be picked up. The effectiveness of the approach is shown
   using simulations in AirSim, a photo-realistic simulator.
 authors:
-- Vishnu S. Chipade
+- vishnuchipade
 - Alia Gilbert
 - Daniel Harari
 - dimitrapanagou

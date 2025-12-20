@@ -7,8 +7,8 @@ abstract: This paper presents a robust distributed coordination protocol that ac
   is proved analytically, while simulation results demonstrate the efficacy of the
   proposed solution.
 authors:
-- Kunal Garg
-- Dongkun Han
+- kunalgarg
+- dongkunhan
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/cdc/GargHP17,\n  author       = {Kunal Garg and\n \
   \                 Dongkun Han and\n                  Dimitra Panagou},\n  title\

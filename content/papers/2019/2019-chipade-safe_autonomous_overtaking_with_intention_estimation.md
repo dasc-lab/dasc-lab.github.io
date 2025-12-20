@@ -7,7 +7,7 @@ abstract: This paper investigates the problem of overtaking a lead car by an aut
   into account the estimated intent, and ensure safety of the overtaking maneuver.
   Simulation results demonstrate the efficacy of the proposed approach.
 authors:
-- Vishnu S. Chipade
+- vishnuchipade
 - Qiang Shen 0003
 - Lixing Huang
 - Necmiye Ozay

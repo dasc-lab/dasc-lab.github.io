@@ -16,7 +16,7 @@ abstract: In this paper, we introduce a class of future-focused control barrier 
   scenario in the laboratory environment with a collection of 5 non-communicating
   AION ground rovers.
 authors:
-- Mitchell Black
+- mitchellblack
 - Mrdjan Jankovic
 - Abhishek Sharma
 - dimitrapanagou

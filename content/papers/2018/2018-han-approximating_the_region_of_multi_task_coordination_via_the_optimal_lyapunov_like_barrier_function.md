@@ -12,7 +12,7 @@ abstract: 'We consider the multi-task coordination problem for multi-agent syste
   of SG-RMTC is maximized. Numerical examples illustrate the effectiveness of the
   proposed method.'
 authors:
-- Dongkun Han
+- dongkunhan
 - Lixing Huang
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/amcc/HanHP18,\n  author       = {Dongkun Han and\n\

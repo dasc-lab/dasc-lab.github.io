@@ -12,7 +12,7 @@ abstract: This letter presents a strategy for control of a spacecraft docking wi
   allowable disturbance. The controller is then validated in simulation for a spacecraft
   landing on an asteroid, and two spacecraft docking in low Earth orbit.
 authors:
-- Joseph Breeden
+- josephbreeden
 - dimitrapanagou
 bib: "@article{DBLP:journals/csysl/BreedenP22,\n  author       = {Joseph Breeden and\n\
   \                  Dimitra Panagou},\n  title        = {Guaranteed Safe Spacecraft\

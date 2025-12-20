@@ -14,7 +14,7 @@ abstract: An essential problem in the coordination of multiple agents is formati
   Lyapunov-like barrier functions. The efficacy of the proposed method is demonstrated
   via simulation results.
 authors:
-- Dongkun Han
+- dongkunhan
 - dimitrapanagou
 bib: "@article{DBLP:journals/tac/HanP19,\n  author       = {Dongkun Han and\n    \
   \              Dimitra Panagou},\n  title        = {Robust Multitask Formation Control\

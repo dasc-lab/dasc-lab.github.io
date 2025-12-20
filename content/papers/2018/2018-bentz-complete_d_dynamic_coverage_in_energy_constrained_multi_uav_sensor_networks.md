@@ -1,7 +1,7 @@
 ---
 abstract: null
 authors:
-- William Bentz
+- williambentz
 - Tru Hoang
 - Enkhmurun Bayasgalan
 - dimitrapanagou

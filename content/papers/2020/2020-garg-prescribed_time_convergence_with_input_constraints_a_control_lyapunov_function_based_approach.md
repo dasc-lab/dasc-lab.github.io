@@ -16,8 +16,8 @@ abstract: "In this paper, we present a control framework for a general class of 
   \ trajectories and dictates the size of the set DM. Finally, we present a numerical\
   \ example to showcase the efficacy of our proposed method."
 authors:
-- Kunal Garg
-- Ehsan Arabi
+- kunalgarg
+- ersanarabi
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/amcc/GargAP20,\n  author       = {Kunal Garg and\n\
   \                  Ehsan Arabi and\n                  Dimitra Panagou},\n  title\

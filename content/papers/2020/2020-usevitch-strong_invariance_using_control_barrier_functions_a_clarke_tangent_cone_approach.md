@@ -13,8 +13,8 @@ abstract: Many control applications require that a system be constrained to a pa
   and show that any feasible solution of the considered optimization problem which
   is measurable renders the multiple safe sets forward invariant.
 authors:
-- James Usevitch
-- Kunal Garg
+- jamesusevitch
+- kunalgarg
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/cdc/UsevitchGP20,\n  author       = {James Usevitch\
   \ and\n                  Kunal Garg and\n                  Dimitra Panagou},\n \

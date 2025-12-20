@@ -15,7 +15,7 @@ abstract: "This article presents a method for herding a swarm of adversarial age
   \ proposed approach. An implementation of the proposed approach on quadrotor vehicles\
   \ simulated in the Gazebo simulator is also provided."
 authors:
-- Vishnu S. Chipade
+- vishnuchipade
 - dimitrapanagou
 bib: "@article{DBLP:journals/trob/ChipadeP21,\n  author       = {Vishnu S. Chipade\
   \ and\n                  Dimitra Panagou},\n  title        = {Multiagent Planning\

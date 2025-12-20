@@ -9,7 +9,7 @@ abstract: This paper investigates a problem of defending safety-critical infrast
   formation, while avoiding obstacles and inter-agent collisions. The efficacy of
   the approach is demonstrated via simulation results.
 authors:
-- Vishnu S. Chipade
+- vishnuchipade
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/amcc/ChipadeP19,\n  author       = {Vishnu S. Chipade\
   \ and\n                  Dimitra Panagou},\n  title        = {Herding an Adversarial\

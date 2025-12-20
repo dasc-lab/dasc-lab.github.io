@@ -1,7 +1,7 @@
 ---
 abstract: null
 authors:
-- William Bentz
+- williambentz
 - Long Qian
 - dimitrapanagou
 bib: "@article{DBLP:journals/arobots/BentzQP22,\n  author       = {William Bentz and\n\

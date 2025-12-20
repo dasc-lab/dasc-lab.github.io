@@ -11,7 +11,7 @@ abstract: In this paper, we study finite-time stability and stabilization of swi
   study, we design a finite-time stable, output-feedback controller for a linear switched
   system, in which only one of the modes is both controllable and observable.
 authors:
-- Kunal Garg
+- kunalgarg
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/cdc/GargP21,\n  author       = {Kunal Garg and\n  \
   \                Dimitra Panagou},\n  title        = {Finite-Time Stabilization\

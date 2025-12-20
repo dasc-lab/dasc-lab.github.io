@@ -11,7 +11,7 @@ abstract: The centralized power generation infrastructure that defines the North
   constraints.
 authors:
 - Mayank Baranwal
-- Kunal Garg
+- kunalgarg
 - dimitrapanagou
 - Alfred O. Hero III
 bib: "@article{DBLP:journals/csysl/BaranwalGPH21,\n  author       = {Mayank Baranwal\

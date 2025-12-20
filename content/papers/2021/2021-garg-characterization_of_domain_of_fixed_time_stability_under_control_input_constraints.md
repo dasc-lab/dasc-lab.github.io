@@ -11,7 +11,7 @@ abstract: In this paper, we study the effect of control input constraints on the
   the trajectories of a class of nonlinear, control-affine systems to a goal set,
   in the presence of control input constraints.
 authors:
-- Kunal Garg
+- kunalgarg
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/amcc/GargP21,\n  author       = {Kunal Garg and\n \
   \                 Dimitra Panagou},\n  title        = {Characterization of Domain\
