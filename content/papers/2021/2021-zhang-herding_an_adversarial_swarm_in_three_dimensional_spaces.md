@@ -14,7 +14,7 @@ abstract: "This paper presents a defense approach to safeguard a protected area 
   \ reach there. The approach is investigated in simulations."
 authors:
 - Weifan Zhang
-- Vishnu S. Chipade
+- vishnuchipade
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/amcc/ZhangCP21,\n  author       = {Weifan Zhang and\n\
   \                  Vishnu S. Chipade and\n                  Dimitra Panagou},\n\

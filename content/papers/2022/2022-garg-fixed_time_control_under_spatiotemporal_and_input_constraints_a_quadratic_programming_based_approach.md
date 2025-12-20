@@ -1,8 +1,8 @@
 ---
 abstract: null
 authors:
-- Kunal Garg
-- Ehsan Arabi
+- kunalgarg
+- ersanarabi
 - dimitrapanagou
 bib: "@article{DBLP:journals/automatica/GargAP22,\n  author       = {Kunal Garg and\n\
   \                  Ehsan Arabi and\n                  Dimitra Panagou},\n  title\

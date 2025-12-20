@@ -16,7 +16,7 @@ abstract: This paper presents a framework for Simultaneous Localization and Mapp
 authors:
 - Reza Radmanesh
 - Ziyin Wang
-- Vishnu S. Chipade
+- vishnuchipade
 - Gavriil Tsechpenakis
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/amcc/RadmaneshWCTP20,\n  author       = {Reza Radmanesh\

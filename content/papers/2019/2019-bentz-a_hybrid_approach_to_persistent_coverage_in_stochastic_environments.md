@@ -1,7 +1,7 @@
 ---
 abstract: null
 authors:
-- William Bentz
+- williambentz
 - dimitrapanagou
 bib: "@article{DBLP:journals/automatica/BentzP19,\n  author       = {William Bentz\
   \ and\n                  Dimitra Panagou},\n  title        = {A hybrid approach\

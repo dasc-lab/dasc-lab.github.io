@@ -11,7 +11,7 @@ abstract: "Several algorithms in prior literature have been proposed, which guar
   \ the leaders and followers behaving adversarially. Our results are demonstrated\
   \ through simulations."
 authors:
-- James Usevitch
+- jamesusevitch
 - dimitrapanagou
 bib: "@article{DBLP:journals/tac/UsevitchP20,\n  author       = {James Usevitch and\n\
   \                  Dimitra Panagou},\n  title        = {Resilient Leader-Follower\

@@ -11,8 +11,8 @@ abstract: We present a novel technique for solving the problem of safe control f
   literature to safe control under uncertainty, and close by highlighting the value
   of our method in the context of an automobile overtake scenario.
 authors:
-- Mitchell Black
-- Ehsan Arabi
+- mitchellblack
+- ersanarabi
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/eucc/BlackAP21,\n  author       = {Mitchell Black and\n\
   \                  Ehsan Arabi and\n                  Dimitra Panagou},\n  title\

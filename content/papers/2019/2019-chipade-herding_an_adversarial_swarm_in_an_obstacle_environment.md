@@ -8,7 +8,7 @@ abstract: "This paper studies a defense approach against a swarm of adversarial 
   \ to move as a flock in the presence of rectangular obstacles. Simulation results\
   \ are provided to demonstrate the efficacy of the approach."
 authors:
-- Vishnu S. Chipade
+- vishnuchipade
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/cdc/ChipadeP19,\n  author       = {Vishnu S. Chipade\
   \ and\n                  Dimitra Panagou},\n  title        = {Herding an Adversarial\

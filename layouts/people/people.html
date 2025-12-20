@@ -12,19 +12,112 @@
 {{ $categories := slice "Faculty" "PostDoc" "PhD" "Masters" "Visiting" "Alumni" }}
 
 {{ range $category := $categories }}
-  {{ $subpages := where $pages "Params.category" $category }}
-  {{ if $subpages.Len }}
+{{ if eq $category "Alumni" }}
+<div class="pt-3">
+  <h2>{{ $category }}</h2>
+
+  {{/* Visible Sections: Postdoc, Visiting Scholar, PhD Student */}}
+  {{ $alumni_layers := slice "Postdoc" "Visiting Scholar" "PhD Student" }}
+  {{ range $layer := $alumni_layers }}
+  {{ $layerpages := where (where $pages "Params.category" "Alumni") "Params.subcategory" $layer }}
+  {{ if or (eq $layer "PhD Student") (eq $layer "Postdoc") }}
+  {{ $layerpages = sort $layerpages "Params.end_year" "desc" }}
+  {{ else }}
+  {{ $layerpages = sort $layerpages "Params.year" "desc" }}
+  {{ end }}
+  {{ if $layerpages.Len }}
+  <h3>{{ $layer }}</h3>
+  <div class="row row-cols-2 row-cols-md-4 g-4">
+    {{ range $layerpages }}
+    <div class="col">
+      {{ partial "person-card" . }}
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+  {{ end }}
+
+  {{/* Masters Student with Photos - Visible */}}
+  {{ $masters := where (where $pages "Params.category" "Alumni") "Params.subcategory" "Masters Student" }}
+  {{ $masters_visible := where $masters "Params.image" "!=" nil }}
+  {{ $masters_visible := sort $masters_visible "Params.year" "desc" }}
+  {{ if $masters_visible.Len }}
+  <h3>Masters Student</h3>
+  <div class="row row-cols-2 row-cols-md-4 g-4">
+    {{ range $masters_visible }}
+    <div class="col">
+      {{ partial "person-card" . }}
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+
+  {{/* Collapsible Section for Masters without photos and Undergrad */}}
   <div class="pt-3">
-    <h2>{{ $category }}</h2>
-    <div class="row row-cols-2 row-cols-md-4 g-4">
-      {{ range $subpages }}
-      <div class="col">
-        {{ partial "person-card" . }}
+    <button class="btn btn-outline-secondary mb-3" type="button" data-bs-toggle="collapse"
+      data-bs-target="#alumniCollapse" aria-expanded="false" aria-controls="alumniCollapse">
+      Show Other Master's and Undergraduate Alumni
+    </button>
+    <div class="collapse" id="alumniCollapse">
+
+      {{/* Masters without photos */}}
+      {{ $masters_hidden := where $masters "Params.image" "==" nil }}
+      {{ $masters_hidden := sort $masters_hidden "Params.year" "desc" }}
+      {{ if $masters_hidden.Len }}
+      <h3>Masters Student</h3>
+      <div class="row row-cols-2 row-cols-md-4 g-4">
+        {{ range $masters_hidden }}
+        <div class="col">
+          {{ partial "person-card" . }}
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+
+      {{/* Undergraduate Student */}}
+      {{ $undergrads := where (where $pages "Params.category" "Alumni") "Params.subcategory" "Undergraduate Student" }}
+      {{ $undergrads := sort $undergrads "Params.year" "desc" }}
+      {{ if $undergrads.Len }}
+      <h3>Undergraduate Student</h3>
+      <div class="row row-cols-2 row-cols-md-4 g-4">
+        {{ range $undergrads }}
+        <div class="col">
+          {{ partial "person-card" . }}
+        </div>
+        {{ end }}
+      </div>
+      {{ end }}
+
+      {{/* Other Alumni */}}
+      {{ $other_alumni := where (where $pages "Params.category" "Alumni") "Params.subcategory" "nil" }}
+      {{ if $other_alumni.Len }}
+      <h3>Other Alumni</h3>
+      <div class="row row-cols-2 row-cols-md-4 g-4">
+        {{ range $other_alumni }}
+        <div class="col">
+          {{ partial "person-card" . }}
+        </div>
+        {{ end }}
       </div>
       {{ end }}
     </div>
   </div>
-  {{ end }}
+</div>
+{{ else }}
+{{ $subpages := where $pages "Params.category" $category }}
+{{ if $subpages.Len }}
+<div class="pt-3">
+  <h2>{{ $category }}</h2>
+  <div class="row row-cols-2 row-cols-md-4 g-4">
+    {{ range $subpages }}
+    <div class="col">
+      {{ partial "person-card" . }}
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
+{{ end }}
 
 {{ end }}
 

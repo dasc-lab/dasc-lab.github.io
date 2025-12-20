@@ -12,7 +12,7 @@ abstract: In this letter, we introduce the notion of periodic safety, which requ
   satisfaction of control objectives, whereas an exponentially stabilizing low-level
   controller fails.
 authors:
-- Kunal Garg
+- kunalgarg
 - Ryan K. Cosner
 - Ugo Rosolia
 - Aaron D. Ames

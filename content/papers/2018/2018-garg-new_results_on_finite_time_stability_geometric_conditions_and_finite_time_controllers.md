@@ -8,7 +8,7 @@ abstract: This paper presents novel controllers that yield finite-time stability
   time. Finally, we present simulation results for each of these cases, showing the
   efficacy of the designed control laws.
 authors:
-- Kunal Garg
+- kunalgarg
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/amcc/GargP18,\n  author       = {Kunal Garg and\n \
   \                 Dimitra Panagou},\n  title        = {New Results on Finite-Time\

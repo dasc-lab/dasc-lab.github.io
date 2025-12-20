@@ -11,7 +11,7 @@ abstract: "This paper presents a novel method by which an assistive aerial robot
   \ is presented that assesses the influence of the assitive robot on reflex time,\
   \ head motion, and task completion time."
 authors:
-- William Bentz
+- williambentz
 - Sahib Dhanjal
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/icra/BentzDP19,\n  author       = {William Bentz and\n\

@@ -12,8 +12,8 @@ abstract: In this paper, a model reference adaptive control architecture is prop
   proposed control architecture is also demonstrated through an illustrative numerical
   example.
 authors:
-- Ehsan Arabi
-- Kunal Garg
+- ersanarabi
+- kunalgarg
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/amcc/ArabiGP20,\n  author       = {Ehsan Arabi and\n\
   \                  Kunal Garg and\n                  Dimitra Panagou},\n  title\

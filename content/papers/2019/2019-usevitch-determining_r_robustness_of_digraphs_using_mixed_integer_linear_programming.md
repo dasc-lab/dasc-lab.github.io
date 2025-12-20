@@ -11,7 +11,7 @@ abstract: Convergence guarantees of many resilient consensus algorithms are base
   can allow both lower and upper bounds on $r$ to be iteratively tightened. Simulations
   suggest the proposed method demonstrates greater efficiency than prior algorithms.
 authors:
-- James Usevitch
+- jamesusevitch
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/amcc/UsevitchP19,\n  author       = {James Usevitch\
   \ and\n                  Dimitra Panagou},\n  title        = {Determining r-Robustness\

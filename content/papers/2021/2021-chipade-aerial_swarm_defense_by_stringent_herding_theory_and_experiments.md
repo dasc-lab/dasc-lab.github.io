@@ -16,7 +16,7 @@ abstract: "This paper studies a defense approach against one or more swarms of a
   \ is demonstrated via computer simulations, as well as hardware experiments with\
   \ a fleet of quadrotors."
 authors:
-- Vishnu S. Chipade
+- vishnuchipade
 - Venkata Sai Aditya Marella
 - dimitrapanagou
 bib: "@article{DBLP:journals/firai/ChipadeMP21,\n  author       = {Vishnu S. Chipade\

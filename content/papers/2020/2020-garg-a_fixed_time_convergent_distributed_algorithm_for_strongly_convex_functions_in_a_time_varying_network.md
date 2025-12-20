@@ -11,7 +11,7 @@ abstract: This paper presents a novel distributed nonlinear protocol for minimiz
   initial conditions, for time-varying communication topology. Numerical examples
   corroborate our theoretical analysis.
 authors:
-- Kunal Garg
+- kunalgarg
 - Mayank Baranwal
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/cdc/GargBP20,\n  author       = {Kunal Garg and\n \

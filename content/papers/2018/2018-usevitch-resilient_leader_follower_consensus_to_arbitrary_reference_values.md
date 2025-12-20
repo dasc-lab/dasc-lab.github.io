@@ -9,7 +9,7 @@ abstract: The problem of consensus in the presence of misbehaving agents has inc
   the presence of misbehaving agents has not been fully studied. This paper presents
   conditions for a network of agents using the W-MSR algorithm to achieve this objective.
 authors:
-- James Usevitch
+- jamesusevitch
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/amcc/UsevitchP18,\n  author       = {James Usevitch\
   \ and\n                  Dimitra Panagou},\n  title        = {Resilient Leader-Follower\

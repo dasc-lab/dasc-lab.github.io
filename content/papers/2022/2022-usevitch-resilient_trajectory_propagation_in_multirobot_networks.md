@@ -9,7 +9,7 @@ abstract: "This article presents a novel method for a class of multirobot networ
   \ the form of Bezier curves are encoded into vectors of static parameters, which,\
   \ in turn, are resiliently propagated from the leaders to the followers."
 authors:
-- James Usevitch
+- jamesusevitch
 - dimitrapanagou
 bib: "@article{DBLP:journals/trob/UsevitchP22,\n  author       = {James Usevitch and\n\
   \                  Dimitra Panagou},\n  title        = {Resilient Trajectory Propagation\

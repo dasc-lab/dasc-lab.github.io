@@ -11,7 +11,7 @@ abstract: This paper presents methodologies for ensuring forward invariance of s
   observation problem using quadratic-program based controllers to enforce the ZCBF
   condition.
 authors:
-- Joseph Breeden
+- josephbreeden
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/cdc/BreedenP21,\n  author       = {Joseph Breeden and\n\
   \                  Dimitra Panagou},\n  title        = {High Relative Degree Control\

@@ -9,7 +9,7 @@ abstract: This paper presents a persistent coverage algorithm for multiple agent
   agents to explore in the vicinity of both future and past impact points. The efficacy
   of the algorithm is demonstrated through simulation.
 authors:
-- William Bentz
+- williambentz
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/cdc/BentzP17,\n  author       = {William Bentz and\n\
   \                  Dimitra Panagou},\n  title        = {Persistent coverage of a\

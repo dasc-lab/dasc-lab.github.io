@@ -11,8 +11,8 @@ abstract: This letter presents conditions for ensuring forward invariance of saf
   this enables the use of barrier functions that are impossible to implement with
   the desired time-step using existing methods.
 authors:
-- Joseph Breeden
-- Kunal Garg
+- josephbreeden
+- kunalgarg
 - dimitrapanagou
 bib: "@article{DBLP:journals/csysl/BreedenGP22,\n  author       = {Joseph Breeden\
   \ and\n                  Kunal Garg and\n                  Dimitra Panagou},\n \

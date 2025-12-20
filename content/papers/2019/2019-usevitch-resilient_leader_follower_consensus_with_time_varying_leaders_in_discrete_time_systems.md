@@ -10,7 +10,7 @@ abstract: "The problem of consensus in the presence of adversarially behaving ag
   \ of the leaders and followers behaving adversarially. The efficacy of our results\
   \ are demonstrated through simulations."
 authors:
-- James Usevitch
+- jamesusevitch
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/cdc/UsevitchP19,\n  author       = {James Usevitch\
   \ and\n                  Dimitra Panagou},\n  title        = {Resilient Leader-Follower\

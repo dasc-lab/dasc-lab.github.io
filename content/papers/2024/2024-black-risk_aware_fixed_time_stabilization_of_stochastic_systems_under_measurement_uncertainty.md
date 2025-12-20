@@ -16,7 +16,7 @@ abstract: This paper addresses the problem of risk-aware fixed-time stabilizatio
   scenario to highlight their ability to certify the probability that a system safely
   reaches its goal.
 authors:
-- Mitchell Black
+- mitchellblack
 - Georgios Fainekos
 - Bardh Hoxha
 - dimitrapanagou

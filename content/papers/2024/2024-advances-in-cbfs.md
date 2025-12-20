@@ -5,10 +5,10 @@ date:   2024-03-12
 image: /images/2024-advances-in-cbfs.png
 venue: "Annual Reviews in Control 2024"
 authors:
-    - Kunal Garg
-    - James Usevitch
-    - Joseph Breeden
-    - Mitchell Black
+    - kunalgarg
+    - jamesusevitch
+    - josephbreeden
+    - mitchellblack
     - devanshagrawal
     - hardikparwana
     - dimitrapanagou

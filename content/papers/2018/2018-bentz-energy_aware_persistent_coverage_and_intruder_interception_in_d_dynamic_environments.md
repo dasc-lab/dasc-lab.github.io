@@ -10,7 +10,7 @@ abstract: This paper considers the persistent coverage of a 2-D manifold that ha
   interception with respect to agent power lifespans are formally proven. The efficacy
   of the algorithm is demonstrated through simulation.
 authors:
-- William Bentz
+- williambentz
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/amcc/BentzP18,\n  author       = {William Bentz and\n\
   \                  Dimitra Panagou},\n  title        = {Energy-aware Persistent\
