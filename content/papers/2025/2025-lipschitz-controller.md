@@ -6,8 +6,8 @@ title:  "Reformulations of Quadratic Programs for Lipschitz Continuity"
 date: 2025-11-06
 # list the authors. if a "/people/id" page exists for the person, it will be linked. If not, the author's name is printed exactly as you typed it.
 authors:
-    - devanshagrawal
-    - haejoonl
+    - devanshagrawal*
+    - haejoonl*
     - dimitrapanagou
 # give the main figure location, relative to /static/
 image: /images/reformulations.gif
