@@ -7,7 +7,7 @@ image: "/images/cherenson.jpg"
 # start year, used for sorting
 year: 2024
 # link to personal website (optional)
-link:
+link: https://dcherenson.github.io/
 # email id (optional)
 mail: mailto:dmrc@umich.edu
 ---
