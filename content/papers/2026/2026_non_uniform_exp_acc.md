@@ -3,7 +3,7 @@ layout: papers
 # specify the title of the paper
 title:  "Multi-Robot Allocation for Information Gathering in Non-Uniform Spatiotemporal Environments"
 # specify the date it was published
-date: 2026-01-21
+date: 2026-05-26
 # list the authors. if a "/people/id" page exists for the person, it will be linked. If not, the author's name is printed exactly as you typed it.
 authors:
     - kalebbennaveed
