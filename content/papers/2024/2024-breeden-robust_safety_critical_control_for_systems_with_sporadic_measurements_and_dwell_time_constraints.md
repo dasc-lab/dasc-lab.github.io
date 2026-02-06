@@ -10,7 +10,7 @@ abstract: This letter presents extensions of control barrier function (CBF) theo
   We apply these conditions to simulations of a satellite rendezvous in an elliptical
   orbit and autonomous orbit stationkeeping.
 authors:
-- Joseph Breeden
+- josephbreeden
 - Luca Zaccarian
 - dimitrapanagou
 bib: "@article{DBLP:journals/csysl/BreedenZP24,\n  author       = {Joseph Breeden\

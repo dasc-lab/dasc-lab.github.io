@@ -12,7 +12,7 @@ abstract: Estimating the Domain of Attraction (DA) of non-polynomial systems is 
   examples demonstrate that both accuracy and efficiency are improved compared to
   Taylor approximation.
 authors:
-- Dongkun Han
+- dongkunhan
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/cdc/HanP17a,\n  author       = {Dongkun Han and\n \
   \                 Dimitra Panagou},\n  title        = {Chebyshev approximation and\

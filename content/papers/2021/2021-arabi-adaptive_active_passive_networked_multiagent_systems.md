@@ -15,7 +15,7 @@ abstract: Active-passive multiagent systems consist of agents subject to inputs 
   several task locations, and the multiagent system identifies these locations and
   move toward them as a coverage control problem.
 authors:
-- Ehsan Arabi
+- ersanarabi
 - dimitrapanagou
 - Tansel Yucelen
 bib: "@inproceedings{DBLP:conf/amcc/ArabiPY21,\n  author       = {Ehsan Arabi and\n\

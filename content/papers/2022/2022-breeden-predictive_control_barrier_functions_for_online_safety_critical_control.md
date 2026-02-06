@@ -14,7 +14,7 @@ abstract: This paper presents a methodology for constructing Control Barrier Fun
   trajectory and smaller control inputs than a traditional CBF, and faster computations
   than a nonlinear model predictive control approach.
 authors:
-- Joseph Breeden
+- josephbreeden
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/cdc/BreedenP22,\n  author       = {Joseph Breeden and\n\
   \                  Dimitra Panagou},\n  title        = {Predictive Control Barrier\

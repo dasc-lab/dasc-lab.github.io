@@ -1,7 +1,7 @@
 ---
 abstract: null
 authors:
-- Joseph Breeden
+- josephbreeden
 - dimitrapanagou
 bib: "@article{DBLP:journals/automatica/BreedenP23,\n  author       = {Joseph Breeden\
   \ and\n                  Dimitra Panagou},\n  title        = {Robust Control Barrier\

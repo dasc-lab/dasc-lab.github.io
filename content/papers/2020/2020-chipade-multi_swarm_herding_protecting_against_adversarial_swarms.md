@@ -14,7 +14,7 @@ abstract: "This paper studies a defense approach against one or more swarms of a
   \ to each identified swarm of attackers by solving a constrained generalized assignment\
   \ problem. Simulations are provided to demonstrate the effectiveness of the approach."
 authors:
-- Vishnu S. Chipade
+- vishnuchipade
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/cdc/ChipadeP20,\n  author       = {Vishnu S. Chipade\
   \ and\n                  Dimitra Panagou},\n  title        = {Multi-Swarm Herding:\

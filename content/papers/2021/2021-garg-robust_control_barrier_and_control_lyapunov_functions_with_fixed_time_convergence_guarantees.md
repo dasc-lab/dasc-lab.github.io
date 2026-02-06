@@ -10,7 +10,7 @@ abstract: This paper studies control synthesis for a general class of nonlinear,
   to compute the control input. We showcase the efficacy of the proposed method on
   a numerical case study involving multiple underactuated marine vehicles.
 authors:
-- Kunal Garg
+- kunalgarg
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/amcc/GargP21a,\n  author       = {Kunal Garg and\n\
   \                  Dimitra Panagou},\n  title        = {Robust Control Barrier and\

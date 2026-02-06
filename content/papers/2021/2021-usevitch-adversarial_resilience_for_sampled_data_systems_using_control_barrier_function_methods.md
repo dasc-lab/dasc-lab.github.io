@@ -11,7 +11,7 @@ abstract: Control barrier functions (CBFs) have recently become a powerful metho
   set forward invariant in the presence of adversarial agents. The efficacy of these
   results are demonstrated through simulations.
 authors:
-- James Usevitch
+- jamesusevitch
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/amcc/UsevitchP21,\n  author       = {James Usevitch\
   \ and\n                  Dimitra Panagou},\n  title        = {Adversarial Resilience\

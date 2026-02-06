@@ -10,7 +10,7 @@ abstract: This letter presents extensions of control barrier function (CBF) and 
   in an optimization-based control law with aperiodic impulses. We simulate both results
   on a spacecraft docking problem with multiple obstacles.
 authors:
-- Joseph Breeden
+- josephbreeden
 - dimitrapanagou
 bib: "@article{DBLP:journals/csysl/BreedenP23,\n  author       = {Joseph Breeden and\n\
   \                  Dimitra Panagou},\n  title        = {Safety-Critical Control\

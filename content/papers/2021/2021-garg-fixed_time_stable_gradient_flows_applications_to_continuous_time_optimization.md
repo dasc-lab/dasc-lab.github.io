@@ -18,7 +18,7 @@ abstract: "Continuous-time optimization is currently an active field of research
   max problem is considered, and a modified saddle-point dynamics to obtain the optimal\
   \ solution in fixed time is developed."
 authors:
-- Kunal Garg
+- kunalgarg
 - dimitrapanagou
 bib: "@article{DBLP:journals/tac/GargP21,\n  author       = {Kunal Garg and\n    \
   \              Dimitra Panagou},\n  title        = {Fixed-Time Stable Gradient Flows:\

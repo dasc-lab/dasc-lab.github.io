@@ -17,7 +17,7 @@ abstract: This paper presents a framework for online adaptive estimation of unkn
   of the true dynamic system. It can be viewed as an extension of the notion of partial
   persistence of excitation to the RKHS embedding framework.
 authors:
-- Parag Bobade
+- paragbobade
 - dimitrapanagou
 - Andrew J. Kurdila
 bib: "@inproceedings{DBLP:conf/eucc/BobadePK19,\n  author       = {Parag Bobade and\n\

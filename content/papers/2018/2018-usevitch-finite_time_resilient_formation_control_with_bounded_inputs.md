@@ -11,8 +11,8 @@ abstract: In this paper we consider the problem of a multiagent system achieving
   which is shown to have exponential convergence. Our results are demonstrated through
   simulations.
 authors:
-- James Usevitch
-- Kunal Garg
+- jamesusevitch
+- kunalgarg
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/cdc/UsevitchGP18,\n  author       = {James Usevitch\
   \ and\n                  Kunal Garg and\n                  Dimitra Panagou},\n \

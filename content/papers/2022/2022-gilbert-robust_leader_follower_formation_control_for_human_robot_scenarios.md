@@ -8,7 +8,7 @@ abstract: "This paper presents a robust formation control problem for multiple r
   \ The proposed architecture is demonstrated in simulations and experiments."
 authors:
 - Alia Gilbert
-- Vishnu S. Chipade
+- vishnuchipade
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/amcc/GilbertCP22,\n  author       = {Alia Gilbert and\n\
   \                  Vishnu S. Chipade and\n                  Dimitra Panagou},\n\

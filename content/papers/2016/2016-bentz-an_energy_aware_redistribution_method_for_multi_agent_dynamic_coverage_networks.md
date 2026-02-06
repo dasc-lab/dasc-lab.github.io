@@ -10,7 +10,7 @@ abstract: This paper considers dynamic coverage control of unicycle multi-agent 
   onto less constrained agents. The results of several scenarios are presented in
   simulation to illustrate the efficacy of these algorithms.
 authors:
-- William Bentz
+- williambentz
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/cdc/BentzP16,\n  author       = {William Bentz and\n\
   \                  Dimitra Panagou},\n  title        = {An energy-aware redistribution\

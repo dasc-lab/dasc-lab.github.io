@@ -11,8 +11,8 @@ abstract: In this paper, we study the effect of non-vanishing disturbances on th
   a highway as a case study, and discuss how to both set up the QP and decide when
   to start the overtake maneuver in the presence of sensing errors.
 authors:
-- Mitchell Black
-- Kunal Garg
+- mitchellblack
+- kunalgarg
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/cdc/BlackGP20,\n  author       = {Mitchell Black and\n\
   \                  Kunal Garg and\n                  Dimitra Panagou},\n  title\

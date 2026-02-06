@@ -12,7 +12,7 @@ abstract: We develop a novel adaptation-based technique for safe control design 
   its efficacy via a laboratory study with an AION ground rover operating amongst
   other vehicles behaving both aggressively and conservatively.
 authors:
-- Mitchell Black
+- mitchellblack
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/cdc/BlackP23,\n  author       = {Mitchell Black and\n\
   \                  Dimitra Panagou},\n  title        = {Adaptation for Validation\

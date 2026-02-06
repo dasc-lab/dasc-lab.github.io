@@ -9,7 +9,7 @@ abstract: We propose a novel class of risk-aware control barrier functions (RA-C
   study on an mobile-robot example, and further demonstrate its viability on an autonomous
   vehicle highway merging problem in dense traffic.
 authors:
-- Mitchell Black
+- mitchellblack
 - Georgios Fainekos
 - Bardh Hoxha
 - Danil V. Prokhorov

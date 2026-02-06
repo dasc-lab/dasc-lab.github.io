@@ -18,7 +18,7 @@ abstract: In this article, we propose a distributed adaptive control architectur
   example finally demonstrates the efficacy of the proposed distributed adaptive control
   architecture.
 authors:
-- Ehsan Arabi
+- ersanarabi
 - dimitrapanagou
 bib: "@article{DBLP:journals/tcns/ArabiP22,\n  author       = {Ehsan Arabi and\n \
   \                 Dimitra Panagou},\n  title        = {Adaptive Control of Second-Order\

@@ -15,7 +15,7 @@ abstract: Control barrier functions (CBFs) have recently become a powerful metho
   high relative degree with respect to system dynamics. The efficacy of these results
   are demonstrated through simulations.
 authors:
-- James Usevitch
+- jamesusevitch
 - dimitrapanagou
 bib: "@article{DBLP:journals/tac/UsevitchP23,\n  author       = {James Usevitch and\n\
   \                  Dimitra Panagou},\n  title        = {Adversarial Resilience for\

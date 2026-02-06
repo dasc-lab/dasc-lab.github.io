@@ -13,7 +13,7 @@ abstract: This paper presents a methodology for ensuring that the composition of
   this methodology is then demonstrated in simulation for a nonlinear orientation
   control system.
 authors:
-- Joseph Breeden
+- josephbreeden
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/amcc/BreedenP23,\n  author       = {Joseph Breeden\
   \ and\n                  Dimitra Panagou},\n  title        = {Compositions of Multiple\

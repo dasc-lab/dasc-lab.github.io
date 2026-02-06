@@ -12,7 +12,7 @@ abstract: Many algorithms have been proposed in prior literature to guarantee re
   for normally-behaving agents with nonlinear dynamics to achieve consensus in finite
   time despite the presence of adversarial agents.
 authors:
-- James Usevitch
+- jamesusevitch
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/amcc/UsevitchP20,\n  author       = {James Usevitch\
   \ and\n                  Dimitra Panagou},\n  title        = {Resilient Finite-Time\

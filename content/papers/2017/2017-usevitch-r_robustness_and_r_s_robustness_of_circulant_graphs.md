@@ -10,7 +10,7 @@ abstract: There has been recent growing interest in graph theoretical properties
   a parameter k and prove that the robustness of these graphs is also determined by
   k. We support our results through computer simulations.
 authors:
-- James Usevitch
+- jamesusevitch
 - dimitrapanagou
 bib: "@inproceedings{DBLP:conf/cdc/UsevitchP17,\n  author       = {James Usevitch\
   \ and\n                  Dimitra Panagou},\n  title        = {r-Robustness and (r,\

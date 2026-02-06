@@ -1,7 +1,7 @@
 ---
 abstract: null
 authors:
-- James Usevitch
+- jamesusevitch
 - dimitrapanagou
 bib: "@article{DBLP:journals/automatica/UsevitchP20,\n  author       = {James Usevitch\
   \ and\n                  Dimitra Panagou},\n  title        = {Determining r- and\
