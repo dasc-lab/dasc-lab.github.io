@@ -1,19 +1,77 @@
-<div>
-
-{{/* Expects ".Params.code" to be of the format "https://github.com/username/repo" */}}
-{{/* Uses https://github.com/anuraghazra/github-readme-stats to render the card */}}
-
 {{/* split the string to get the username and repo string */}}
 {{ $github_split := split .Params.code "/" }}
 {{ $username := index $github_split 3 }}
 {{ $repo := index $github_split 4 }}
+{{ $unique_id := printf "gh-%s-%s" $username $repo | urlize }}
 
-<div class="repo">
-  <a href={{ .Params.code }} target="_blank">
-    <img
-      src="https://github-readme-stats.vercel.app/api/pin/?username={{ $username }}&repo={{ $repo }}&show_owner=true&description_lines_count=3"
-    >
-  </a>
-</div>
+<a href="{{ .Params.code }}" target="_blank" class="github-repo-card-container">
+  <div class="github-repo-card" id="{{ $unique_id }}">
+    <div class="gh-card-header">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" style="fill: currentColor;">
+        <path
+          d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1h-8a1 1 0 00-1 1v6.708A2.486 2.486 0 014.5 9h8v-7.5zM5 11a.5.5 0 01.5-.5h2a.5.5 0 010 1h-2a.5.5 0 01-.5-.5z">
+        </path>
+      </svg>
+      <span class="gh-card-title">{{ $username }} / {{ $repo }}</span>
+    </div>
+    <div class="gh-card-description">{{ .Title }}</div>
+    <div class="gh-card-footer">
+      <div class="gh-card-stat">
+        <span class="gh-card-lang-color" id="{{ $unique_id }}-lang-color"></span>
+        <span id="{{ $unique_id }}-lang">...</span>
+      </div>
+      <div class="gh-card-stat">
+        <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" style="fill: currentColor;">
+          <path
+            d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z">
+          </path>
+        </svg>
+        <span id="{{ $unique_id }}-stars">0</span>
+      </div>
+    </div>
+  </div>
+</a>
 
-</div>
+<script>
+  (function () {
+    const user = "{{ $username }}";
+    const repo = "{{ $repo }}";
+    const idPrefix = "{{ $unique_id }}";
+
+    const langColors = {
+      "Python": "#3572A5",
+      "JavaScript": "#f1e05a",
+      "TypeScript": "#3178c6",
+      "Julia": "#a270ba",
+      "C++": "#f34b7d",
+      "HTML": "#e34c26",
+      "CSS": "#563d7c",
+      "Matlab": "#e16737",
+      "C": "#555555",
+      "Jupyter Notebook": "#DA5B0B"
+    };
+
+    fetch(`https://api.github.com/repos/${user}/${repo}`)
+      .then(response => response.json())
+      .then(data => {
+        const starsEl = document.getElementById(`${idPrefix}-stars`);
+        const langEl = document.getElementById(`${idPrefix}-lang`);
+        const colorEl = document.getElementById(`${idPrefix}-lang-color`);
+
+        if (starsEl) starsEl.textContent = data.stargazers_count || 0;
+        if (langEl) {
+          if (data.language) {
+            langEl.textContent = data.language;
+            if (colorEl) colorEl.style.backgroundColor = langColors[data.language] || "#8b949e";
+          } else {
+            langEl.textContent = "Readme";
+          }
+        }
+      })
+      .catch(err => {
+        console.error("Error fetching repo data", err);
+        const langEl = document.getElementById(`${idPrefix}-lang`);
+        if (langEl) langEl.textContent = "GitHub Repo";
+      });
+  })();
+</script>
