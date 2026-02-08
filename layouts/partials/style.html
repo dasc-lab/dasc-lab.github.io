@@ -1,60 +1,151 @@
 <style>
-.main-container {
-  max-width: {{ .Site.Params.containerMaxWidth | default "1100px" | safeCSS }};
-}
+  .main-container {
+    max-width: {
+        {
+        .Site.Params.containerMaxWidth | default "1100px" | safeCSS
+      }
+    }
 
-#main {
-  margin-top: 1em;
-  margin-bottom: 4em;
-}
-.tag-btn {
-  margin-bottom: 0.3em;
-}
-img {
-  max-width: 100%;
-}
+    ;
+  }
 
-a:hover {
-  text-decoration-color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,0.85));
-  color: var(--bs-link-hover-color-rgb);
-}
+  #main {
+    margin-top: 1em;
+    margin-bottom: 4em;
+  }
 
-a {
-  color: var(--bs-body-color-rgb);
-  text-decoration: underline;
-  text-decoration-color: rgba(var(--bs-body-color-rgb),var(--bs-link-opacity,0.5));
-  text-underline-offset: 0.25em;
-}
+  .tag-btn {
+    margin-bottom: 0.3em;
+  }
 
-pre {
-  white-space: pre-wrap; /* Enables wrapping */
-  word-wrap: break-word; /* Breaks long words */
-}
+  img {
+    max-width: 100%;
+  }
 
-/* authors list */
+  a:hover {
+    text-decoration-color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 0.85));
+    color: var(--bs-link-hover-color-rgb);
+  }
 
-.author-list>*:not(:last-child)::after {
-  content: ", ";
-}
+  a {
+    color: var(--bs-body-color-rgb);
+    text-decoration: underline;
+    text-decoration-color: rgba(var(--bs-body-color-rgb), var(--bs-link-opacity, 0.5));
+    text-underline-offset: 0.25em;
+  }
 
+  pre {
+    white-space: pre-wrap;
+    /* Enables wrapping */
+    word-wrap: break-word;
+    /* Breaks long words */
+  }
 
-.author-list-link:hover {
-  text-decoration: underline;
-}
+  /* authors list */
 
-.author-list-link {
-  color: inherit;
-  text-decoration: none;
-}
-
-/* make links in divs with class="blue-links" blue */
-.blue-links  a {
-  color: var(--bs-link-color);
-}
-
-.no-underline {
-  text-decoration: none;
-}
+  .author-list>*:not(:last-child)::after {
+    content: ", ";
+  }
 
 
+  .author-list-link:hover {
+    text-decoration: underline;
+  }
+
+  .author-list-link {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  /* make links in divs with class="blue-links" blue */
+  .blue-links a {
+    color: var(--bs-link-color);
+  }
+
+  .no-underline {
+    text-decoration: none;
+  }
+
+  /* High-Fidelity GitHub Repo Card Styling */
+  .github-repo-card-container {
+    display: block;
+    text-decoration: none !important;
+    color: #1f2328 !important;
+    width: 320px;
+    max-width: 100%;
+    margin-bottom: 0px;
+  }
+
+  .github-repo-card-container:hover {
+    text-decoration: none !important;
+  }
+
+  .github-repo-card {
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+    padding: 12px;
+    background-color: #ffffff;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  }
+
+  .github-repo-card-container:hover .github-repo-card {
+    border-color: #0969da;
+    box-shadow: 0 3px 6px rgba(140, 149, 159, 0.15);
+  }
+
+  .gh-card-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #0969da;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .gh-card-title {
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .gh-card-description {
+    font-size: 12px;
+    color: #656d76;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 2.8em;
+    text-decoration: none !important;
+  }
+
+  .gh-card-footer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 11px;
+    color: #656d76;
+    margin-top: auto;
+  }
+
+  .gh-card-stat {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .gh-card-lang-color {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #8b949e;
+  }
 </style>

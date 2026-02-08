@@ -1,9 +1,9 @@
 ---
 layout: papers
 title:  "Beyond Collision Cones: Dynamic Obstacle Avoidance for Nonholonomic Robots via Dynamic Parabolic Control Barrier Functions"
-date:   2026-01-01
+date:   2026-01-31
 image: /images/2026-dpcbf.gif
-venue: "under review"
+venue: "IEEE ICRA 2026"
 authors:
     - hunkukpark*
     - taekyungkim*
