@@ -2,7 +2,7 @@
 layout: papers
 title:  "Adaptive Ergodic Search with Energy-Aware Scheduling for Persistent Multi-Robot Missions"
 date:   2025-09-08
-image: /images/mEclares.gif
+image: /images/mEclares.png
 venue: "Autonomous Robots, Springer Nature"
 authors:
     - kalebbennaveed
