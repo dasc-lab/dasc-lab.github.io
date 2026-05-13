@@ -16,7 +16,7 @@ venue: "IEEE ACC 2026"
 # link to publisher site (optional)
 link: 
 # link to arxiv (optional)
-arxiv: https://arxiv.org/abs/2510.22883
+arxiv: https://arxiv.org/abs/2509.22883
 # link to github (optional)
 # code: https://github.com/joonlee16/partial_resilient_leader_follower_consensus
 # link to video (optional)

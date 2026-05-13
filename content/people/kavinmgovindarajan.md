@@ -7,7 +7,7 @@ image: "/images/kavinmgovindarajan.jpg"
 # start year, used for sorting
 year: 2024
 # link to personal website (optional)
-link: "https://kmgovind.github.io/DigitalPortfolio/"
+link: "https://kmgovind.github.io/"
 # email id (optional)
 mail: mailto:kmgovind@umich.edu
 ---
