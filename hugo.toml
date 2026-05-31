@@ -4,7 +4,7 @@ title = 'DASC Lab UMich'
 buildFuture = true
 
 [permalinks]
-  blog = "/:filename/"
+  blog = "/:contentbasename/"
 
 [taxonomies]
 # person = "people"
