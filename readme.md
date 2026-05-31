@@ -22,11 +22,16 @@ docker compose build
 ```
 to build the image, and then to run the container
 ```
-docker compose up -d
-docker exec -it dasc-labgithubio-hugo-1 hugo server
-```
+This will build the image (if necessary) and start the server. It will print a clickable link to `http://localhost:1313/` directly in your terminal. Updates made to the local repo should automatically get rendered.
 
-This should print the location where the web server is available, and you can open it in a browser. Updates made to the local repo should automatically get rendered.
+If you prefer to run the container in the background, use:
+```bash
+docker compose up -d
+```
+You can then view the logs to see the clickable link by running:
+```bash
+docker compose logs -f hugo
+```
 
 ## Adding Content
 
