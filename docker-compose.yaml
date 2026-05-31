@@ -1,9 +1,13 @@
-version: "3"
-
 services:
   hugo:
     build: .
-    tty: true
-    network_mode: "host"
+    container_name: dasc-hugo
+    ports:
+      - "1313:1313"
     volumes:
       - .:/root/src
+    environment:
+      - HUGO_ENV=development
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
