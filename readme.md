@@ -3,22 +3,24 @@
 
 ## Development
 Install Hugo, following the steps at https://gohugo.io/installation/
-This website was built using Hugo v0.132.1
+This website was built using Hugo v0.161.1
 
 To see the website locally, run
 ```
 hugo server
 ```
-and navigate to the url, usually `http://localhost:1313/`.
+and navigate to the URL, usually `http://localhost:1313/`.
 
 After the changes have been made, commit them onto a new branch, and create a PR to merge the content into `main`.
-The github workflows will automatically deploy the new version of the website.
+The GitHub workflows will automatically deploy the new version of the website.
 
 ## Docker
 
-You can also use the docker compose setup here to do this. Simply run:
-```bash
-docker compose up
+You can also use Docker to do this (recommended). Simply run
+```
+docker compose build
+```
+to build the image, and then to run the container
 ```
 This will build the image (if necessary) and start the server. It will print a clickable link to `http://localhost:1313/` directly in your terminal. Updates made to the local repo should automatically get rendered.
 
