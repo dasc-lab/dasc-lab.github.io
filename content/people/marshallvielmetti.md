@@ -5,7 +5,7 @@ category: PhD
 # give the path relative to static/
 image: "/images/marshallvielmetti.jpg"
 # start year, used for sorting
-year: 2025
+year: 2026
 # link to personal website (optional)
 link: "https://linkedin.com/in/marshall-vielmetti"
 # email id (optional)
