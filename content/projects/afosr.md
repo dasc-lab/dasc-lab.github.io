@@ -4,8 +4,8 @@ title: "AFOSR: Networked Adversarially-Resilient Reconfigurable Operations in Ob
 key: AFOSR
 # one-line summary shown on the /projects/ list page
 summary: "Safe planning and attack-tolerant control and estimation for multi-robot networks that must stay resilient to adversaries while operating in confined, obstacle-rich environments."
-sponsor: "Air Force Office of Scientific Research (AFOSR), Complex Networks Program"
-dates:
+sponsor: "Air Force Office of Scientific Research (AFOSR), Complex Networks program, FA9550-23-1-0163"
+dates: "2023 - 2026"
 # external project website (optional)
 link:
 # image relative to /static/
