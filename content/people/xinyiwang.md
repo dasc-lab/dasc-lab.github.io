@@ -1,8 +1,10 @@
 ---
 title: Xinyi Wang
-category: PostDoc
+category: Alumni
 image: "/images/xinyiwang.jpg"
-year: 2024
+year: 2026
 link: https://lawliet9666.github.io/
 mail: mailto:xinywa@umich.edu
+role: "PostDoc (2024 - 2026)"
+current: "Assistant Professor at Oakland University."
 ---
