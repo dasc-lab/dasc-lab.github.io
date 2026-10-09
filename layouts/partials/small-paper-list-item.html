@@ -44,6 +44,9 @@
           {{ if .Params.code }}
             <a href="{{ .Params.code }}" target="_blank">code</a> /
           {{ end }}
+          {{ with .Params.demo }}
+            <a href="{{ . }}" target="_blank" rel="noopener noreferrer">web demo</a> /
+          {{ end }}
           {{ if .Params.poster }}
             <a href="{{ .Params.poster }}" target="_blank">poster</a> /
           {{ end }}
