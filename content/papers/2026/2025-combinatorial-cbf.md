@@ -15,6 +15,8 @@ authors:
 image: /images/2025_combinatorial_cbf.png
 # specify the conference or journal that it was published in
 venue: "IEEE L-CSS 2025"
+# funding project (matches `key` in /content/projects/)
+funding: AFOSR
 # link to publisher site (optional)
 link: https://ieeexplore.ieee.org/abstract/document/11277309
 # link to arxiv (optional)

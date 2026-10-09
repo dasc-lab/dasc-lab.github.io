@@ -13,6 +13,8 @@ authors:
 image: /images/reformulations.gif
 # specify the conference or journal that it was published in
 venue: "IEEE L-CSS 2025"
+# funding project (matches `key` in /content/projects/)
+funding: AFOSR
 # link to publisher site (optional)
 link: 
 # link to arxiv (optional)

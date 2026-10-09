@@ -12,6 +12,8 @@ authors:
 image: /images/2025-strong_r-icra.gif
 # specify the conference or journal that it was published in
 venue: "IEEE ICRA 2025"
+# funding project (matches `key` in /content/projects/)
+funding: AFOSR
 # link to publisher site (optional)
 link: 
 # link to arxiv (optional)
