@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-RUN apk add --no-cache --repository=https://dl-cdn.alpinelinux.org/alpine/edge/community "hugo~0.160.1-r1"
+RUN apk add --no-cache --repository=https://dl-cdn.alpinelinux.org/alpine/edge/community "hugo~0.164.0-r0"
 
 RUN apk add --no-cache vim bash npm
 
