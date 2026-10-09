@@ -4,6 +4,8 @@ title:  "Multi-Agent Clarity-Aware Dynamic Coverage with Gaussian Processes"
 date: 2024-12-16
 image: /images/2024-multiagent-coverage.png
 venue: "IEEE CDC 2024"
+# funding project (matches `key` in /content/projects/)
+funding: CPS
 authors:
     - devanshagrawal
     - dimitrapanagou

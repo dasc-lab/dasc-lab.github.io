@@ -11,6 +11,9 @@ authors:
 image: /images/default_paper.png
 # specify the conference or journal that it was published in
 venue:
+# funding project(s) (optional). must match the `key` of a page in /content/projects/,
+# e.g. CAAMS, CPS, or [CAAMS, CPS]. the paper and its first author then appear on that project page.
+funding:
 # link to project page (optional)
 projectpage:
 # link to publisher site (optional)

@@ -9,6 +9,8 @@ authors:
     - dimitrapanagou
 image: /images/2024-eclares.png
 venue: "IEEE ICRA 2024"
+# funding project (matches `key` in /content/projects/)
+funding: CPS
 link: https://doi.org/10.1109/ICRA57147.2024.10611286
 arxiv: https://arxiv.org/abs/2310.06933
 code: https://github.com/kalebbennaveed/Eclares

@@ -1,0 +1,56 @@
+{{/*
+  Collects the people on a project:
+    - `pi`:      the project page's `pi` list
+    - `current`: lab members (anyone whose category is not Alumni)
+    - `alumni`:  lab members with category Alumni
+    - `collaborators`: first-author names on tagged papers without a /people/ page
+  Members = the project's `people` list + the first author (and any "*"
+  co-first authors) of each paper tagged with the project's key
+  (see project-papers.html). Duplicates and PIs are removed.
+  Usage: {{ $people := partial "project-people.html" $projectPage }}
+*/}}
+{{ $papers := partial "project-papers.html" . }}
+
+{{ $piSlugs := slice }}
+{{ range .Params.pi }}{{ $piSlugs = $piSlugs | append (string .) }}{{ end }}
+
+{{/* manual list first, then the first author of each tagged paper.
+     Authors marked "*" (equal contribution) count as co-first authors. */}}
+{{ $slugs := slice }}
+{{ range .Params.people }}{{ $slugs = $slugs | append (string .) }}{{ end }}
+{{ range $papers }}
+  {{ range $i, $a := .Params.authors }}
+    {{ $a = string $a }}
+    {{ if or (eq $i 0) (hasSuffix $a "*") }}
+      {{ $slugs = $slugs | append (strings.TrimSuffix "*" $a) }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+{{ $slugs = uniq $slugs }}
+
+{{ $pis := slice }}
+{{ range $piSlugs }}
+  {{ with site.GetPage (printf "/people/%s" .) }}{{ $pis = $pis | append . }}{{ end }}
+{{ end }}
+
+{{ $current := slice }}
+{{ $alumni := slice }}
+{{ $collaborators := slice }}
+{{ range $slugs }}
+  {{ if not (in $piSlugs .) }}
+    {{ with site.GetPage (printf "/people/%s" .) }}
+      {{ if eq .Params.category "Alumni" }}
+        {{ $alumni = $alumni | append . }}
+      {{ else }}
+        {{ $current = $current | append . }}
+      {{ end }}
+    {{ else }}
+      {{ $collaborators = $collaborators | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if $current }}{{ $current = sort $current "Title" }}{{ end }}
+{{ if $alumni }}{{ $alumni = sort $alumni "Title" }}{{ end }}
+
+{{ return (dict "pi" $pis "current" $current "alumni" $alumni "collaborators" $collaborators "count" (add (len $current) (len $alumni))) }}

@@ -4,6 +4,8 @@ title:  "meSch: Multi-Agent Energy-Aware Scheduling for Task Persistence"
 date:   2025-06-25
 image: /images/meSch_3.gif
 venue: "IEEE/RSJ IROS 2025"
+# funding project (matches `key` in /content/projects/)
+funding: CPS
 authors:
     - kalebbennaveed
     - An Dang

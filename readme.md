@@ -52,6 +52,17 @@ and then edit `/contents/papers/id.md`. Again, you can add more info after the f
 
 If you link the author id correctly, each author's page will be automatically updated to include all the papers too.
 
+### Adding a project
+
+Create `/content/projects/id.md` (see `caams.md` or `cps.md` for the front matter). Give it a short `key`, e.g. `key: CAAMS`.
+
+To attach a paper to a project, add the key to the paper's front matter:
+```
+funding: CAAMS
+```
+or, for several projects, `funding: [CAAMS, CPS]`. The paper then shows up on the project page automatically, and so does its first author (plus any co-first authors marked with `*`) if they have a `/people/id` page, split into current members and alumni.
+People who should appear on a project without being first author of a tagged paper can be added to the project's `people:` list; the PI goes in `pi:`.
+
 ## Styles and Layout
 
 This website uses bootstrap https://getbootstrap.com/ v5.3.3 to create styles.
@@ -62,7 +73,6 @@ To customize how the `person` and `papers` render, edit `/layouts/partials/perso
 
 ## TODO
 - add search functionality
-- add projects
 - add news
 - fix homepage
 - add in maths functionality
