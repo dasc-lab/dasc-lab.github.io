@@ -11,7 +11,7 @@ authors:
     - dimitrapanagou
     - Sai Praneeth Karimireddy
 # give the main figure location, relative to /static/
-image: /images/robust-llms.png
+image: /images/2026-robust-llm.png
 # specify the conference or journal that it was published in
 venue: "EMNLP 2026 Oral"
 # link to publisher site (optional)

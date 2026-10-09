@@ -7,5 +7,5 @@ year: 2026
 link: https://lawliet9666.github.io/
 mail: mailto:xinywa@umich.edu
 role: "PostDoc (2024 - 2026)"
-current: "Assistant Professor at Oakland University."
+current_position: "Assistant Professor at Oakland University."
 ---
