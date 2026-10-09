@@ -5,7 +5,7 @@ key: CPS
 # one-line summary shown on the /projects/ list page
 summary: "Autonomous, persistent, and adaptive mobile observational networks that balance energy harvesting against information gathering."
 sponsor: "NSF Cyber-Physical Systems (CPS), Award #2223845"
-dates: "2022 – 2026"
+dates: "2022 - 2026"
 # external project website
 link: https://www.nsf.gov/awardsearch/show-award?AWD_ID=2223845
 # image relative to /static/

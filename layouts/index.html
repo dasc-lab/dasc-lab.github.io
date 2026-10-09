@@ -28,6 +28,7 @@
 </div>
 
 <div class="py-3">
+<p class="small text-body-secondary mb-1">Last updated: {{ now | time.Format "January 2, 2006" }}</p>
 <a href="/news"><h3>News</h3></a>
 <ul style="padding-left: 40px;">
   {{ range first 10 (where .Site.RegularPages "Type" "news") }}
