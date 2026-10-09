@@ -67,6 +67,7 @@ funding: CAAMS
 ```
 or, for several projects, `funding: [CAAMS, CPS]`. The paper then shows up on the project page automatically, and so does its first author (plus any co-first authors marked with `*`) if they have a `/people/id` page, split into current members and alumni.
 People who should appear on a project without being first author of a tagged paper can be added to the project's `people:` list; the PI goes in `pi:`.
+To hide a first author who shouldn't be listed on a project (e.g. a co-first author or external collaborator), add their people-page id, or their name exactly as written in the paper, to the project's `exclude_people:` list.
 
 ## Styles and Layout
 

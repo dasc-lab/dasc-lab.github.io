@@ -6,7 +6,8 @@
     - `collaborators`: first-author names on tagged papers without a /people/ page
   Members = the project's `people` list + the first author (and any "*"
   co-first authors) of each paper tagged with the project's key
-  (see project-papers.html). Duplicates and PIs are removed.
+  (see project-papers.html). Duplicates, PIs, and anyone in the project's
+  `exclude_people` list (people-page ids or plain names) are removed.
   Usage: {{ $people := partial "project-people.html" $projectPage }}
 */}}
 {{ $papers := partial "project-papers.html" . }}
@@ -27,6 +28,15 @@
   {{ end }}
 {{ end }}
 {{ $slugs = uniq $slugs }}
+
+{{/* drop anyone listed in `exclude_people` */}}
+{{ $exclude := slice }}
+{{ range .Params.exclude_people }}{{ $exclude = $exclude | append (string .) }}{{ end }}
+{{ if $exclude }}
+  {{ $kept := slice }}
+  {{ range $slugs }}{{ if not (in $exclude .) }}{{ $kept = $kept | append . }}{{ end }}{{ end }}
+  {{ $slugs = $kept }}
+{{ end }}
 
 {{ $pis := slice }}
 {{ range $piSlugs }}

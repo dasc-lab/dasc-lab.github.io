@@ -18,6 +18,10 @@ pi:
 # people on the project in addition to the first authors of tagged papers (optional)
 people:
   - haejoonl
+# first authors of tagged papers to leave off this page (people-page id, or name as written in the paper)
+exclude_people:
+  - devanshagrawal
+  - Pio Ong
 ---
 
 **NARRO²W SPACE: Networked Adversarially-Resilient Reconfigurable Operations in Obstacle Worlds for Safe Planning and Attack-tolerant Control and Estimation**, funded by the AFOSR Complex Networks program.
