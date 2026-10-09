@@ -1,8 +1,8 @@
 ---
-title: “TRINA: Safety-Critical Autonomy for Future Mobility”
+title: "TRINA: Safety-Critical Autonomy for Future Mobility"
 key: TRINA
-summary: “Safe and reliable planning, control, and learning for autonomous mobility and robotic systems operating in complex and uncertain environments.”
-sponsor: “Toyota Research Institute of North America (TRINA)”
+summary: "Safe and reliable planning, control, and learning for autonomous mobility and robotic systems operating in complex and uncertain environments."
+sponsor: "Toyota Research Institute of North America (TRINA)"
 link: https://amrd.toyota.com/division/trina/
 weight: 2
 pi:
