@@ -1,15 +1,9 @@
 {{ define "main" }}
-
 <h1>{{ .Title }}</h1>
-
 {{ .Content }}
-
 <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 my-2">
-  {{ range .RegularPages.ByDate.Reverse }}
-  <div class="col">
-    {{ partial "github-repo-card" . }}
-  </div>
+  {{ range .RegularPages.ByWeight }}
+  <div class="col">{{ partial "demo-card" . }}</div>
   {{ end }}
 </div>
-
 {{ end }}

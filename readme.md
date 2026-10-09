@@ -69,6 +69,18 @@ or, for several projects, `funding: [CAAMS, CPS]`. The paper then shows up on th
 People who should appear on a project without being first author of a tagged paper can be added to the project's `people:` list; the PI goes in `pi:`.
 To hide a first author who shouldn't be listed on a project (e.g. a co-first author or external collaborator), add their people-page id, or their name exactly as written in the paper, to the project's `exclude_people:` list.
 
+### Adding code and web demos
+
+Add a repository under `content/code/` with `title`, `date`, and `code` (the GitHub URL).
+
+Add an interactive demo under `content/demos/` with `title`, `weight`, `demo` (the live URL),
+`image` (a local `/images/` asset), `description`, and `paper` (the related lab paper path).
+Use GIF previews from the Live Web Demo section of https://www.taekyung.me/.
+Add `demo` to a paper's front matter to show the link on publication lists and project pages.
+
+When separate publications share an arXiv identifier, use versioned URLs to preserve the
+correct title and author list for the earlier publication.
+
 ## Styles and Layout
 
 This website uses bootstrap https://getbootstrap.com/ v5.3.3 to create styles.

@@ -1,5 +1,4 @@
 ---
-title: Code # force it to not be plural
+title: Code
 ---
-
-Here is some content
+Open-source implementations of our planning, control, and learning methods. Explore the repositories below or try our [web demos](/demos/) in your browser.

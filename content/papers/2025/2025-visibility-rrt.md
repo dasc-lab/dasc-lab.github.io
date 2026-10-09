@@ -3,7 +3,7 @@ layout: papers
 title:  "Visibility-Aware RRT* for Safety-Critical Navigation of Perception-Limited Robots in Unknown Environments"
 date:   2025-03-17
 image: /images/2025-visibility-rrt.png
-venue: "IEEE Robotics and Automation Letter 2025"
+venue: "IEEE RA-L / IROS 2025"
 authors:
     - taekyungkim
     - dimitrapanagou
