@@ -8,6 +8,15 @@
 
 {{ partial "paper-card" . }}
 
+{{ with .Params.funding }}
+{{ $list := . }}
+{{ if not (reflect.IsSlice $list) }}{{ $list = slice $list }}{{ end }}
+<div class="blue-links mt-2 mb-3">
+  <strong>Funded by:</strong>
+  {{ range $i, $f := $list }}{{ if $i }}, {{ end }}{{ $proj := index (where (where site.RegularPages "Section" "projects") "Params.key" $f) 0 }}{{ with $proj }}<a href="{{ .RelPermalink }}">{{ $f }}</a>{{ else }}{{ $f }}{{ end }}{{ end }}
+</div>
+{{ end }}
+
 {{ if .Params.code }}
 <h3>Code</h3>
 {{ partial "github-repo-card" . }}

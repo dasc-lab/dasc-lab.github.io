@@ -1,0 +1,20 @@
+{{/*
+  Returns the papers whose front matter `funding` matches this project's `key`.
+  `funding` may be a single value (funding: CAAMS) or a list (funding: [CAAMS, CPS]).
+  Matching is case-insensitive. Result is sorted newest first.
+  Usage: {{ $papers := partial "project-papers.html" $projectPage }}
+*/}}
+{{ $key := lower (.Params.key | default .Title) }}
+{{ $papers := slice }}
+{{ range $paper := where .Site.RegularPages "Section" "papers" }}
+  {{ with $paper.Params.funding }}
+    {{ $list := . }}
+    {{ if not (reflect.IsSlice $list) }}{{ $list = slice $list }}{{ end }}
+    {{ $match := false }}
+    {{ range $list }}
+      {{ if eq (lower (string .)) $key }}{{ $match = true }}{{ end }}
+    {{ end }}
+    {{ if $match }}{{ $papers = $papers | append $paper }}{{ end }}
+  {{ end }}
+{{ end }}
+{{ return (sort $papers "Date" "desc") }}

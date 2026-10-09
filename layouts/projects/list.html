@@ -1,0 +1,35 @@
+{{ define "main" }}
+
+<h1>{{ .Title }}</h1>
+
+{{/* <p class="d-none"> Rendered from layouts/projects/list </p> */}}
+
+{{ .Content }}
+
+{{ range $p := .Pages.ByWeight }}
+{{ $papers := partial "project-papers.html" . }}
+{{ $people := partial "project-people.html" . }}
+<div class="row align-items-top mt-4 pb-4 border-bottom">
+  <div class="col-12 col-md-4 mb-3">
+    <a href="{{ .RelPermalink }}">
+      {{ with .Params.image }}
+      <img class="img-thumbnail img-fluid" src="{{ . }}" alt="{{ $p.Title }}" />
+      {{ end }}
+    </a>
+  </div>
+  <div class="col-12 col-md-8">
+    <a class="no-underline" href="{{ .RelPermalink }}"><h4>{{ .Title }}</h4></a>
+    <div class="project-meta mb-2">
+      {{ with .Params.sponsor }}<span>{{ . }}</span>{{ end }}
+      {{ with .Params.dates }}<span>{{ . }}</span>{{ end }}
+    </div>
+    {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+    <div class="blue-links">
+      <a href="{{ .RelPermalink }}">{{ len $papers }} paper{{ if ne (len $papers) 1 }}s{{ end }} · {{ $people.count }} {{ if eq $people.count 1 }}person{{ else }}people{{ end }}</a>
+      {{ with .Params.link }} / <a href="{{ . }}" target="_blank" rel="noopener">project website</a>{{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}
+
+{{ end }}

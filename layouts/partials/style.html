@@ -66,6 +66,15 @@
     text-decoration: none;
   }
 
+  /* project pages: "sponsor · dates" line */
+  .project-meta {
+    color: var(--bs-secondary-color);
+  }
+
+  .project-meta>*:not(:last-child)::after {
+    content: " · ";
+  }
+
   /* High-Fidelity GitHub Repo Card Styling */
   .github-repo-card-container {
     display: block;

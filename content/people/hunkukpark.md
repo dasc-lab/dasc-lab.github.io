@@ -1,15 +1,19 @@
 ---
 title: 'Hun Kuk Park'
 # choose a category from [Faculty, PostDoc, PhD, Masters, Visiting, Alumni]. Be careful about the capitalization.
-category: Masters
+category: Alumni
 # give the path relative to static/
 image: "/images/hunkukpark.jpeg"
 # start year, used for sorting
-year: 2024
+year: 2026
 # link to personal website (optional)
 link: "https://www.linkedin.com/in/hunkukpark1321/" 
 # email id (optional)
 # put mailto: before your email
 # Example: 
 mail: mailto:parkcart@umich.edu
+role: "MS Robotics (2024 - 2026)"
+current_position: "Robotics Researcher @ Doosan Robotics"
 ---
+
+

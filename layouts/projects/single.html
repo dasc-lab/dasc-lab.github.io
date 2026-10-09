@@ -1,0 +1,80 @@
+{{ define "main" }}
+
+{{/* <p class="d-none"> Rendered from /layouts/projects/single.html </p> */}}
+
+{{ $papers := partial "project-papers.html" . }}
+{{ $people := partial "project-people.html" . }}
+
+<div class="my-3">
+  <h1>{{ .Title }}</h1>
+  <div class="project-meta">
+    {{ with .Params.sponsor }}<span>{{ . }}</span>{{ end }}
+    {{ with .Params.dates }}<span>{{ . }}</span>{{ end }}
+  </div>
+  {{ with .Params.link }}
+  <div class="blue-links mt-2">
+    <a href="{{ . }}" target="_blank" rel="noopener">project website</a>
+  </div>
+  {{ end }}
+</div>
+
+<div class="row my-4">
+  {{ with .Params.image }}
+  <div class="col-12 col-md-4 mb-3">
+    <img class="img-thumbnail img-fluid" src="{{ . }}" alt="{{ $.Title }}" />
+  </div>
+  <div class="col-12 col-md-8">
+  {{ else }}
+  <div class="col-12">
+  {{ end }}
+    {{ .Content }}
+  </div>
+</div>
+
+<!-- PEOPLE (PI from front matter; team = `people` + authors of tagged papers) -->
+{{ if or $people.pi $people.current $people.alumni }}
+<div class="py-3">
+  <h2>People</h2>
+
+  {{ with $people.pi }}
+  <h3 class="h5 mt-3">Principal Investigator</h3>
+  <div class="row row-cols-2 row-cols-md-4 g-4">
+    {{ range . }}<div class="col">{{ partial "person-card" . }}</div>{{ end }}
+  </div>
+  {{ end }}
+
+  {{ with $people.current }}
+  <h3 class="h5 mt-4">Current Members</h3>
+  <div class="row row-cols-2 row-cols-md-4 g-4">
+    {{ range . }}<div class="col">{{ partial "person-card" . }}</div>{{ end }}
+  </div>
+  {{ end }}
+
+  {{ with $people.alumni }}
+  <h3 class="h5 mt-4">Alumni</h3>
+  <div class="row row-cols-2 row-cols-md-4 g-4">
+    {{ range . }}<div class="col">{{ partial "person-card" . }}</div>{{ end }}
+  </div>
+  {{ end }}
+
+  {{ with $people.collaborators }}
+  <p class="mt-4 mb-0"><strong>Collaborators:</strong> {{ delimit . ", " }}</p>
+  {{ end }}
+</div>
+{{ end }}
+
+<!-- PAPERS (every paper with `funding: <key>`) -->
+<div class="py-3">
+  <h2>Papers</h2>
+  {{ if $papers }}
+  <ol>
+    {{ range $papers }}
+    <li>{{ partial "small-paper-list-item" . }}</li>
+    {{ end }}
+  </ol>
+  {{ else }}
+  <p class="text-body-secondary">No papers have been tagged with <code>funding: {{ .Params.key }}</code> yet.</p>
+  {{ end }}
+</div>
+
+{{ end }}

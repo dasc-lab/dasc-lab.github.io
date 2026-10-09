@@ -4,6 +4,8 @@ title:  "How to Adapt Control Barrier Functions? A Learning-Based Approach with 
 date: 2025-12-19
 image: /images/2025-vtol-cdc.gif
 venue: "IEEE CDC 2025"
+# funding project (matches `key` in /content/projects/)
+funding: CAAMS
 authors:
     - taekyungkim
     - Randal W. Beard

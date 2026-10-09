@@ -4,6 +4,8 @@ title:  "Adaptive Ergodic Search with Energy-Aware Scheduling for Persistent Mul
 date:   2025-09-08
 image: /images/mEclares.png
 venue: "Autonomous Robots, Springer Nature"
+# funding project (matches `key` in /content/projects/)
+funding: CPS
 authors:
     - kalebbennaveed
     - devanshagrawal
