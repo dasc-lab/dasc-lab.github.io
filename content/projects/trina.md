@@ -4,6 +4,9 @@ key: TRINA
 summary: "Safe and reliable planning, control, and learning for autonomous mobility and robotic systems operating in complex and uncertain environments."
 sponsor: "Toyota Research Institute of North America (TRINA)"
 link: https://amrd.toyota.com/division/trina/
+dates: "2022 - present"
+# image relative to /static/
+image: /images/2026-safe_mpd.gif
 weight: 2
 pi:
 - dimitrapanagou
