@@ -4,8 +4,8 @@ title: "AFOSR: Networked Adversarially-Resilient Reconfigurable Operations in Ob
 key: AFOSR
 # one-line summary shown on the /projects/ list page
 summary: "Safe planning and attack-tolerant control and estimation for multi-robot networks that must stay resilient to adversaries while operating in confined, obstacle-rich environments."
-sponsor: "Air Force Office of Scientific Research (AFOSR), Complex Networks Program"
-dates:
+sponsor: "Air Force Office of Scientific Research (AFOSR), Complex Networks program, FA9550-23-1-0163"
+dates: "2023 - 2026"
 # external project website (optional)
 link:
 # image relative to /static/
@@ -18,6 +18,10 @@ pi:
 # people on the project in addition to the first authors of tagged papers (optional)
 people:
   - haejoonl
+# first authors of tagged papers to leave off this page (people-page id, or name as written in the paper)
+exclude_people:
+  - devanshagrawal
+  - Pio Ong
 ---
 
 **NARRO²W SPACE: Networked Adversarially-Resilient Reconfigurable Operations in Obstacle Worlds for Safe Planning and Attack-tolerant Control and Estimation**, funded by the AFOSR Complex Networks program.
