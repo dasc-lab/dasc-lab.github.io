@@ -1,12 +1,6 @@
 <style>
   .main-container {
-    max-width: {
-        {
-        .Site.Params.containerMaxWidth | default "1100px" | safeCSS
-      }
-    }
-
-    ;
+    max-width: {{ .Site.Params.containerMaxWidth | default "1100px" | safeCSS }};
   }
 
   #main {
@@ -80,9 +74,29 @@
     display: block;
     text-decoration: none !important;
     color: #1f2328 !important;
-    width: 320px;
+    width: 100%;
     max-width: 100%;
     margin-bottom: 0px;
+  }
+
+  .demo-preview {
+    width: 100%;
+    height: 190px;
+    object-fit: contain;
+    background: #f8f9fa;
+    border-bottom: 1px solid var(--bs-border-color);
+  }
+
+  .demo-card .card-title {
+    line-height: 1.35;
+  }
+
+  .demo-card .btn {
+    text-decoration: none;
+  }
+
+  .demo-card .card-text {
+    font-size: 0.95rem;
   }
 
   .github-repo-card-container:hover {

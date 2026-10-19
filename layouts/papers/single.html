@@ -22,10 +22,12 @@
 {{ partial "github-repo-card" . }}
 {{ end }}
 
+{{ if .Params.abstract }}
 <div class="my-3">
 <h3>Abstract</h3>
 <p>{{ .Params.abstract}}</p>
 </div>
+{{ end }}
 
 
 

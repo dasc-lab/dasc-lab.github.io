@@ -2,7 +2,7 @@
   <a href="{{ .RelPermalink }}">
     {{ if .Params.image }}
     <div class="ratio ratio-1x1">
-      <img src="{{ .Params.image }}" class="card-img-top img-fluid rounded object-fit-cover" alt="{{ .Title }}">
+      <img src="{{ .Params.image }}" class="card-img-top img-fluid rounded object-fit-cover" alt="{{ .Title }}"{{ with .Params.image_position }} style="object-position: {{ . | safeCSS }};"{{ end }}>
     </div>
     {{ else if ne .Params.category "Alumni" }}
     <div class="ratio ratio-1x1">

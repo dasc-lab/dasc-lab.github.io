@@ -1,0 +1,15 @@
+<article class="card demo-card h-100">
+  <a href="{{ .Params.demo }}" target="_blank" rel="noopener noreferrer" aria-label="Open {{ .Title }} demo">
+    <img class="card-img-top demo-preview" src="{{ .Params.image }}" alt="{{ .Title }} preview" loading="lazy" decoding="async" />
+  </a>
+  <div class="card-body d-flex flex-column">
+    <h3 class="h5 card-title">{{ .Title }}</h3>
+    <p class="card-text text-body-secondary">{{ .Params.description }}</p>
+    <div class="mt-auto d-flex flex-wrap align-items-center gap-3 blue-links">
+      <a class="btn btn-outline-primary" href="{{ .Params.demo }}" target="_blank" rel="noopener noreferrer">Open demo <span aria-hidden="true">↗</span></a>
+      {{ with site.GetPage .Params.paper }}
+      <a href="{{ .RelPermalink }}">Related paper</a>
+      {{ end }}
+    </div>
+  </div>
+</article>

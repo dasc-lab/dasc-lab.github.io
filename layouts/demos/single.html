@@ -1,0 +1,8 @@
+{{ define "main" }}
+<p class="blue-links"><a href="{{ .Parent.RelPermalink }}">All web demos</a></p>
+<h1>{{ .Title }}</h1>
+<div class="row my-4">
+  <div class="col-12 col-lg-8">{{ partial "demo-card" . }}</div>
+</div>
+{{ .Content }}
+{{ end }}
