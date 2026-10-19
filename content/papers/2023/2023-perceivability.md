@@ -4,6 +4,8 @@ title:  "Sensor-based Planning and Control for Robotic Systems: Introducing Clar
 date:   2023-06-21
 image: /images/2023-clarity-and-perceivability.png
 venue: "IEEE L-CSS and CDC 2023"
+# funding project(s) (matches `key` in /content/projects/)
+funding: CAREER
 authors:
     - devanshagrawal
     - dimitrapanagou

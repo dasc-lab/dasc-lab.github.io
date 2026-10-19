@@ -5,7 +5,7 @@ date:   2025-09-08
 image: /images/mEclares.png
 venue: "Autonomous Robots, Springer Nature"
 # funding project (matches `key` in /content/projects/)
-funding: CPS
+funding: [CPS, CAREER]
 authors:
     - kalebbennaveed
     - devanshagrawal

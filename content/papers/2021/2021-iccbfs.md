@@ -4,6 +4,8 @@ title:  "Safe Control Synthesis via Input Constrained Control Barrier Functions"
 date:   2021-12-14
 image: /images/2021-iccbfs.png
 venue: "IEEE CDC 2021"
+# funding project(s) (matches `key` in /content/projects/)
+funding: CAREER
 authors:
   - devanshagrawal
   - dimitrapanagou

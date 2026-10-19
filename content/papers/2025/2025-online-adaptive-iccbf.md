@@ -4,6 +4,8 @@ title:  "Learning to Refine Input Constrained Control Barrier Functions via Unce
 date:   2025-05-19
 image: /images/2025-online-adaptive-iccbf.png
 venue: "IEEE ICRA 2025"
+# funding project(s) (matches `key` in /content/projects/)
+funding: CAREER
 authors:
     - taekyungkim
     - Robin Inho Kee

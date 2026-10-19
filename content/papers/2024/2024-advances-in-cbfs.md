@@ -4,6 +4,8 @@ title:  "Advances in the Theory of Control Barrier Functions: Addressing practic
 date:   2024-03-12
 image: /images/2024-advances-in-cbfs.png
 venue: "Annual Reviews in Control 2024"
+# funding project(s) (matches `key` in /content/projects/)
+funding: CAREER
 authors:
     - kunalgarg
     - jamesusevitch

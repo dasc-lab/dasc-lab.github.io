@@ -27,7 +27,8 @@
 
 {{/* Extract paper references from raw content */}}
 {{ $rawContent := .RawContent }}
-{{ $paperLinks := findRE `\[.*?\]\(/papers/[^)]+\.md\)` $rawContent }}
+{{/* accepts both /papers/name.md and /papers/YYYY/name/ style links */}}
+{{ $paperLinks := findRE `\[.*?\]\(/papers/[^)]+\)` $rawContent }}
 
 {{/* Debug: Show found links */}}
 {{/* <p>Debug - Found {{ len $paperLinks }} links in content:</p>
@@ -58,11 +59,13 @@
   {{/* <li>Paper: {{ $paper.Title }} - Original path: {{ $paperPath }} - Normalized: {{ $paperPathNormalized }}</li> */}}
   
   {{ range $link := $paperLinks }}
-    {{ $linkPath := findRE `/papers/[^)]+\.md` $link }}
+    {{ $linkPath := findRE `/papers/[^)#?]+` $link }}
     {{ if $linkPath }}
       {{ $linkPath = index $linkPath 0 }}
       {{ $linkPath = strings.TrimPrefix "/papers/" $linkPath }}
+      {{ $linkPath = strings.TrimSuffix "/" $linkPath }}
       {{ $linkPath = strings.TrimSuffix ".md" $linkPath }}
+      {{ $linkPath = replaceRE "^[0-9]{4}/" "" $linkPath }}
       
       {{/* <li>  Comparing: "{{ $linkPath }}" == "{{ $paperPathNormalized }}" = {{ eq $linkPath $paperPathNormalized }}</li> */}}
       

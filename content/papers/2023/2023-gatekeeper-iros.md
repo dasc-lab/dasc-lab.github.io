@@ -4,6 +4,8 @@ title:  "gatekeeper: Online safety verification and control for nonlinear system
 date:   2023-10-01
 image: /images/2023-gatekeeper-iros.png
 venue: "IEEE IROS 2023"
+# funding project(s) (matches `key` in /content/projects/)
+funding: CAREER
 authors:
     - devanshagrawal
     - Ruichang Chen

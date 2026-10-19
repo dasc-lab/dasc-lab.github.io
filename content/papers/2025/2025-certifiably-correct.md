@@ -4,6 +4,8 @@ title:  "Certifiably-Correct Mapping for Safe Navigation Despite Odometry Drift"
 date:   2025-06-29
 image: /images/2025-certifiably-correct.gif
 venue: "RSS 2025"
+# funding project(s) (matches `key` in /content/projects/)
+funding: CAREER
 authors:
     - devanshagrawal
     - taekyungkim
