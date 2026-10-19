@@ -5,7 +5,7 @@ date: 2025-12-19
 image: /images/2025-vtol-cdc.gif
 venue: "IEEE CDC 2025"
 # funding project (matches `key` in /content/projects/)
-funding: CAAMS
+funding: [CAAMS, CAREER]
 authors:
     - taekyungkim
     - Randal W. Beard

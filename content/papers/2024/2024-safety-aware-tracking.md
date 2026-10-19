@@ -13,6 +13,8 @@ authors:
 image: /images/2024-safety-aware-tracking.png
 # specify the conference or journal that it was published in
 venue: "IEEE CDC 2024"
+# funding project(s) (matches `key` in /content/projects/)
+funding: CAREER
 # link to publisher site (optional)
 link: 
 # link to arxiv (optional)

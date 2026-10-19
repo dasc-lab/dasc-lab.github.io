@@ -4,6 +4,8 @@ title:  "Safe and robust observer-controller synthesis using control barrier fun
 date:   2022-06-22
 image: /images/2022-observer-controller.png
 venue: "IEEE L-CSS and CDC 2022"
+# funding project(s) (matches `key` in /content/projects/)
+funding: CAREER
 authors:
     - devanshagrawal
     - dimitrapanagou

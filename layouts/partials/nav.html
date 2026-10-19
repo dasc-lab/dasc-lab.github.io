@@ -14,7 +14,7 @@
         {{ range .Site.Menus.main }}
           {{ $text := print .Name | safeHTML }}
           <li class="nav-item">
-            <a class="nav-link" href="{{ .URL }}">{{ $text }}</a>
+            <a class="nav-link" href="{{ .URL }}"{{ if hasPrefix .URL "http" }} target="_blank" rel="noopener"{{ end }}>{{ $text }}</a>
           </li>
         {{ end }}
       </ul>

@@ -15,7 +15,7 @@ image: /images/2026_clarity_stein.png
 # specify the conference or journal that it was published in
 venue: "2026 L4DC"
 # funding project (matches `key` in /content/projects/)
-funding: CPS
+funding: [CPS, CAREER]
 # link to publisher site (optional)
 link: 
 # link to arxiv (optional)

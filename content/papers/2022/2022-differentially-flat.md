@@ -4,6 +4,8 @@ title:  "A Constructive Method for Designing Safe Multirate Controllers for Diff
 date:  2022-12-17
 image: /images/2021-differentially-flat.png
 venue: "IEEE L-CSS and ACC 2022"
+# funding project(s) (matches `key` in /content/projects/)
+funding: CAREER
 authors:
     - devanshagrawal
     - hardikparwana

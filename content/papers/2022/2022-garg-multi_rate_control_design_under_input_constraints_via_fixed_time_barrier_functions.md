@@ -33,4 +33,6 @@ layout: papers
 link: https://doi.org/10.1109/LCSYS.2021.3084322
 title: Multi-Rate Control Design Under Input Constraints via Fixed-Time Barrier Functions.
 venue: IEEE Control. Syst. Lett.
+# funding project(s) (matches `key` in /content/projects/)
+funding: CAREER
 ---

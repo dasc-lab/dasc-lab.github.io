@@ -38,6 +38,10 @@ buildFuture = true
     url = "/demos/"
     weight = 6
   [[menu.main]]
+    name = "YouTube"
+    url = "https://www.youtube.com/@UMDASC"
+    weight = 7
+  [[menu.main]]
     name = "Search"
     url = "/search/"
     weight = 100

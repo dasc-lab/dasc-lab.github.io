@@ -28,4 +28,6 @@ layout: papers
 link: https://doi.org/10.1109/LCSYS.2021.3076127
 title: Control Barrier Functions in Sampled-Data Systems.
 venue: IEEE Control. Syst. Lett.
+# funding project(s) (matches `key` in /content/projects/)
+funding: CAREER
 ---
