@@ -9,7 +9,6 @@ authors:
   - dimitrapanagou
 venue: "Under Review, 2026"
 image: /images/2026-dist-aware-ipp.gif
-listPreviewAlt: A robot samples wind, then follows a monitoring route around obstacles.
 arxiv: https://arxiv.org/abs/2611.18505
 pdf: https://arxiv.org/pdf/2611.18505
 projectpage: https://kalebbennaveed.github.io/dist-aware-ipp/

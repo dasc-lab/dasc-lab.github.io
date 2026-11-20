@@ -12,9 +12,6 @@
     {{ range .Pages }}
     <li>
       {{ partial "small-paper-list-item" . }}
-      {{ if and .Params.image .Params.listPreviewAlt }}
-        <img class="img-thumbnail img-fluid mt-2" width="240" src="{{ .Params.image }}" alt="{{ .Params.listPreviewAlt }}" loading="lazy" decoding="async">
-      {{ end }}
     </li>
     {{ end }}
     </ol>
